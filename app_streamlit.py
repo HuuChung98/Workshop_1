@@ -40,9 +40,9 @@ def render_sidebar() -> None:
     st.sidebar.header("⚙️ Settings")
     # Summary options
     style = st.sidebar.selectbox("Summary style", list(STYLE_GUIDES.keys()), index=1 if len(STYLE_GUIDES) > 1 else 0)
-    lang = st.sidebar.selectbox("Language", ["en", "vi"], index=0)
-    temperature = st.sidebar.slider("Creativity (temperature)", 0.0, 1.0, value=0.3, step=0.05)
-    st.session_state.cfg = SummarizeConfig(style=style, lang=lang, temperature=temperature)
+    # lang = st.sidebar.selectbox("Language", ["en", "vi"], index=0)
+    temperature = st.sidebar.slider("Creativity (temperature)", 0.0, 3.0, value=0.3, step=0.05)
+    st.session_state.cfg = SummarizeConfig(style=style, temperature=temperature)
 
     # Azure status
     with st.sidebar.expander("🔐 Azure OpenAI Status", expanded=False):

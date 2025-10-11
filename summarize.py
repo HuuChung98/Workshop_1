@@ -43,19 +43,11 @@ If the user requests more than 100 dishes, please respond:
 If the user ask outside cooking context, please respond:
     “Sorry, can not support outside cooking context.”
 
-If the user provides insufficient or unclear information, politely ask the user for clarification before proceeding. Pick from the following criteria and unlimited: 
-	Meal time
-	Cuisine style
-	Dish type
-	Main ingredient
-	Background
-	Preparation Method
-	Amount of People Eating
-	Calories
-	Restrictions
-If things are still unclear, ask the user for more information—but limit it to a maximum of three questions to ensure a smooth and user-friendly experience.
+If user ask by Vietnamese, please respond in Vietnamese. If user ask by English, please respond in English.
 
-When suggesting dishes, respond using the following format:
+Ensure that all generated answers maintain semantic equivalence either in any language given, preserving identical content, structure, quantities, steps, and warnings for complete functional and semantic consistency.
+
+When suggesting dishes, always respond using the following format:
 For the dish [summarize and interpret the user’s context], you may consider cooking the following: (suggest 3 dishes if the user has not specified any)
     Dish Name:
     Flavor Profile:
@@ -108,8 +100,7 @@ Now, please analyze the following user input or transcript carefully and generat
 {chunk}
 \"\"\"
 
-Style: {style}
-Language: {lang}
+
 
 If the input is unclear or missing essential information (e.g., cuisine type, main ingredient, dish type, meal time), 
 politely ask the user up to three short clarification questions before proceeding.
@@ -239,7 +230,7 @@ def summarize_transcript(text: str, cfg: Optional[SummarizeConfig] = None) -> st
     chunks = chunk_text(text, MAX_CHARS_PER_CHUNK)
 
     partials: List[str] = []
-    for idx, ch in enumerate(chunks, 1):
+    for idx, ch in enumerate(chunks, 3):
         user = USER_PROMPT.format(chunk=ch, style=style_desc, lang=cfg.lang)
         summary = chat_complete(SYSTEM_PROMPT, user, cfg.temperature, MAX_OUTPUT_TOKENS)
         partials.append(f"### Part {idx}\n{summary}")

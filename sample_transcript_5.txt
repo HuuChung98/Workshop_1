@@ -1,8 +1,0 @@
-
-[00:00] Alice: Welcome everyone. Today we finalize the Q4 roadmap and assign owners.
-[00:10] Bob: Backend can finish the auth refactor by Oct 20. Risk is dependency on SSO vendor.
-[00:25] Carol: For mobile, we need clarity on push notifications scope.
-[00:40] Alice: Let's capture decisions and unresolved items at the end.
-[01:10] Bob: Metrics: latency budget 250ms p95; error rate <0.3% weekly.
-[01:45] Carol: We also need QA staffing for iOS by Nov 1.
-[02:15] Alice: OK. We'll list action items and timelines in the summary.

@@ -1,8 +1,0 @@
-[10:30 AM - Project Sync Meeting - E-commerce Platform]
-
-Trang: Bên frontend đã hoàn tất trang Product Detail và responsive cho mobile.
-Đạt: Backend hiện đã triển khai API filter sản phẩm, chỉ còn tối ưu query.
-Huyền: QA đang chuẩn bị test case cho flow checkout, dự kiến test từ ngày mai.
-Trang: Có cần deploy bản staging mới không?
-Đạt: Có, để test luôn API filter mới.
-Huy: Ok, Đạt push staging trước 2h chiều nhé. QA confirm sau deploy.

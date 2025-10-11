@@ -1,8 +1,0 @@
-[09:00 AM - Daily Scrum Meeting]
-
-Huy: Chào cả team, hôm nay mình điểm nhanh tiến độ sprint nhé.
-Linh: Hôm qua mình hoàn thành phần validation form cho module đăng ký khách hàng. Hôm nay sẽ viết unit test.
-Nam: Mình đang refactor phần API order, gặp chút lỗi về cache Redis, đang làm việc với backend.
-Huy: Ok, nhớ tạo ticket “bug” riêng trên Jira để tracking nhé. Có ai đang bị blocker không?
-Nam: Mình cần access Redis staging.
-Huy: Rồi, mình cấp ngay sau họp.
