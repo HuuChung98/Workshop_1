@@ -1,0 +1,8 @@
+[10:02 AM - Project Sync Meeting]
+Anna: Chào mọi người, hôm nay mình sẽ cập nhật tiến độ dự án AI chatbot.
+Minh: Backend đã xong phần xử lý intent, còn API thì đang test.
+Trang: Bên frontend mình gặp chút lỗi khi hiển thị gợi ý từ chatbot, sẽ fix hôm nay.
+Anna: Tốt rồi. Nhớ cập nhật trên Jira trước chiều nhé. Có gì blocker không?
+Minh: Không có gì lớn.
+Trang: Mình cần thêm access từ devops.
+Anna: Ok, mình sẽ nhờ Huy cấp cho.

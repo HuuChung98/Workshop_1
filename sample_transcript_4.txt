@@ -1,0 +1,7 @@
+[04:15 PM - Sprint Review Meeting]
+
+Phúc: Sprint này team đã hoàn thành 8/10 task, còn 2 task của module Analytics bị chậm do thay đổi requirement.
+My: Mình sẽ update lại document cho phần KPI chart để team dev nắm rõ.
+Tâm: Design feedback từ khách hàng đã nhận được, sẽ chỉnh lại layout dashboard tối nay.
+Phúc: Ok, cả team cố gắng hoàn tất phần còn lại trong 2 ngày để kịp sprint close.
+My: Roger that
