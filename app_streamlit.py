@@ -114,7 +114,6 @@ render_chat_history()
 prompt = st.chat_input(
     placeholder=(
         "Gõ câu hỏi về nấu ăn / tóm tắt hội thoại / hướng dẫn chi tiết... "
-        "Ví dụ: 'Hướng dẫn mình làm sốt cà chua kiểu Ý từ nguyên liệu sẵn có.'"
     )
 )
 
