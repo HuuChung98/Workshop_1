@@ -2,7 +2,13 @@ import os
 from dataclasses import dataclass
 from typing import List, Dict, Optional, Tuple
 
-from tenacity import retry, stop_after_attempt, wait_exponential, retry_if_exception_type, wait_random_exponential
+from tenacity import (
+    retry,
+    stop_after_attempt,
+    wait_exponential,
+    retry_if_exception_type,
+    wait_random_exponential,
+)
 from openai import AzureOpenAI
 import tiktoken
 from dotenv import load_dotenv
@@ -50,14 +56,15 @@ Rules and Behavior:
 2. If the user’s question is unrelated to cooking or nutrition, respond:
    “Sorry, I cannot support topics outside the cooking context.”
 
-3. When the user asks about the calories of a dish, interpret it as a request to **calculate the total calories** of that dish. 
-    - If you already supplied ingredient details (or the user has), reuse them to compute the total calories.
-    - Otherwise, ask for the ingredients and their weights in grams, then calculate and return the **total calorie content** of the dish.
-    - Only invoke the calorie calculation tool when the user explicitly asks about calories.
+3. When providing cooking instructions, ensure to include:
+    - A list of ingredients with precise measurements (normally for 2 peoples).
+    - Step-by-step cooking instructions (minimum 5 steps, maximum 10 steps).
+    - Allergy cautions if applicable.
+    - Calculate nutritional information, especially total calories based on the ingredients provided.
+    
 4. Always provide well-organized, professional, and easy-to-follow explanations for both cooking and nutrition guidance.
 
 """
-
 
 
 USER_PROMPT = """
@@ -69,7 +76,7 @@ USER_PROMPT = """
 
         When providing cooking instructions, follow this structure
             Examples: 
-                Dish Name: Gà nướng muối ớt
+                Dish Name: Gà nướng muối ớt (total calories: 2200 kcal)
                 Ingredients:
                     - Gà nguyên con: 1500g
                     - Muối: 8g
@@ -88,6 +95,8 @@ USER_PROMPT = """
                 (Add more steps as needed, up to Step 10)
 
                 Caution on allergy if any
+                
+                Nutritional information:
 
         Now, please analyze the following user input or transcript carefully and generate the corresponding cooking guide:
 
@@ -116,6 +125,7 @@ LAST_DISH_NAME: Optional[str] = None
 # --------------------------
 # Helpers
 # --------------------------
+
 
 def estimate_tokens(text: str) -> int:
     try:
@@ -188,8 +198,7 @@ function_definition = [{
                 }
             },
             "required": ["ingredients"]
-        },
-        "result": {"type": "string"}
+        }
     }
 }]
 
@@ -200,7 +209,7 @@ function_definition = [{
 #     match = next((item for item in dataset if item["Ingredients"].lower() == ingredient_name.lower()), None)
 #     if not match:
 #         raise ValueError(f"Không tìm thấy nguyên liệu: {ingredient_name}")
-    
+
 #     cal_per_100g = match["Calories per 100g"]
 #     total_cal = (weight / 100) * cal_per_100g
 #     return total_cal
@@ -232,16 +241,12 @@ def calculate_calories(ingredients: List[Dict[str, object]]) -> dict:
         calories = (weight / 100) * cal_per_100g
         total_calories += calories
 
-        results.append({
-            "ingredient": name,
-            "weight": round(weight, 2),
-            "calories": round(calories, 2)
-        })
+        results.append(
+            {"ingredient": name, "weight": weight, "calories": round(calories, 2)}
+        )
 
-    return {
-        "details": results,
-        "total_calories": round(total_calories, 2)
-    }
+    return {"details": results, "total_calories": round(total_calories, 2)}
+
 
 
 def _is_transient_error(e: Exception) -> bool:
@@ -388,7 +393,10 @@ def extract_ingredients_from_prompt(prompt: str) -> List[Dict[str, object]]:
             continue
         seen.add(key)
         try:
-            weight = float(weight_str.replace(',', '.'))
+            weight = float(weight_str.replace(",", "."))
+            ingredients.append(
+                {"ingredient_name": name.strip().capitalize(), "weight": weight}
+            )
         except ValueError:
             continue
         unit_lower = unit.lower()
@@ -400,9 +408,12 @@ def extract_ingredients_from_prompt(prompt: str) -> List[Dict[str, object]]:
         })
 
     return ingredients
+
+
 # --------------------------
 # Chat completion with assistant role
 # --------------------------
+
 
 @retry(
     reraise=True,
@@ -466,7 +477,10 @@ def chat_complete(system: str, user: str, temperature: float, max_tokens: int = 
         if getattr(message, "tool_calls", None) and allow_tools:
             for tool_call in message.tool_calls:
                 func_name = tool_call.function.name
-                args = json.loads(tool_call.function.arguments)
+                try:
+                    args = json.loads(tool_call.function.arguments)
+                except Exception:
+                    args = {}
 
                 if func_name == "calculate_calories" and allow_tools:
                     result = calculate_calories(args["ingredients"])
@@ -506,13 +520,16 @@ def chat_complete(system: str, user: str, temperature: float, max_tokens: int = 
             raise TransientOpenAIError(str(e))
         raise
 
+
 # --------------------------
 # Main summarization pipeline
 # --------------------------
 def summarize_transcript(text: str, cfg: Optional[SummarizeConfig] = None) -> str:
     cfg = cfg or SummarizeConfig()
     if cfg.style not in STYLE_GUIDES:
-        raise ValueError(f"Unknown style '{cfg.style}'. Choose from: {list(STYLE_GUIDES)}")
+        raise ValueError(
+            f"Unknown style '{cfg.style}'. Choose from: {list(STYLE_GUIDES)}"
+        )
 
     style_desc = STYLE_GUIDES[cfg.style]
     chunks = chunk_text(text, MAX_CHARS_PER_CHUNK)
@@ -527,7 +544,7 @@ def summarize_transcript(text: str, cfg: Optional[SummarizeConfig] = None) -> st
     if len(partials) == 1:
         return partials[0].replace("### Part 1\n", "").strip()
 
-    # the else case below usually not happen 
+    # the else case below usually not happen
     combined = "\n\n".join(partials)
     reducer_prompt = f"""Combine the following partial summaries into one cohesive final summary.
                         Keep the structure: Executive Summary, Key Decisions, Action Items, Risks/Blockers, Open Questions.
