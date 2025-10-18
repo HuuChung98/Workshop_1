@@ -198,7 +198,7 @@ function_definition = [{
                 }
             },
             "required": ["ingredients"]
-        },
+        }
     }
 }]
 

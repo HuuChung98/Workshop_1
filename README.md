@@ -75,3 +75,9 @@ pytest -q
   - If ingredient extraction fails, the app falls back to manual input or returns the normal chat completion.
 
 ---
+
+## Example
+How to text: Please use the text prompt below (Sample Prompts)
+Hướng dẫn nấu món gà nấu nấm đông cô
+ 
+Hướng dẫn nấu món gà nướng muối ớt
