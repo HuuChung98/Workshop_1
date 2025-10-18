@@ -2,7 +2,13 @@ import os
 from dataclasses import dataclass
 from typing import List, Dict, Optional
 
-from tenacity import retry, stop_after_attempt, wait_exponential, retry_if_exception_type, wait_random_exponential
+from tenacity import (
+    retry,
+    stop_after_attempt,
+    wait_exponential,
+    retry_if_exception_type,
+    wait_random_exponential,
+)
 from openai import AzureOpenAI
 import tiktoken
 from dotenv import load_dotenv
@@ -50,13 +56,15 @@ Rules and Behavior:
 2. If the user’s question is unrelated to cooking or nutrition, respond:
    “Sorry, I cannot support topics outside the cooking context.”
 
-3. When the user asks about the calories of a dish, interpret it as a request to **calculate the total calories** of that dish. 
-   - Ask for the ingredients and their weights in grams.
-   - Once provided, calculate and return the **total calorie content** of the dish..
+3. When providing cooking instructions, ensure to include:
+    - A list of ingredients with precise measurements (normally for 2 peoples).
+    - Step-by-step cooking instructions (minimum 5 steps, maximum 10 steps).
+    - Allergy cautions if applicable.
+    - Calculate nutritional information, especially total calories based on the ingredients provided.
+    
 4. Always provide well-organized, professional, and easy-to-follow explanations for both cooking and nutrition guidance.
 
 """
-
 
 
 USER_PROMPT = """
@@ -68,23 +76,27 @@ USER_PROMPT = """
 
         When providing cooking instructions, follow this structure
             Examples: 
-                Dish Name: Gà nướng muối ớt
+                Dish Name: Gà nướng muối ớt (total calories: 2200 kcal)
                 Ingredients:
+                
                     - 1 con gà (khoảng 1.5 kg)
                     - 2 muỗng canh muối
                     - 1 muỗng canh tiêu
                     - 1 muỗng canh ớt bột
-                - 2 muỗng canh dầu ăn
+                    - 2 muỗng canh dầu ăn
 
-                Instructions (at least 5 steps and no more than 10 steps):
-                    Bước 1: Quay gà sạch và để ráo nước.
-                    Bước 2: Trộn đều muối, tiêu, ớt bột và dầu ăn trong một bát nhỏ.
-                    Bước 3: Xoa hỗn hợp gia vị lên bề mặt gà, đảm bảo thấm đều.
-                    Bước 4: Để gà ướp trong 30 phút cho ngấm gia vị.
-                    Bước 5: Nướng gà trong lò đã được làm nóng trước ở 200 độ C trong 1 giờ.
+                Instructions step by step(at least 5 steps and no more than 10 steps):
+                
+                    - 1: Quay gà sạch và để ráo nước.
+                    - 2: Trộn đều muối, tiêu, ớt bột và dầu ăn trong một bát nhỏ.
+                    - 3: Xoa hỗn hợp gia vị lên bề mặt gà, đảm bảo thấm đều.
+                    - 4: Để gà ướp trong 30 phút cho ngấm gia vị.
+                    - 5: Nướng gà trong lò đã được làm nóng trước ở 200 độ C trong 1 giờ.
                 (Add more steps as needed, up to Step 10)
 
                 Caution on allergy if any
+                
+                Nutritional information:
 
         Now, please analyze the following user input or transcript carefully and generate the corresponding cooking guide:
 
@@ -109,6 +121,7 @@ MAX_OUTPUT_TOKENS = 700
 # --------------------------
 # Helpers
 # --------------------------
+
 
 def estimate_tokens(text: str) -> int:
     try:
@@ -151,33 +164,33 @@ class TransientOpenAIError(Exception):
     pass
 
 
-function_definition = [{
-    "type": "function",
-    "function": {
-        "name": "calculate_calories",
-        "description": (
-            "This function calculates the total calories based on the ingredient name and weight in grams."
-        ),
-        "parameters": {
-            "type": "object",
-            "properties": {
-                "ingredient_name": {
-                    "type": "string",
-                    "description": (
-                        "The name of the ingredient to calculate calories for."
-                    )
+function_definition = [
+    {
+        "type": "function",
+        "function": {
+            "name": "calculate_calories",
+            "description": (
+                "This function calculates the total calories based on the ingredient name and weight in grams."
+            ),
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "ingredient_name": {
+                        "type": "string",
+                        "description": (
+                            "The name of the ingredient to calculate calories for."
+                        ),
+                    },
+                    "weight": {
+                        "type": "number",
+                        "description": ("The weight of the ingredient in grams."),
+                    },
                 },
-                "weight": {
-                    "type": "number",
-                    "description": (
-                        "The weight of the ingredient in grams."
-                    )
-                }
-            }
+            },
+            "result": {"type": "string"},
         },
-        "result": {"type": "string"}
     }
-}]
+]
 
 # Calculate calories based on ingredient name and weight
 # def calculate_calories(ingredient_name: str, weight: float) -> float:
@@ -186,10 +199,11 @@ function_definition = [{
 #     match = next((item for item in dataset if item["Ingredients"].lower() == ingredient_name.lower()), None)
 #     if not match:
 #         raise ValueError(f"Không tìm thấy nguyên liệu: {ingredient_name}")
-    
+
 #     cal_per_100g = match["Calories per 100g"]
 #     total_cal = (weight / 100) * cal_per_100g
 #     return total_cal
+
 
 def calculate_calories(ingredients: list) -> dict:
     """
@@ -203,33 +217,32 @@ def calculate_calories(ingredients: list) -> dict:
     for item in ingredients:
         name = item["ingredient_name"]
         weight = item["weight"]
-
         # Tìm nguyên liệu trong dataset
-        match = next((d for d in dataset if d["Ingredients"].lower() == name.lower()), None)
+        match = next(
+            (d for d in dataset if d["Ingredients"].lower() == name.lower()), None
+        )
 
         if not match:
-            results.append({
-                "ingredient": name,
-                "weight": weight,
-                "calories": None,
-                "note": "Không tìm thấy nguyên liệu trong dataset"
-            })
+            results.append(
+                {
+                    "ingredient": name,
+                    "weight": weight,
+                    "calories": None,
+                    "note": "Không tìm thấy nguyên liệu trong dataset",
+                }
+            )
             continue
 
         cal_per_100g = match["Calories per 100g"]
         calories = (weight / 100) * cal_per_100g
         total_calories += calories
 
-        results.append({
-            "ingredient": name,
-            "weight": weight,
-            "calories": round(calories, 2)
-        })
+        results.append(
+            {"ingredient": name, "weight": weight, "calories": round(calories, 2)}
+        )
 
-    return {
-        "details": results,
-        "total_calories": round(total_calories, 2)
-    }
+    return {"details": results, "total_calories": round(total_calories, 2)}
+
 
 def _is_transient_error(e: Exception) -> bool:
     msg = str(e).lower()
@@ -248,30 +261,35 @@ def _is_transient_error(e: Exception) -> bool:
         ]
     )
 
+
 def extract_ingredients_from_prompt(prompt: str):
     """
     Trích xuất danh sách nguyên liệu và trọng lượng (gram) từ chuỗi người dùng nhập.
     Ví dụ: "Cá hồi: 1000g, Gạo trắng: 200g"
     """
     text = prompt.strip()
-    pattern = r'([\w\sÀ-ỹ]+?)[:：]\s*(\d+(?:[\.,]\d+)?)\s*(?:g|gr|gram|grams)\b'
+    pattern = r"([\w\sÀ-ỹ]+?)[:：]\s*(\d+(?:[\.,]\d+)?)\s*(?:g|gr|gram|grams)\b"
     matches = re.findall(pattern, text, flags=re.IGNORECASE)
+    if len(matches) == 0:
+        return []
 
     ingredients = []
     for name, weight_str in matches:
         try:
-            weight = float(weight_str.replace(',', '.'))
-            ingredients.append({
-                "ingredient_name": name.strip().capitalize(),
-                "weight": weight
-            })
+            weight = float(weight_str.replace(",", "."))
+            ingredients.append(
+                {"ingredient_name": name.strip().capitalize(), "weight": weight}
+            )
         except ValueError:
             continue
 
     return ingredients
+
+
 # --------------------------
 # Chat completion with assistant role
 # --------------------------
+
 
 @retry(
     reraise=True,
@@ -279,7 +297,9 @@ def extract_ingredients_from_prompt(prompt: str):
     wait=wait_random_exponential(multiplier=1, min=1, max=20),
     retry=retry_if_exception_type(TransientOpenAIError),
 )
-def chat_complete(system: str, user: str, temperature: float, max_tokens: int = MAX_OUTPUT_TOKENS) -> str:
+def chat_complete(
+    system: str, user: str, temperature: float, max_tokens: int = MAX_OUTPUT_TOKENS
+) -> str:
     """
     Calls Azure OpenAI ChatCompletion with retry on transient errors.
     Tự động:
@@ -289,18 +309,24 @@ def chat_complete(system: str, user: str, temperature: float, max_tokens: int = 
     try:
         # 1️⃣ Thử trích xuất danh sách nguyên liệu từ prompt
         ingredients = extract_ingredients_from_prompt(user)
-
-        if ingredients:
-            print("🧾 Ingredients auto-detected:", json.dumps(ingredients, indent=2, ensure_ascii=False))
+        if ingredients and len(ingredients) > 0:
+            print(
+                "🧾 Ingredients auto-detected:",
+                json.dumps(ingredients, indent=2, ensure_ascii=False),
+            )
             result = calculate_calories(ingredients)
 
             # Format kết quả trả về
             lines = [f"Tổng calories: {result['total_calories']} kcal"]
             for item in result["details"]:
                 if item["calories"]:
-                    lines.append(f"- {item['ingredient']} ({item['weight']}g): {item['calories']} kcal")
+                    lines.append(
+                        f"- {item['ingredient']} ({item['weight']}g): {item['calories']} kcal"
+                    )
                 else:
-                    lines.append(f"- {item['ingredient']} ({item['weight']}g): không có dữ liệu")
+                    lines.append(
+                        f"- {item['ingredient']} ({item['weight']}g): không có dữ liệu"
+                    )
 
             return "\n".join(lines)
 
@@ -321,32 +347,50 @@ def chat_complete(system: str, user: str, temperature: float, max_tokens: int = 
 
         # 3️⃣ Nếu GPT gọi function (tool_call)
         if getattr(message, "tool_calls", None):
+            # Build tool response messages for ALL tool_call_ids returned by the assistant.
+            # Azure requires each assistant tool_call to be followed by a corresponding tool message.
+            tool_messages = []
             for tool_call in message.tool_calls:
                 func_name = tool_call.function.name
-                args = json.loads(tool_call.function.arguments)
+                try:
+                    args = json.loads(tool_call.function.arguments)
+                except Exception:
+                    args = {}
 
                 if func_name == "calculate_calories":
-                    result = calculate_calories(args["ingredients"])
-
-                    follow_up = client.chat.completions.create(
-                        model=DEPLOYMENT,
-                        messages=[
-                            {"role": "system", "content": system},
-                            {"role": "user", "content": user},
-                            message,
-                            {
-                                "role": "tool",
-                                "tool_call_id": tool_call.id,
-                                "name": func_name,
-                                "content": json.dumps(result, ensure_ascii=False),
-                            },
-                        ],
-                        tools=function_definition,
-                        temperature=temperature,
-                        max_tokens=max_tokens,
+                    result = calculate_calories([args])
+                    content = json.dumps(result, ensure_ascii=False)
+                else:
+                    # Provide a generic response for unsupported tool calls so every tool_call_id is answered.
+                    content = json.dumps(
+                        {"error": "unsupported tool", "tool": func_name},
+                        ensure_ascii=False,
                     )
 
-                    return follow_up.choices[0].message.content.strip()
+                tool_messages.append(
+                    {
+                        "role": "tool",
+                        "tool_call_id": tool_call.id,
+                        "name": func_name,
+                        "content": content,
+                    }
+                )
+
+            # Send a single follow-up including all tool responses
+            follow_up = client.chat.completions.create(
+                model=DEPLOYMENT,
+                messages=[
+                    {"role": "system", "content": system},
+                    {"role": "user", "content": user},
+                    message,
+                    *tool_messages,
+                ],
+                tools=function_definition,
+                temperature=temperature,
+                max_tokens=max_tokens,
+            )
+
+            return follow_up.choices[0].message.content.strip()
 
         # 4️⃣ Nếu GPT không gọi hàm — chỉ trả lời text
         return (message.content or "").strip()
@@ -356,13 +400,16 @@ def chat_complete(system: str, user: str, temperature: float, max_tokens: int = 
             raise TransientOpenAIError(str(e))
         raise
 
+
 # --------------------------
 # Main summarization pipeline
 # --------------------------
 def summarize_transcript(text: str, cfg: Optional[SummarizeConfig] = None) -> str:
     cfg = cfg or SummarizeConfig()
     if cfg.style not in STYLE_GUIDES:
-        raise ValueError(f"Unknown style '{cfg.style}'. Choose from: {list(STYLE_GUIDES)}")
+        raise ValueError(
+            f"Unknown style '{cfg.style}'. Choose from: {list(STYLE_GUIDES)}"
+        )
 
     style_desc = STYLE_GUIDES[cfg.style]
     chunks = chunk_text(text, MAX_CHARS_PER_CHUNK)
@@ -377,7 +424,7 @@ def summarize_transcript(text: str, cfg: Optional[SummarizeConfig] = None) -> st
     if len(partials) == 1:
         return partials[0].replace("### Part 1\n", "").strip()
 
-    # the else case below usually not happen 
+    # the else case below usually not happen
     combined = "\n\n".join(partials)
     reducer_prompt = f"""Combine the following partial summaries into one cohesive final summary.
                         Keep the structure: Executive Summary, Key Decisions, Action Items, Risks/Blockers, Open Questions.
@@ -388,5 +435,7 @@ def summarize_transcript(text: str, cfg: Optional[SummarizeConfig] = None) -> st
                         {combined}
                         \"\"\"
                     """
-    final_summary = chat_complete(SYSTEM_PROMPT, reducer_prompt, cfg.temperature, MAX_OUTPUT_TOKENS)
+    final_summary = chat_complete(
+        SYSTEM_PROMPT, reducer_prompt, cfg.temperature, MAX_OUTPUT_TOKENS
+    )
     return (final_summary or "").strip()

@@ -318,6 +318,12 @@
     "Category":"Condiments & Sauces"
   },
   {
+    "Ingredients":"chicken",
+    "Calories per 100g":220.3,
+    "Note":"",
+    "Category":"Meat & Poultry"
+  },
+  {
     "Ingredients":"chicken breast",
     "Calories per 100g":165.0,
     "Note":"cooked",
