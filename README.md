@@ -77,3 +77,10 @@ A small example is included at `sample_transcript.txt`:
 ```bash
 python summarize_cli.py --input sample_transcript.txt --output summary.txt --style bullet
 ```
+
+
+## 🧪 Sample Prompts
+
+Hướng dẫn nấu món gà nấu nấm đông cô
+
+Hướng dẫn nấu món gà nướng muối ớt
