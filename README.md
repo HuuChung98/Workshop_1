@@ -8,13 +8,14 @@ A chatbot that returns cooking guidelines and estimates calories from ingredient
 - Streamlit web UI for user dish input and generated recipes.
 - Auto-extracts ingredients (weights in grams) and computes calories using a local dataset.
 - Handles long text via chunking & hierarchical summarization.
-- Azure OpenAI integration (chat completions + optional function/tool calls).
+- Azure OpenAI integration (chat completions + optional function/tool calls). Uses `AzureOpenAI` SDK and `gpt-4o-mini`/compatible deployments.
 
 ---
 
 ## Prerequisites
 - Python 3.9+
-- Azure OpenAI resource with a chat-capable deployment.
+- An **Azure OpenAI** resource with a deployed chat model (`gpt-4o-mini` compatible).
+- Your Azure OpenAI credentials and endpoint.
 - (Optional) dataset_with_vietnamese.json for calorie lookups.
 
 ---
@@ -32,10 +33,10 @@ Note: AZURE_OPENAI_DEPLOYMENT must be the exact deployment name you created in A
 
 ---
 
-## Install (Windows)
-```powershell
+## Install
+```bash
 python -m venv .venv
-.venv\Scripts\Activate.ps1   # or: env\Scripts\activate
+source .venv/bin/activate  # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
