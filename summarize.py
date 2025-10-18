@@ -2,12 +2,16 @@ import os
 from dataclasses import dataclass
 from typing import List, Dict, Optional
 
-from tenacity import retry, stop_after_attempt, wait_exponential, retry_if_exception_type
+from tenacity import retry, stop_after_attempt, wait_exponential, retry_if_exception_type, wait_random_exponential
 from openai import AzureOpenAI
 import tiktoken
 from dotenv import load_dotenv
+import json
 
 load_dotenv()
+
+with open("dataset.json", "r", encoding="utf-8") as f:
+    dataset = json.load(f)
 
 # --------------------------
 # Azure OpenAI Configuration
@@ -35,76 +39,58 @@ client = AzureOpenAI(
 # --------------------------
 
 SYSTEM_PROMPT = """
-You are a cooking instructor. Your goal is to guide users through cooking processes by providing clear, structured, and easy-to-follow cooking instructions.
+You are a professional cooking instructor and nutrition assistant. 
+Your primary goal is to guide users through cooking processes and help them understand the nutritional value of their dishes.
+When the user asks in Vietnamese, respond in Vietnamese. If the user asks in English, respond in English.
 
-If the user requests more than 100 dishes, please respond:
-    “Sorry, I can only provide up to 100 dishes.”
+Rules and Behavior:
+1. If the user requests more than 100 dishes, respond:
+   “Sorry, I can only provide up to 100 dishes.”
+2. If the user’s question is unrelated to cooking or nutrition, respond:
+   “Sorry, I cannot support topics outside the cooking context.”
 
-If the user ask outside cooking context, please respond:
-    “Sorry, can not support outside cooking context.”
+3. When the user asks about the calories of a dish, interpret it as a request to **calculate the total calories** of that dish. 
+   - Ask for the ingredients and their weights in grams.
+   - Once provided, calculate and return the **total calorie content** of the dish..
+4. Always provide well-organized, professional, and easy-to-follow explanations for both cooking and nutrition guidance.
 
-If user ask by Vietnamese, please respond in Vietnamese. If user ask by English, please respond in English.
-
-Ensure that all generated answers maintain semantic equivalence either in any language given, preserving identical content, structure, quantities, steps, and warnings for complete functional and semantic consistency.
-
-When suggesting dishes, always respond using the following format:
-For the dish [summarize and interpret the user’s context], you may consider cooking the following: (suggest 3 dishes if the user has not specified any)
-    Dish Name:
-    Flavor Profile:
-
-When providing cooking instructions, follow this structure:
-    Dish Name
-    Ingredients:
-      ...
-	    ...
-	    ...
-
-		Instructions (at least 5 steps and no more 10 steps):
-	    Step 1: ...
-	    Step 2: ...
-	    Step 3: ...
-    
-		Caution on allergy if any
-		
-User question as below:
 """
+
+
 
 USER_PROMPT = """
-For the dish [summarize and interpret the user’s context], you may consider cooking the following 
-(suggest 3 dishes if the user has not specified any):
+        For the dish [summarize and interpret the user’s context], you may consider cooking the following 
+        (suggest 3 dishes if the user has not specified any):
 
-    Dish Name:
-    Flavor Profile:
+            Dish Name: Gà nướng muối ớt
+            Flavor Profile: Mặn, cay, thơm
 
-When providing cooking instructions, follow this structure:
+        When providing cooking instructions, follow this structure
+            Examples: 
+                Dish Name: Gà nướng muối ớt
+                Ingredients:
+                    - 1 con gà (khoảng 1.5 kg)
+                    - 2 muỗng canh muối
+                    - 1 muỗng canh tiêu
+                    - 1 muỗng canh ớt bột
+                - 2 muỗng canh dầu ăn
 
-    Dish Name
-    Ingredients:
-      - ...
-      - ...
-      - ...
+                Instructions (at least 5 steps and no more than 10 steps):
+                    Bước 1: Quay gà sạch và để ráo nước.
+                    Bước 2: Trộn đều muối, tiêu, ớt bột và dầu ăn trong một bát nhỏ.
+                    Bước 3: Xoa hỗn hợp gia vị lên bề mặt gà, đảm bảo thấm đều.
+                    Bước 4: Để gà ướp trong 30 phút cho ngấm gia vị.
+                    Bước 5: Nướng gà trong lò đã được làm nóng trước ở 200 độ C trong 1 giờ.
+                (Add more steps as needed, up to Step 10)
 
-    Instructions (at least 5 steps and no more than 10 steps):
-      Step 1: ...
-      Step 2: ...
-      Step 3: ...
-      Step 4: ...
-      Step 5: ...
-      (Add more steps as needed, up to Step 10)
+                Caution on allergy if any
 
-    Caution on allergy if any
+        Now, please analyze the following user input or transcript carefully and generate the corresponding cooking guide:
 
-Now, please analyze the following user input or transcript carefully and generate the corresponding cooking guide:
-
-\"\"\"
-{chunk}
-\"\"\"
-
-
-
-If the input is unclear or missing essential information (e.g., cuisine type, main ingredient, dish type, meal time), 
-politely ask the user up to three short clarification questions before proceeding.
-"""
+        \"\"\"
+        {chunk}
+        \"\"\"
+    """
 
 
 STYLE_GUIDES: Dict[str, str] = {
@@ -118,7 +104,6 @@ DEFAULT_TEMPERATURE = 0.3
 MAX_CHARS_PER_CHUNK = 8_000
 MAX_RETRIES = 4
 MAX_OUTPUT_TOKENS = 700
-
 
 # --------------------------
 # Helpers
@@ -165,6 +150,46 @@ class TransientOpenAIError(Exception):
     pass
 
 
+function_definition = [{
+    "type": "function",
+    "function": {
+        "name": "calculate_calories",
+        "description": (
+            "This function calculates the total calories based on the ingredient name and weight in grams."
+        ),
+        "parameters": {
+            "type": "object",
+            "properties": {
+                "ingredient_name": {
+                    "type": "string",
+                    "description": (
+                        "The name of the ingredient to calculate calories for."
+                    )
+                },
+                "weight": {
+                    "type": "number",
+                    "description": (
+                        "The weight of the ingredient in grams."
+                    )
+                }
+            }
+        },
+        "result": {"type": "string"}
+    }
+}]
+
+# Calculate calories based on ingredient name and weight
+def calculate_calories(ingredient_name: str, weight: float) -> float:
+    """Tính tổng calories dựa trên tên nguyên liệu và trọng lượng (gram)."""
+    # Tìm nguyên liệu trong dataset
+    match = next((item for item in dataset if item["Ingredients"].lower() == ingredient_name.lower()), None)
+    if not match:
+        raise ValueError(f"Không tìm thấy nguyên liệu: {ingredient_name}")
+    
+    cal_per_100g = match["Calories per 100g"]
+    total_cal = (weight / 100) * cal_per_100g
+    return total_cal
+
 def _is_transient_error(e: Exception) -> bool:
     msg = str(e).lower()
     return any(
@@ -182,7 +207,6 @@ def _is_transient_error(e: Exception) -> bool:
         ]
     )
 
-
 # --------------------------
 # Chat completion with assistant role
 # --------------------------
@@ -190,7 +214,7 @@ def _is_transient_error(e: Exception) -> bool:
 @retry(
     reraise=True,
     stop=stop_after_attempt(MAX_RETRIES),
-    wait=wait_exponential(multiplier=1, min=1, max=20),
+    wait=wait_random_exponential(multiplier=1, min=1, max=20),
     retry=retry_if_exception_type(TransientOpenAIError),
 )
 def chat_complete(system: str, user: str, temperature: float, max_tokens: int = MAX_OUTPUT_TOKENS) -> str:
@@ -199,28 +223,60 @@ def chat_complete(system: str, user: str, temperature: float, max_tokens: int = 
     Includes assistant role for context continuity.
     """
     try:
-        resp = client.chat.completions.create(
+        response = client.chat.completions.create(
             model=DEPLOYMENT,
             messages=[
-                {"role": "system", "content": system},
-                {"role": "user", "content": user},
-                {"role": "assistant", "content": "Understood. Summarizing the meeting as requested..."},
+            {"role": "system", "content": system},
+            {"role": "user", "content": user},
+            # {"role": "assistant", "content": "Understood. Summarizing the meeting as requested..."},
             ],
+            tools=function_definition,
+            tool_choice="auto",
             temperature=temperature,
             max_tokens=max_tokens,
         )
-        content = (resp.choices[0].message.content or "").strip()
-        return content
+        message = response.choices[0].message
+
+        # 2️⃣ Nếu GPT gọi function
+        if getattr(message, "tool_calls", None):
+            for tool_call in message.tool_calls:
+                func_name = tool_call.function.name
+                args = json.loads(tool_call.function.arguments)
+
+                if func_name == "calculate_calories":
+                    # Gọi hàm Python thực tế
+                    result = calculate_calories(**args)
+
+                    # Gửi lại kết quả cho GPT để nó sinh câu trả lời hoàn chỉnh
+                    follow_up = client.chat.completions.create(
+                        model=DEPLOYMENT,
+                        messages=[
+                            {"role": "system", "content": system},
+                            {"role": "user", "content": user},
+                            message,  # include the function call message
+                            {
+                                "role": "tool",
+                                "tool_call_id": tool_call.id,
+                                "name": func_name,
+                                "content": str(result),
+                            },
+                        ],
+                        temperature=temperature,
+                        max_tokens=max_tokens,
+                    )
+
+                    return follow_up.choices[0].message.content.strip()
+
+        # 3️⃣ Nếu GPT không gọi hàm — chỉ trả lời bình thường
+        return (message.content or "").strip()
     except Exception as e:
         if _is_transient_error(e):
             raise TransientOpenAIError(str(e))
         raise
 
-
 # --------------------------
 # Main summarization pipeline
 # --------------------------
-
 def summarize_transcript(text: str, cfg: Optional[SummarizeConfig] = None) -> str:
     cfg = cfg or SummarizeConfig()
     if cfg.style not in STYLE_GUIDES:
@@ -231,6 +287,7 @@ def summarize_transcript(text: str, cfg: Optional[SummarizeConfig] = None) -> st
 
     partials: List[str] = []
     for idx, ch in enumerate(chunks, 3):
+        # input is user: prompt of User
         user = USER_PROMPT.format(chunk=ch, style=style_desc, lang=cfg.lang)
         summary = chat_complete(SYSTEM_PROMPT, user, cfg.temperature, MAX_OUTPUT_TOKENS)
         partials.append(f"### Part {idx}\n{summary}")
@@ -238,15 +295,16 @@ def summarize_transcript(text: str, cfg: Optional[SummarizeConfig] = None) -> st
     if len(partials) == 1:
         return partials[0].replace("### Part 1\n", "").strip()
 
+    # the else case below usually not happen 
     combined = "\n\n".join(partials)
     reducer_prompt = f"""Combine the following partial summaries into one cohesive final summary.
-Keep the structure: Executive Summary, Key Decisions, Action Items, Risks/Blockers, Open Questions.
-Write in language: {cfg.lang}. Style: {style_desc}. Avoid repetition.
+                        Keep the structure: Executive Summary, Key Decisions, Action Items, Risks/Blockers, Open Questions.
+                        Write in language: {cfg.lang}. Style: {style_desc}. Avoid repetition.
 
-Partial Summaries:
-\"\"\"
-{combined}
-\"\"\"
-"""
+                        Partial Summaries:
+                        \"\"\"
+                        {combined}
+                        \"\"\"
+                    """
     final_summary = chat_complete(SYSTEM_PROMPT, reducer_prompt, cfg.temperature, MAX_OUTPUT_TOKENS)
     return (final_summary or "").strip()

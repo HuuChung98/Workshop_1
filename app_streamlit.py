@@ -73,20 +73,20 @@ def render_effective_prompt() -> None:
         cfg: SummarizeConfig = st.session_state.cfg
         st.markdown(
             f"""
-**Style**: `{cfg.style}`  
-**Language**: `{cfg.lang}`  
-**Temperature**: `{cfg.temperature}`
+                **Style**: `{cfg.style}`  
+                **Language**: `{cfg.lang}`  
+                **Temperature**: `{cfg.temperature}`
 
-> *Gợi ý*: Bạn có thể yêu cầu:  
-> - “Tóm tắt các ý chính & action items từ đoạn hội thoại sau …”  
-> - “Đưa ra hướng dẫn nấu ăn cho người mới: nguyên liệu, định lượng, các bước, lưu ý an toàn …”
+                > *Gợi ý*: Bạn có thể yêu cầu:  
+                > - “Tóm tắt các ý chính & action items từ đoạn hội thoại sau …”  
+                > - “Đưa ra hướng dẫn nấu ăn cho người mới: nguyên liệu, định lượng, các bước, lưu ý an toàn …”
             """
         )
 
 def assistant_reply(user_text: str) -> str:
     """
-    Build a concise, helpful assistant reply using summarize_transcript() to keep a consistent tone/style.
-    The user_text can be một prompt hỏi mới hoặc một đoạn hội thoại dài cần tóm tắt/hướng dẫn.
+        Build a concise, helpful assistant reply using summarize_transcript() to keep a consistent tone/style.
+        The user_text can be một prompt hỏi mới hoặc một đoạn hội thoại dài cần tóm tắt/hướng dẫn.
     """
     cfg: SummarizeConfig = st.session_state.cfg
     # Ở đây tận dụng summarize_transcript như một "brain" để chuẩn hóa văn phong/format
