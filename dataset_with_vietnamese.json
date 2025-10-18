@@ -1,0 +1,2438 @@
+[
+  {
+    "Ingredients": "Salt",
+    "Calories per 100g": 0.0,
+    "Note": "",
+    "Category": "Other"
+  },
+  {
+    "Ingredients": "Muối",
+    "Calories per 100g": 0.0,
+    "Note": "",
+    "Category": "Other"
+  },
+  {
+    "Ingredients": "White Sugar",
+    "Calories per 100g": 387.0,
+    "Note": "",
+    "Category": "Condiments & Sauces"
+  },
+  {
+    "Ingredients": "Đường trắng",
+    "Calories per 100g": 387.0,
+    "Note": "",
+    "Category": "Condiments & Sauces"
+  },
+  {
+    "Ingredients": "Brown Sugar",
+    "Calories per 100g": 380.0,
+    "Note": "",
+    "Category": "Condiments & Sauces"
+  },
+  {
+    "Ingredients": "Đường nâu",
+    "Calories per 100g": 380.0,
+    "Note": "",
+    "Category": "Condiments & Sauces"
+  },
+  {
+    "Ingredients": "Honey",
+    "Calories per 100g": 304.0,
+    "Note": "",
+    "Category": "Condiments & Sauces"
+  },
+  {
+    "Ingredients": "Em yêu",
+    "Calories per 100g": 304.0,
+    "Note": "",
+    "Category": "Condiments & Sauces"
+  },
+  {
+    "Ingredients": "Fish Sauce",
+    "Calories per 100g": 60.0,
+    "Note": "",
+    "Category": "Fish & Seafood"
+  },
+  {
+    "Ingredients": "nước mắm",
+    "Calories per 100g": 60.0,
+    "Note": "",
+    "Category": "Fish & Seafood"
+  },
+  {
+    "Ingredients": "Light Soy Sauce",
+    "Calories per 100g": 53.0,
+    "Note": "",
+    "Category": "Condiments & Sauces"
+  },
+  {
+    "Ingredients": "Nước tương nhạt",
+    "Calories per 100g": 53.0,
+    "Note": "",
+    "Category": "Condiments & Sauces"
+  },
+  {
+    "Ingredients": "Chili Sauce",
+    "Calories per 100g": 40.0,
+    "Note": "",
+    "Category": "Condiments & Sauces"
+  },
+  {
+    "Ingredients": "Tương ớt",
+    "Calories per 100g": 40.0,
+    "Note": "",
+    "Category": "Condiments & Sauces"
+  },
+  {
+    "Ingredients": "Tomato Ketchup",
+    "Calories per 100g": 112.0,
+    "Note": "",
+    "Category": "Vegetables"
+  },
+  {
+    "Ingredients": "sốt cà chua",
+    "Calories per 100g": 112.0,
+    "Note": "",
+    "Category": "Vegetables"
+  },
+  {
+    "Ingredients": "Vegetable Oil",
+    "Calories per 100g": 884.0,
+    "Note": "",
+    "Category": "Oils & Fats"
+  },
+  {
+    "Ingredients": "Dầu thực vật",
+    "Calories per 100g": 884.0,
+    "Note": "",
+    "Category": "Oils & Fats"
+  },
+  {
+    "Ingredients": "Olive Oil",
+    "Calories per 100g": 884.0,
+    "Note": "",
+    "Category": "Oils & Fats"
+  },
+  {
+    "Ingredients": "Dầu ô liu",
+    "Calories per 100g": 884.0,
+    "Note": "",
+    "Category": "Oils & Fats"
+  },
+  {
+    "Ingredients": "Sesame Oil",
+    "Calories per 100g": 884.0,
+    "Note": "",
+    "Category": "Oils & Fats"
+  },
+  {
+    "Ingredients": "Dầu mè",
+    "Calories per 100g": 884.0,
+    "Note": "",
+    "Category": "Oils & Fats"
+  },
+  {
+    "Ingredients": "Peanut Oil",
+    "Calories per 100g": 884.0,
+    "Note": "",
+    "Category": "Oils & Fats"
+  },
+  {
+    "Ingredients": "Dầu đậu phộng",
+    "Calories per 100g": 884.0,
+    "Note": "",
+    "Category": "Oils & Fats"
+  },
+  {
+    "Ingredients": "Coconut Oil",
+    "Calories per 100g": 862.0,
+    "Note": "",
+    "Category": "Oils & Fats"
+  },
+  {
+    "Ingredients": "Dầu dừa",
+    "Calories per 100g": 862.0,
+    "Note": "",
+    "Category": "Oils & Fats"
+  },
+  {
+    "Ingredients": "Butter",
+    "Calories per 100g": 717.0,
+    "Note": "",
+    "Category": "Oils & Fats"
+  },
+  {
+    "Ingredients": "Bơ",
+    "Calories per 100g": 717.0,
+    "Note": "",
+    "Category": "Oils & Fats"
+  },
+  {
+    "Ingredients": "Margarine",
+    "Calories per 100g": 717.0,
+    "Note": "",
+    "Category": "Oils & Fats"
+  },
+  {
+    "Ingredients": "bơ thực vật",
+    "Calories per 100g": 717.0,
+    "Note": "",
+    "Category": "Oils & Fats"
+  },
+  {
+    "Ingredients": "Rice Vinegar",
+    "Calories per 100g": 21.0,
+    "Note": "",
+    "Category": "Grains & Cereals"
+  },
+  {
+    "Ingredients": "Giấm gạo",
+    "Calories per 100g": 21.0,
+    "Note": "",
+    "Category": "Grains & Cereals"
+  },
+  {
+    "Ingredients": "Apple Cider Vinegar",
+    "Calories per 100g": 22.0,
+    "Note": "",
+    "Category": "Fruits"
+  },
+  {
+    "Ingredients": "Giấm táo",
+    "Calories per 100g": 22.0,
+    "Note": "",
+    "Category": "Fruits"
+  },
+  {
+    "Ingredients": "Garlic",
+    "Calories per 100g": 149.0,
+    "Note": "",
+    "Category": "Vegetables"
+  },
+  {
+    "Ingredients": "Tỏi",
+    "Calories per 100g": 149.0,
+    "Note": "",
+    "Category": "Vegetables"
+  },
+  {
+    "Ingredients": "Shallot",
+    "Calories per 100g": 40.0,
+    "Note": "",
+    "Category": "Other"
+  },
+  {
+    "Ingredients": "hành tím",
+    "Calories per 100g": 40.0,
+    "Note": "",
+    "Category": "Other"
+  },
+  {
+    "Ingredients": "Ginger",
+    "Calories per 100g": 80.0,
+    "Note": "",
+    "Category": "Other"
+  },
+  {
+    "Ingredients": "gừng",
+    "Calories per 100g": 80.0,
+    "Note": "",
+    "Category": "Other"
+  },
+  {
+    "Ingredients": "Chili Pepper",
+    "Calories per 100g": 40.0,
+    "Note": "",
+    "Category": "Vegetables"
+  },
+  {
+    "Ingredients": "Ớt Ớt",
+    "Calories per 100g": 40.0,
+    "Note": "",
+    "Category": "Vegetables"
+  },
+  {
+    "Ingredients": "Chili Powder",
+    "Calories per 100g": 282.0,
+    "Note": "",
+    "Category": "Other"
+  },
+  {
+    "Ingredients": "Bột ớt",
+    "Calories per 100g": 282.0,
+    "Note": "",
+    "Category": "Other"
+  },
+  {
+    "Ingredients": "Black Pepper",
+    "Calories per 100g": 255.0,
+    "Note": "",
+    "Category": "Vegetables"
+  },
+  {
+    "Ingredients": "Tiêu đen",
+    "Calories per 100g": 255.0,
+    "Note": "",
+    "Category": "Vegetables"
+  },
+  {
+    "Ingredients": "Monosodium Glutamate",
+    "Calories per 100g": 0.0,
+    "Note": "MSG",
+    "Category": "Other"
+  },
+  {
+    "Ingredients": "Bột ngọt",
+    "Calories per 100g": 0.0,
+    "Note": "MSG",
+    "Category": "Other"
+  },
+  {
+    "Ingredients": "Seasoning Granules",
+    "Calories per 100g": 210.0,
+    "Note": "",
+    "Category": "Other"
+  },
+  {
+    "Ingredients": "Hạt Gia Vị",
+    "Calories per 100g": 210.0,
+    "Note": "",
+    "Category": "Other"
+  },
+  {
+    "Ingredients": "Ground Turmeric",
+    "Calories per 100g": 312.0,
+    "Note": "",
+    "Category": "Other"
+  },
+  {
+    "Ingredients": "Củ nghệ xay",
+    "Calories per 100g": 312.0,
+    "Note": "",
+    "Category": "Other"
+  },
+  {
+    "Ingredients": "Ground Ginger",
+    "Calories per 100g": 335.0,
+    "Note": "",
+    "Category": "Other"
+  },
+  {
+    "Ingredients": "Gừng xay",
+    "Calories per 100g": 335.0,
+    "Note": "",
+    "Category": "Other"
+  },
+  {
+    "Ingredients": "Ground Black Pepper",
+    "Calories per 100g": 296.0,
+    "Note": "",
+    "Category": "Vegetables"
+  },
+  {
+    "Ingredients": "Tiêu đen xay",
+    "Calories per 100g": 296.0,
+    "Note": "",
+    "Category": "Vegetables"
+  },
+  {
+    "Ingredients": "Ground Cinnamon",
+    "Calories per 100g": 247.0,
+    "Note": "",
+    "Category": "Other"
+  },
+  {
+    "Ingredients": "Quế xay",
+    "Calories per 100g": 247.0,
+    "Note": "",
+    "Category": "Other"
+  },
+  {
+    "Ingredients": "Ground Star Anise",
+    "Calories per 100g": 337.0,
+    "Note": "",
+    "Category": "Other"
+  },
+  {
+    "Ingredients": "Sao hồi",
+    "Calories per 100g": 337.0,
+    "Note": "",
+    "Category": "Other"
+  },
+  {
+    "Ingredients": "Chinese Five-Spice Powder",
+    "Calories per 100g": 330.0,
+    "Note": "",
+    "Category": "Other"
+  },
+  {
+    "Ingredients": "Bột ngũ vị hương Trung Quốc",
+    "Calories per 100g": 330.0,
+    "Note": "",
+    "Category": "Other"
+  },
+  {
+    "Ingredients": "Tomato",
+    "Calories per 100g": 282.0,
+    "Note": "",
+    "Category": "Vegetables"
+  },
+  {
+    "Ingredients": "Cà chua",
+    "Calories per 100g": 282.0,
+    "Note": "",
+    "Category": "Vegetables"
+  },
+  {
+    "Ingredients": "Hoisin Sauce",
+    "Calories per 100g": 120.0,
+    "Note": "",
+    "Category": "Condiments & Sauces"
+  },
+  {
+    "Ingredients": "nước sốt hoisin",
+    "Calories per 100g": 120.0,
+    "Note": "",
+    "Category": "Condiments & Sauces"
+  },
+  {
+    "Ingredients": "Miso Paste",
+    "Calories per 100g": 199.0,
+    "Note": "",
+    "Category": "Condiments & Sauces"
+  },
+  {
+    "Ingredients": "Tương Miso",
+    "Calories per 100g": 199.0,
+    "Note": "",
+    "Category": "Condiments & Sauces"
+  },
+  {
+    "Ingredients": "Soybean Paste",
+    "Calories per 100g": 198.0,
+    "Note": "",
+    "Category": "Legumes"
+  },
+  {
+    "Ingredients": "Bột đậu nành",
+    "Calories per 100g": 198.0,
+    "Note": "",
+    "Category": "Legumes"
+  },
+  {
+    "Ingredients": "Korean Black Soybean Paste",
+    "Calories per 100g": 180.0,
+    "Note": "Chunjang",
+    "Category": "Legumes"
+  },
+  {
+    "Ingredients": "Tương đen Hàn Quốc",
+    "Calories per 100g": 180.0,
+    "Note": "Chunjang",
+    "Category": "Legumes"
+  },
+  {
+    "Ingredients": "Korean Chili Paste",
+    "Calories per 100g": 180.0,
+    "Note": "Gochujang",
+    "Category": "Other"
+  },
+  {
+    "Ingredients": "Tương Ớt Hàn Quốc",
+    "Calories per 100g": 180.0,
+    "Note": "Gochujang",
+    "Category": "Other"
+  },
+  {
+    "Ingredients": "Chili Garlic Sauce",
+    "Calories per 100g": 90.0,
+    "Note": "",
+    "Category": "Vegetables"
+  },
+  {
+    "Ingredients": "Sốt Tỏi Ớt",
+    "Calories per 100g": 90.0,
+    "Note": "",
+    "Category": "Vegetables"
+  },
+  {
+    "Ingredients": "Mayonnaise",
+    "Calories per 100g": 680.0,
+    "Note": "",
+    "Category": "Dairy & Eggs"
+  },
+  {
+    "Ingredients": "Mayonnaise",
+    "Calories per 100g": 680.0,
+    "Note": "",
+    "Category": "Dairy & Eggs"
+  },
+  {
+    "Ingredients": "Salad Dressing",
+    "Calories per 100g": 450.0,
+    "Note": "",
+    "Category": "Condiments & Sauces"
+  },
+  {
+    "Ingredients": "Nước sốt sa-lát",
+    "Calories per 100g": 450.0,
+    "Note": "",
+    "Category": "Condiments & Sauces"
+  },
+  {
+    "Ingredients": "Sesame Dressing",
+    "Calories per 100g": 540.0,
+    "Note": "",
+    "Category": "Nuts & Seeds"
+  },
+  {
+    "Ingredients": "Sốt mè",
+    "Calories per 100g": 540.0,
+    "Note": "",
+    "Category": "Nuts & Seeds"
+  },
+  {
+    "Ingredients": "Sauce",
+    "Calories per 100g": 51.0,
+    "Note": "",
+    "Category": "Condiments & Sauces"
+  },
+  {
+    "Ingredients": "Nước xốt",
+    "Calories per 100g": 51.0,
+    "Note": "",
+    "Category": "Condiments & Sauces"
+  },
+  {
+    "Ingredients": "Teriyaki Sauce",
+    "Calories per 100g": 89.0,
+    "Note": "",
+    "Category": "Condiments & Sauces"
+  },
+  {
+    "Ingredients": "Sốt Teriyaki",
+    "Calories per 100g": 89.0,
+    "Note": "",
+    "Category": "Condiments & Sauces"
+  },
+  {
+    "Ingredients": "Barbecue Sauce",
+    "Calories per 100g": 175.0,
+    "Note": "",
+    "Category": "Condiments & Sauces"
+  },
+  {
+    "Ingredients": "Nước sốt thịt nướng",
+    "Calories per 100g": 175.0,
+    "Note": "",
+    "Category": "Condiments & Sauces"
+  },
+  {
+    "Ingredients": "Butter Sauce",
+    "Calories per 100g": 540.0,
+    "Note": "",
+    "Category": "Oils & Fats"
+  },
+  {
+    "Ingredients": "sốt bơ",
+    "Calories per 100g": 540.0,
+    "Note": "",
+    "Category": "Oils & Fats"
+  },
+  {
+    "Ingredients": "Mustard Sauce",
+    "Calories per 100g": 60.0,
+    "Note": "",
+    "Category": "Condiments & Sauces"
+  },
+  {
+    "Ingredients": "Sốt mù tạt",
+    "Calories per 100g": 60.0,
+    "Note": "",
+    "Category": "Condiments & Sauces"
+  },
+  {
+    "Ingredients": "Cheese Sauce",
+    "Calories per 100g": 320.0,
+    "Note": "",
+    "Category": "Dairy & Eggs"
+  },
+  {
+    "Ingredients": "Sốt Phô Mai",
+    "Calories per 100g": 320.0,
+    "Note": "",
+    "Category": "Dairy & Eggs"
+  },
+  {
+    "Ingredients": "Tamarind Sauce",
+    "Calories per 100g": 240.0,
+    "Note": "",
+    "Category": "Condiments & Sauces"
+  },
+  {
+    "Ingredients": "Sốt me",
+    "Calories per 100g": 240.0,
+    "Note": "",
+    "Category": "Condiments & Sauces"
+  },
+  {
+    "Ingredients": "Pepper Sauce",
+    "Calories per 100g": 150.0,
+    "Note": "",
+    "Category": "Vegetables"
+  },
+  {
+    "Ingredients": "Sốt tiêu",
+    "Calories per 100g": 150.0,
+    "Note": "",
+    "Category": "Vegetables"
+  },
+  {
+    "Ingredients": "Shrimp",
+    "Calories per 100g": 280.0,
+    "Note": "",
+    "Category": "Fish & Seafood"
+  },
+  {
+    "Ingredients": "Con tôm",
+    "Calories per 100g": 280.0,
+    "Note": "",
+    "Category": "Fish & Seafood"
+  },
+  {
+    "Ingredients": "Rice",
+    "Calories per 100g": 884.0,
+    "Note": "",
+    "Category": "Grains & Cereals"
+  },
+  {
+    "Ingredients": "Cơm",
+    "Calories per 100g": 884.0,
+    "Note": "",
+    "Category": "Grains & Cereals"
+  },
+  {
+    "Ingredients": "Shiitake Mushroom",
+    "Calories per 100g": 250.0,
+    "Note": "",
+    "Category": "Vegetables"
+  },
+  {
+    "Ingredients": "Nấm Shiitake",
+    "Calories per 100g": 250.0,
+    "Note": "",
+    "Category": "Vegetables"
+  },
+  {
+    "Ingredients": "Sugar",
+    "Calories per 100g": 380.0,
+    "Note": "",
+    "Category": "Condiments & Sauces"
+  },
+  {
+    "Ingredients": "Đường",
+    "Calories per 100g": 380.0,
+    "Note": "",
+    "Category": "Condiments & Sauces"
+  },
+  {
+    "Ingredients": "chicken breast",
+    "Calories per 100g": 165.0,
+    "Note": "cooked",
+    "Category": "Meat & Poultry"
+  },
+  {
+    "Ingredients": "ức gà",
+    "Calories per 100g": 165.0,
+    "Note": "cooked",
+    "Category": "Meat & Poultry"
+  },
+  {
+    "Ingredients": "Ground Beef 80/20",
+    "Calories per 100g": 250.0,
+    "Note": "cooked",
+    "Category": "Meat & Poultry"
+  },
+  {
+    "Ingredients": "Thịt Bò Xay 80/20",
+    "Calories per 100g": 250.0,
+    "Note": "cooked",
+    "Category": "Meat & Poultry"
+  },
+  {
+    "Ingredients": "Beef Steak",
+    "Calories per 100g": 271.0,
+    "Note": "grilled",
+    "Category": "Meat & Poultry"
+  },
+  {
+    "Ingredients": "Bò bít tết",
+    "Calories per 100g": 271.0,
+    "Note": "grilled",
+    "Category": "Meat & Poultry"
+  },
+  {
+    "Ingredients": "Pork Chop",
+    "Calories per 100g": 242.0,
+    "Note": "cooked",
+    "Category": "Meat & Poultry"
+  },
+  {
+    "Ingredients": "Sườn heo",
+    "Calories per 100g": 242.0,
+    "Note": "cooked",
+    "Category": "Meat & Poultry"
+  },
+  {
+    "Ingredients": "Pork Loin",
+    "Calories per 100g": 143.0,
+    "Note": "raw",
+    "Category": "Meat & Poultry"
+  },
+  {
+    "Ingredients": "thăn lợn",
+    "Calories per 100g": 143.0,
+    "Note": "raw",
+    "Category": "Meat & Poultry"
+  },
+  {
+    "Ingredients": "Bacon",
+    "Calories per 100g": 541.0,
+    "Note": "cooked",
+    "Category": "Meat & Poultry"
+  },
+  {
+    "Ingredients": "Thịt xông khói",
+    "Calories per 100g": 541.0,
+    "Note": "cooked",
+    "Category": "Meat & Poultry"
+  },
+  {
+    "Ingredients": "Turkey Breast",
+    "Calories per 100g": 135.0,
+    "Note": "cooked",
+    "Category": "Meat & Poultry"
+  },
+  {
+    "Ingredients": "Vú gà tây",
+    "Calories per 100g": 135.0,
+    "Note": "cooked",
+    "Category": "Meat & Poultry"
+  },
+  {
+    "Ingredients": "Lamb",
+    "Calories per 100g": 294.0,
+    "Note": "roasted",
+    "Category": "Meat & Poultry"
+  },
+  {
+    "Ingredients": "Cừu non",
+    "Calories per 100g": 294.0,
+    "Note": "roasted",
+    "Category": "Meat & Poultry"
+  },
+  {
+    "Ingredients": "Salmon",
+    "Calories per 100g": 208.0,
+    "Note": "cooked",
+    "Category": "Fish & Seafood"
+  },
+  {
+    "Ingredients": "cá hồi",
+    "Calories per 100g": 208.0,
+    "Note": "cooked",
+    "Category": "Fish & Seafood"
+  },
+  {
+    "Ingredients": "Tuna",
+    "Calories per 100g": 198.0,
+    "Note": "canned in oil, drained",
+    "Category": "Fish & Seafood"
+  },
+  {
+    "Ingredients": "Cá ngừ",
+    "Calories per 100g": 198.0,
+    "Note": "canned in oil, drained",
+    "Category": "Fish & Seafood"
+  },
+  {
+    "Ingredients": "Cod",
+    "Calories per 100g": 105.0,
+    "Note": "cooked",
+    "Category": "Fish & Seafood"
+  },
+  {
+    "Ingredients": "cá tuyết",
+    "Calories per 100g": 105.0,
+    "Note": "cooked",
+    "Category": "Fish & Seafood"
+  },
+  {
+    "Ingredients": "Duck",
+    "Calories per 100g": 337.0,
+    "Note": "roasted",
+    "Category": "Meat & Poultry"
+  },
+  {
+    "Ingredients": "Con vịt",
+    "Calories per 100g": 337.0,
+    "Note": "roasted",
+    "Category": "Meat & Poultry"
+  },
+  {
+    "Ingredients": "Goose",
+    "Calories per 100g": 371.0,
+    "Note": "roasted",
+    "Category": "Meat & Poultry"
+  },
+  {
+    "Ingredients": "Ngỗng",
+    "Calories per 100g": 371.0,
+    "Note": "roasted",
+    "Category": "Meat & Poultry"
+  },
+  {
+    "Ingredients": "Sardines",
+    "Calories per 100g": 208.0,
+    "Note": "canned in oil, drained",
+    "Category": "Fish & Seafood"
+  },
+  {
+    "Ingredients": "cá mòi",
+    "Calories per 100g": 208.0,
+    "Note": "canned in oil, drained",
+    "Category": "Fish & Seafood"
+  },
+  {
+    "Ingredients": "Trout",
+    "Calories per 100g": 148.0,
+    "Note": "cooked",
+    "Category": "Fish & Seafood"
+  },
+  {
+    "Ingredients": "cá hồi",
+    "Calories per 100g": 148.0,
+    "Note": "cooked",
+    "Category": "Fish & Seafood"
+  },
+  {
+    "Ingredients": "Mackerel",
+    "Calories per 100g": 262.0,
+    "Note": "cooked",
+    "Category": "Fish & Seafood"
+  },
+  {
+    "Ingredients": "cá thu",
+    "Calories per 100g": 262.0,
+    "Note": "cooked",
+    "Category": "Fish & Seafood"
+  },
+  {
+    "Ingredients": "Haddock",
+    "Calories per 100g": 116.0,
+    "Note": "cooked",
+    "Category": "Fish & Seafood"
+  },
+  {
+    "Ingredients": "cá tuyết chấm đen",
+    "Calories per 100g": 116.0,
+    "Note": "cooked",
+    "Category": "Fish & Seafood"
+  },
+  {
+    "Ingredients": "Ham",
+    "Calories per 100g": 145.0,
+    "Note": "cooked",
+    "Category": "Meat & Poultry"
+  },
+  {
+    "Ingredients": "Giăm bông",
+    "Calories per 100g": 145.0,
+    "Note": "cooked",
+    "Category": "Meat & Poultry"
+  },
+  {
+    "Ingredients": "Prosciutto",
+    "Calories per 100g": 260.0,
+    "Note": "",
+    "Category": "Meat & Poultry"
+  },
+  {
+    "Ingredients": "Prosciutto",
+    "Calories per 100g": 260.0,
+    "Note": "",
+    "Category": "Meat & Poultry"
+  },
+  {
+    "Ingredients": "Ground Turkey",
+    "Calories per 100g": 189.0,
+    "Note": "cooked",
+    "Category": "Meat & Poultry"
+  },
+  {
+    "Ingredients": "Đất Thổ Nhĩ Kỳ",
+    "Calories per 100g": 189.0,
+    "Note": "cooked",
+    "Category": "Meat & Poultry"
+  },
+  {
+    "Ingredients": "Tofu",
+    "Calories per 100g": 76.0,
+    "Note": "firm",
+    "Category": "Legumes"
+  },
+  {
+    "Ingredients": "Đậu hủ",
+    "Calories per 100g": 76.0,
+    "Note": "firm",
+    "Category": "Legumes"
+  },
+  {
+    "Ingredients": "Tempeh",
+    "Calories per 100g": 193.0,
+    "Note": "",
+    "Category": "Legumes"
+  },
+  {
+    "Ingredients": "Tempeh",
+    "Calories per 100g": 193.0,
+    "Note": "",
+    "Category": "Legumes"
+  },
+  {
+    "Ingredients": "Seitan",
+    "Calories per 100g": 121.0,
+    "Note": "",
+    "Category": "Legumes"
+  },
+  {
+    "Ingredients": "mì căn",
+    "Calories per 100g": 121.0,
+    "Note": "",
+    "Category": "Legumes"
+  },
+  {
+    "Ingredients": "Egg",
+    "Calories per 100g": 155.0,
+    "Note": "whole, cooked",
+    "Category": "Dairy & Eggs"
+  },
+  {
+    "Ingredients": "Trứng",
+    "Calories per 100g": 155.0,
+    "Note": "whole, cooked",
+    "Category": "Dairy & Eggs"
+  },
+  {
+    "Ingredients": "Egg White",
+    "Calories per 100g": 52.0,
+    "Note": "cooked",
+    "Category": "Dairy & Eggs"
+  },
+  {
+    "Ingredients": "Lòng trắng trứng",
+    "Calories per 100g": 52.0,
+    "Note": "cooked",
+    "Category": "Dairy & Eggs"
+  },
+  {
+    "Ingredients": "Egg Yolk",
+    "Calories per 100g": 322.0,
+    "Note": "",
+    "Category": "Dairy & Eggs"
+  },
+  {
+    "Ingredients": "Lòng đỏ trứng",
+    "Calories per 100g": 322.0,
+    "Note": "",
+    "Category": "Dairy & Eggs"
+  },
+  {
+    "Ingredients": "Milk",
+    "Calories per 100g": 60.0,
+    "Note": "whole",
+    "Category": "Dairy & Eggs"
+  },
+  {
+    "Ingredients": "Sữa",
+    "Calories per 100g": 60.0,
+    "Note": "whole",
+    "Category": "Dairy & Eggs"
+  },
+  {
+    "Ingredients": "Yogurt",
+    "Calories per 100g": 61.0,
+    "Note": "plain whole",
+    "Category": "Dairy & Eggs"
+  },
+  {
+    "Ingredients": "Da ua",
+    "Calories per 100g": 61.0,
+    "Note": "plain whole",
+    "Category": "Dairy & Eggs"
+  },
+  {
+    "Ingredients": "Greek Yogurt",
+    "Calories per 100g": 59.0,
+    "Note": "plain, nonfat",
+    "Category": "Dairy & Eggs"
+  },
+  {
+    "Ingredients": "Sữa Chua Hy Lạp",
+    "Calories per 100g": 59.0,
+    "Note": "plain, nonfat",
+    "Category": "Dairy & Eggs"
+  },
+  {
+    "Ingredients": "Cheddar Cheese",
+    "Calories per 100g": 403.0,
+    "Note": "",
+    "Category": "Dairy & Eggs"
+  },
+  {
+    "Ingredients": "Phô Mai Cheddar",
+    "Calories per 100g": 403.0,
+    "Note": "",
+    "Category": "Dairy & Eggs"
+  },
+  {
+    "Ingredients": "Mozzarella",
+    "Calories per 100g": 280.0,
+    "Note": "",
+    "Category": "Dairy & Eggs"
+  },
+  {
+    "Ingredients": "phô mai Mozzarella",
+    "Calories per 100g": 280.0,
+    "Note": "",
+    "Category": "Dairy & Eggs"
+  },
+  {
+    "Ingredients": "Parmesan",
+    "Calories per 100g": 431.0,
+    "Note": "",
+    "Category": "Dairy & Eggs"
+  },
+  {
+    "Ingredients": "Parmesan",
+    "Calories per 100g": 431.0,
+    "Note": "",
+    "Category": "Dairy & Eggs"
+  },
+  {
+    "Ingredients": "Cottage Cheese",
+    "Calories per 100g": 98.0,
+    "Note": "2% fat",
+    "Category": "Dairy & Eggs"
+  },
+  {
+    "Ingredients": "Phô mai Cottage",
+    "Calories per 100g": 98.0,
+    "Note": "2% fat",
+    "Category": "Dairy & Eggs"
+  },
+  {
+    "Ingredients": "Canola Oil",
+    "Calories per 100g": 884.0,
+    "Note": "",
+    "Category": "Oils & Fats"
+  },
+  {
+    "Ingredients": "Dầu hạt cải",
+    "Calories per 100g": 884.0,
+    "Note": "",
+    "Category": "Oils & Fats"
+  },
+  {
+    "Ingredients": "Sunflower Oil",
+    "Calories per 100g": 884.0,
+    "Note": "",
+    "Category": "Oils & Fats"
+  },
+  {
+    "Ingredients": "Dầu hướng dương",
+    "Calories per 100g": 884.0,
+    "Note": "",
+    "Category": "Oils & Fats"
+  },
+  {
+    "Ingredients": "Avocado",
+    "Calories per 100g": 160.0,
+    "Note": "raw",
+    "Category": "Fruits"
+  },
+  {
+    "Ingredients": "quả bơ",
+    "Calories per 100g": 160.0,
+    "Note": "raw",
+    "Category": "Fruits"
+  },
+  {
+    "Ingredients": "Peanut Butter",
+    "Calories per 100g": 588.0,
+    "Note": "",
+    "Category": "Oils & Fats"
+  },
+  {
+    "Ingredients": "Bơ đậu phộng",
+    "Calories per 100g": 588.0,
+    "Note": "",
+    "Category": "Oils & Fats"
+  },
+  {
+    "Ingredients": "Almonds",
+    "Calories per 100g": 579.0,
+    "Note": "",
+    "Category": "Nuts & Seeds"
+  },
+  {
+    "Ingredients": "hạnh nhân",
+    "Calories per 100g": 579.0,
+    "Note": "",
+    "Category": "Nuts & Seeds"
+  },
+  {
+    "Ingredients": "Walnuts",
+    "Calories per 100g": 654.0,
+    "Note": "",
+    "Category": "Nuts & Seeds"
+  },
+  {
+    "Ingredients": "quả óc chó",
+    "Calories per 100g": 654.0,
+    "Note": "",
+    "Category": "Nuts & Seeds"
+  },
+  {
+    "Ingredients": "Cashews",
+    "Calories per 100g": 553.0,
+    "Note": "",
+    "Category": "Nuts & Seeds"
+  },
+  {
+    "Ingredients": "hạt điều",
+    "Calories per 100g": 553.0,
+    "Note": "",
+    "Category": "Nuts & Seeds"
+  },
+  {
+    "Ingredients": "Pistachios",
+    "Calories per 100g": 562.0,
+    "Note": "",
+    "Category": "Nuts & Seeds"
+  },
+  {
+    "Ingredients": "quả hồ trăn",
+    "Calories per 100g": 562.0,
+    "Note": "",
+    "Category": "Nuts & Seeds"
+  },
+  {
+    "Ingredients": "Peanuts",
+    "Calories per 100g": 567.0,
+    "Note": "raw",
+    "Category": "Nuts & Seeds"
+  },
+  {
+    "Ingredients": "Đậu phộng",
+    "Calories per 100g": 567.0,
+    "Note": "raw",
+    "Category": "Nuts & Seeds"
+  },
+  {
+    "Ingredients": "Hazelnuts",
+    "Calories per 100g": 628.0,
+    "Note": "",
+    "Category": "Nuts & Seeds"
+  },
+  {
+    "Ingredients": "hạt phỉ",
+    "Calories per 100g": 628.0,
+    "Note": "",
+    "Category": "Nuts & Seeds"
+  },
+  {
+    "Ingredients": "Pumpkin Seeds",
+    "Calories per 100g": 559.0,
+    "Note": "",
+    "Category": "Nuts & Seeds"
+  },
+  {
+    "Ingredients": "Hạt bí ngô",
+    "Calories per 100g": 559.0,
+    "Note": "",
+    "Category": "Nuts & Seeds"
+  },
+  {
+    "Ingredients": "Chia Seeds",
+    "Calories per 100g": 486.0,
+    "Note": "",
+    "Category": "Nuts & Seeds"
+  },
+  {
+    "Ingredients": "Hạt Chia",
+    "Calories per 100g": 486.0,
+    "Note": "",
+    "Category": "Nuts & Seeds"
+  },
+  {
+    "Ingredients": "Flax Seeds",
+    "Calories per 100g": 534.0,
+    "Note": "",
+    "Category": "Nuts & Seeds"
+  },
+  {
+    "Ingredients": "Hạt lanh",
+    "Calories per 100g": 534.0,
+    "Note": "",
+    "Category": "Nuts & Seeds"
+  },
+  {
+    "Ingredients": "Sesame Seeds",
+    "Calories per 100g": 573.0,
+    "Note": "",
+    "Category": "Nuts & Seeds"
+  },
+  {
+    "Ingredients": "Hạt mè",
+    "Calories per 100g": 573.0,
+    "Note": "",
+    "Category": "Nuts & Seeds"
+  },
+  {
+    "Ingredients": "Oats",
+    "Calories per 100g": 389.0,
+    "Note": "dry",
+    "Category": "Grains & Cereals"
+  },
+  {
+    "Ingredients": "Yến mạch",
+    "Calories per 100g": 389.0,
+    "Note": "dry",
+    "Category": "Grains & Cereals"
+  },
+  {
+    "Ingredients": "Quinoa",
+    "Calories per 100g": 120.0,
+    "Note": "cooked",
+    "Category": "Grains & Cereals"
+  },
+  {
+    "Ingredients": "diêm mạch",
+    "Calories per 100g": 120.0,
+    "Note": "cooked",
+    "Category": "Grains & Cereals"
+  },
+  {
+    "Ingredients": "Brown Rice",
+    "Calories per 100g": 123.0,
+    "Note": "cooked",
+    "Category": "Grains & Cereals"
+  },
+  {
+    "Ingredients": "Gạo lứt",
+    "Calories per 100g": 123.0,
+    "Note": "cooked",
+    "Category": "Grains & Cereals"
+  },
+  {
+    "Ingredients": "White Rice",
+    "Calories per 100g": 130.0,
+    "Note": "cooked",
+    "Category": "Grains & Cereals"
+  },
+  {
+    "Ingredients": "Gạo trắng",
+    "Calories per 100g": 130.0,
+    "Note": "cooked",
+    "Category": "Grains & Cereals"
+  },
+  {
+    "Ingredients": "Pasta",
+    "Calories per 100g": 131.0,
+    "Note": "cooked",
+    "Category": "Grains & Cereals"
+  },
+  {
+    "Ingredients": "mì ống",
+    "Calories per 100g": 131.0,
+    "Note": "cooked",
+    "Category": "Grains & Cereals"
+  },
+  {
+    "Ingredients": "Bread",
+    "Calories per 100g": 265.0,
+    "Note": "white",
+    "Category": "Grains & Cereals"
+  },
+  {
+    "Ingredients": "Bánh mỳ",
+    "Calories per 100g": 265.0,
+    "Note": "white",
+    "Category": "Grains & Cereals"
+  },
+  {
+    "Ingredients": "Bagel",
+    "Calories per 100g": 250.0,
+    "Note": "",
+    "Category": "Grains & Cereals"
+  },
+  {
+    "Ingredients": "bánh mì tròn",
+    "Calories per 100g": 250.0,
+    "Note": "",
+    "Category": "Grains & Cereals"
+  },
+  {
+    "Ingredients": "Croissant",
+    "Calories per 100g": 406.0,
+    "Note": "",
+    "Category": "Grains & Cereals"
+  },
+  {
+    "Ingredients": "bánh sừng bò",
+    "Calories per 100g": 406.0,
+    "Note": "",
+    "Category": "Grains & Cereals"
+  },
+  {
+    "Ingredients": "Tortilla",
+    "Calories per 100g": 300.0,
+    "Note": "wheat",
+    "Category": "Grains & Cereals"
+  },
+  {
+    "Ingredients": "bánh ngô",
+    "Calories per 100g": 300.0,
+    "Note": "wheat",
+    "Category": "Grains & Cereals"
+  },
+  {
+    "Ingredients": "Corn Tortilla",
+    "Calories per 100g": 218.0,
+    "Note": "",
+    "Category": "Grains & Cereals"
+  },
+  {
+    "Ingredients": "bánh ngô",
+    "Calories per 100g": 218.0,
+    "Note": "",
+    "Category": "Grains & Cereals"
+  },
+  {
+    "Ingredients": "Potato",
+    "Calories per 100g": 77.0,
+    "Note": "raw",
+    "Category": "Vegetables"
+  },
+  {
+    "Ingredients": "Khoai tây",
+    "Calories per 100g": 77.0,
+    "Note": "raw",
+    "Category": "Vegetables"
+  },
+  {
+    "Ingredients": "Sweet Potato",
+    "Calories per 100g": 90.0,
+    "Note": "cooked",
+    "Category": "Vegetables"
+  },
+  {
+    "Ingredients": "khoai lang",
+    "Calories per 100g": 90.0,
+    "Note": "cooked",
+    "Category": "Vegetables"
+  },
+  {
+    "Ingredients": "French Fries",
+    "Calories per 100g": 312.0,
+    "Note": "",
+    "Category": "Other"
+  },
+  {
+    "Ingredients": "khoai tây chiên",
+    "Calories per 100g": 312.0,
+    "Note": "",
+    "Category": "Other"
+  },
+  {
+    "Ingredients": "Mashed Potato",
+    "Calories per 100g": 214.0,
+    "Note": "with butter",
+    "Category": "Vegetables"
+  },
+  {
+    "Ingredients": "khoai tây nghiền",
+    "Calories per 100g": 214.0,
+    "Note": "with butter",
+    "Category": "Vegetables"
+  },
+  {
+    "Ingredients": "Corn",
+    "Calories per 100g": 96.0,
+    "Note": "cooked",
+    "Category": "Vegetables"
+  },
+  {
+    "Ingredients": "ngô",
+    "Calories per 100g": 96.0,
+    "Note": "cooked",
+    "Category": "Vegetables"
+  },
+  {
+    "Ingredients": "Peas",
+    "Calories per 100g": 84.0,
+    "Note": "cooked",
+    "Category": "Vegetables"
+  },
+  {
+    "Ingredients": "Đậu Hà Lan",
+    "Calories per 100g": 84.0,
+    "Note": "cooked",
+    "Category": "Vegetables"
+  },
+  {
+    "Ingredients": "Green Beans",
+    "Calories per 100g": 31.0,
+    "Note": "cooked",
+    "Category": "Legumes"
+  },
+  {
+    "Ingredients": "Đậu xanh",
+    "Calories per 100g": 31.0,
+    "Note": "cooked",
+    "Category": "Legumes"
+  },
+  {
+    "Ingredients": "Broccoli",
+    "Calories per 100g": 35.0,
+    "Note": "cooked",
+    "Category": "Vegetables"
+  },
+  {
+    "Ingredients": "bông cải xanh",
+    "Calories per 100g": 35.0,
+    "Note": "cooked",
+    "Category": "Vegetables"
+  },
+  {
+    "Ingredients": "Cauliflower",
+    "Calories per 100g": 25.0,
+    "Note": "cooked",
+    "Category": "Vegetables"
+  },
+  {
+    "Ingredients": "Súp lơ",
+    "Calories per 100g": 25.0,
+    "Note": "cooked",
+    "Category": "Vegetables"
+  },
+  {
+    "Ingredients": "Spinach",
+    "Calories per 100g": 23.0,
+    "Note": "cooked",
+    "Category": "Vegetables"
+  },
+  {
+    "Ingredients": "Rau chân vịt",
+    "Calories per 100g": 23.0,
+    "Note": "cooked",
+    "Category": "Vegetables"
+  },
+  {
+    "Ingredients": "Kale",
+    "Calories per 100g": 49.0,
+    "Note": "cooked",
+    "Category": "Vegetables"
+  },
+  {
+    "Ingredients": "cải xoăn",
+    "Calories per 100g": 49.0,
+    "Note": "cooked",
+    "Category": "Vegetables"
+  },
+  {
+    "Ingredients": "Carrot",
+    "Calories per 100g": 41.0,
+    "Note": "raw",
+    "Category": "Vegetables"
+  },
+  {
+    "Ingredients": "cà rốt",
+    "Calories per 100g": 41.0,
+    "Note": "raw",
+    "Category": "Vegetables"
+  },
+  {
+    "Ingredients": "Onion",
+    "Calories per 100g": 40.0,
+    "Note": "raw",
+    "Category": "Vegetables"
+  },
+  {
+    "Ingredients": "Củ hành",
+    "Calories per 100g": 40.0,
+    "Note": "raw",
+    "Category": "Vegetables"
+  },
+  {
+    "Ingredients": "Mushrooms",
+    "Calories per 100g": 22.0,
+    "Note": "cooked",
+    "Category": "Vegetables"
+  },
+  {
+    "Ingredients": "nấm",
+    "Calories per 100g": 22.0,
+    "Note": "cooked",
+    "Category": "Vegetables"
+  },
+  {
+    "Ingredients": "Zucchini",
+    "Calories per 100g": 17.0,
+    "Note": "cooked",
+    "Category": "Vegetables"
+  },
+  {
+    "Ingredients": "bí xanh",
+    "Calories per 100g": 17.0,
+    "Note": "cooked",
+    "Category": "Vegetables"
+  },
+  {
+    "Ingredients": "Eggplant",
+    "Calories per 100g": 25.0,
+    "Note": "cooked",
+    "Category": "Dairy & Eggs"
+  },
+  {
+    "Ingredients": "cà tím",
+    "Calories per 100g": 25.0,
+    "Note": "cooked",
+    "Category": "Dairy & Eggs"
+  },
+  {
+    "Ingredients": "Bell Pepper",
+    "Calories per 100g": 31.0,
+    "Note": "raw",
+    "Category": "Vegetables"
+  },
+  {
+    "Ingredients": "ớt chuông",
+    "Calories per 100g": 31.0,
+    "Note": "raw",
+    "Category": "Vegetables"
+  },
+  {
+    "Ingredients": "Cucumber",
+    "Calories per 100g": 16.0,
+    "Note": "raw",
+    "Category": "Vegetables"
+  },
+  {
+    "Ingredients": "Quả dưa chuột",
+    "Calories per 100g": 16.0,
+    "Note": "raw",
+    "Category": "Vegetables"
+  },
+  {
+    "Ingredients": "Lettuce",
+    "Calories per 100g": 15.0,
+    "Note": "raw",
+    "Category": "Vegetables"
+  },
+  {
+    "Ingredients": "Rau xà lách",
+    "Calories per 100g": 15.0,
+    "Note": "raw",
+    "Category": "Vegetables"
+  },
+  {
+    "Ingredients": "Apple",
+    "Calories per 100g": 52.0,
+    "Note": "raw",
+    "Category": "Fruits"
+  },
+  {
+    "Ingredients": "Quả táo",
+    "Calories per 100g": 52.0,
+    "Note": "raw",
+    "Category": "Fruits"
+  },
+  {
+    "Ingredients": "Banana",
+    "Calories per 100g": 89.0,
+    "Note": "raw",
+    "Category": "Fruits"
+  },
+  {
+    "Ingredients": "Chuối",
+    "Calories per 100g": 89.0,
+    "Note": "raw",
+    "Category": "Fruits"
+  },
+  {
+    "Ingredients": "Orange",
+    "Calories per 100g": 47.0,
+    "Note": "raw",
+    "Category": "Fruits"
+  },
+  {
+    "Ingredients": "Quả cam",
+    "Calories per 100g": 47.0,
+    "Note": "raw",
+    "Category": "Fruits"
+  },
+  {
+    "Ingredients": "Grapes",
+    "Calories per 100g": 69.0,
+    "Note": "",
+    "Category": "Fruits"
+  },
+  {
+    "Ingredients": "Quả nho",
+    "Calories per 100g": 69.0,
+    "Note": "",
+    "Category": "Fruits"
+  },
+  {
+    "Ingredients": "Strawberries",
+    "Calories per 100g": 33.0,
+    "Note": "",
+    "Category": "Other"
+  },
+  {
+    "Ingredients": "dâu tây",
+    "Calories per 100g": 33.0,
+    "Note": "",
+    "Category": "Other"
+  },
+  {
+    "Ingredients": "Blueberries",
+    "Calories per 100g": 57.0,
+    "Note": "",
+    "Category": "Other"
+  },
+  {
+    "Ingredients": "Quả việt quất",
+    "Calories per 100g": 57.0,
+    "Note": "",
+    "Category": "Other"
+  },
+  {
+    "Ingredients": "Raspberries",
+    "Calories per 100g": 52.0,
+    "Note": "",
+    "Category": "Other"
+  },
+  {
+    "Ingredients": "quả mâm xôi",
+    "Calories per 100g": 52.0,
+    "Note": "",
+    "Category": "Other"
+  },
+  {
+    "Ingredients": "Pineapple",
+    "Calories per 100g": 50.0,
+    "Note": "",
+    "Category": "Fruits"
+  },
+  {
+    "Ingredients": "Quả dứa",
+    "Calories per 100g": 50.0,
+    "Note": "",
+    "Category": "Fruits"
+  },
+  {
+    "Ingredients": "Mango",
+    "Calories per 100g": 60.0,
+    "Note": "",
+    "Category": "Fruits"
+  },
+  {
+    "Ingredients": "Quả xoài",
+    "Calories per 100g": 60.0,
+    "Note": "",
+    "Category": "Fruits"
+  },
+  {
+    "Ingredients": "Papaya",
+    "Calories per 100g": 43.0,
+    "Note": "",
+    "Category": "Fruits"
+  },
+  {
+    "Ingredients": "Đu đủ",
+    "Calories per 100g": 43.0,
+    "Note": "",
+    "Category": "Fruits"
+  },
+  {
+    "Ingredients": "Kiwi",
+    "Calories per 100g": 61.0,
+    "Note": "",
+    "Category": "Fruits"
+  },
+  {
+    "Ingredients": "Kiwi",
+    "Calories per 100g": 61.0,
+    "Note": "",
+    "Category": "Fruits"
+  },
+  {
+    "Ingredients": "Watermelon",
+    "Calories per 100g": 30.0,
+    "Note": "",
+    "Category": "Fruits"
+  },
+  {
+    "Ingredients": "dưa hấu",
+    "Calories per 100g": 30.0,
+    "Note": "",
+    "Category": "Fruits"
+  },
+  {
+    "Ingredients": "Cantaloupe",
+    "Calories per 100g": 34.0,
+    "Note": "",
+    "Category": "Fruits"
+  },
+  {
+    "Ingredients": "dưa đỏ",
+    "Calories per 100g": 34.0,
+    "Note": "",
+    "Category": "Fruits"
+  },
+  {
+    "Ingredients": "Dates",
+    "Calories per 100g": 282.0,
+    "Note": "",
+    "Category": "Fruits"
+  },
+  {
+    "Ingredients": "Ngày",
+    "Calories per 100g": 282.0,
+    "Note": "",
+    "Category": "Fruits"
+  },
+  {
+    "Ingredients": "Figs",
+    "Calories per 100g": 249.0,
+    "Note": "dried",
+    "Category": "Fruits"
+  },
+  {
+    "Ingredients": "quả sung",
+    "Calories per 100g": 249.0,
+    "Note": "dried",
+    "Category": "Fruits"
+  },
+  {
+    "Ingredients": "Raisins",
+    "Calories per 100g": 299.0,
+    "Note": "",
+    "Category": "Fruits"
+  },
+  {
+    "Ingredients": "nho khô",
+    "Calories per 100g": 299.0,
+    "Note": "",
+    "Category": "Fruits"
+  },
+  {
+    "Ingredients": "Dark Chocolate",
+    "Calories per 100g": 604.0,
+    "Note": "70-85% cacao",
+    "Category": "Sweets & Snacks"
+  },
+  {
+    "Ingredients": "Sôcôla đen",
+    "Calories per 100g": 604.0,
+    "Note": "70-85% cacao",
+    "Category": "Sweets & Snacks"
+  },
+  {
+    "Ingredients": "Milk Chocolate",
+    "Calories per 100g": 535.0,
+    "Note": "",
+    "Category": "Dairy & Eggs"
+  },
+  {
+    "Ingredients": "Sôcôla sữa",
+    "Calories per 100g": 535.0,
+    "Note": "",
+    "Category": "Dairy & Eggs"
+  },
+  {
+    "Ingredients": "Chocolate Chip Cookie",
+    "Calories per 100g": 502.0,
+    "Note": "",
+    "Category": "Sweets & Snacks"
+  },
+  {
+    "Ingredients": "Bánh quy sô cô la",
+    "Calories per 100g": 502.0,
+    "Note": "",
+    "Category": "Sweets & Snacks"
+  },
+  {
+    "Ingredients": "Brownie",
+    "Calories per 100g": 466.0,
+    "Note": "",
+    "Category": "Sweets & Snacks"
+  },
+  {
+    "Ingredients": "bánh hạnh nhân",
+    "Calories per 100g": 466.0,
+    "Note": "",
+    "Category": "Sweets & Snacks"
+  },
+  {
+    "Ingredients": "Ice Cream",
+    "Calories per 100g": 207.0,
+    "Note": "vanilla",
+    "Category": "Dairy & Eggs"
+  },
+  {
+    "Ingredients": "Kem",
+    "Calories per 100g": 207.0,
+    "Note": "vanilla",
+    "Category": "Dairy & Eggs"
+  },
+  {
+    "Ingredients": "Sour Cream",
+    "Calories per 100g": 193.0,
+    "Note": "full fat",
+    "Category": "Dairy & Eggs"
+  },
+  {
+    "Ingredients": "Kem chua",
+    "Calories per 100g": 193.0,
+    "Note": "full fat",
+    "Category": "Dairy & Eggs"
+  },
+  {
+    "Ingredients": "Ketchup",
+    "Calories per 100g": 112.0,
+    "Note": "",
+    "Category": "Condiments & Sauces"
+  },
+  {
+    "Ingredients": "sốt cà chua",
+    "Calories per 100g": 112.0,
+    "Note": "",
+    "Category": "Condiments & Sauces"
+  },
+  {
+    "Ingredients": "Mustard",
+    "Calories per 100g": 66.0,
+    "Note": "",
+    "Category": "Condiments & Sauces"
+  },
+  {
+    "Ingredients": "mù tạt",
+    "Calories per 100g": 66.0,
+    "Note": "",
+    "Category": "Condiments & Sauces"
+  },
+  {
+    "Ingredients": "Soy Sauce",
+    "Calories per 100g": 53.0,
+    "Note": "",
+    "Category": "Condiments & Sauces"
+  },
+  {
+    "Ingredients": "nước tương",
+    "Calories per 100g": 53.0,
+    "Note": "",
+    "Category": "Condiments & Sauces"
+  },
+  {
+    "Ingredients": "Bbq Sauce",
+    "Calories per 100g": 220.0,
+    "Note": "",
+    "Category": "Condiments & Sauces"
+  },
+  {
+    "Ingredients": "Sốt BBQ",
+    "Calories per 100g": 220.0,
+    "Note": "",
+    "Category": "Condiments & Sauces"
+  },
+  {
+    "Ingredients": "Granola",
+    "Calories per 100g": 471.0,
+    "Note": "",
+    "Category": "Grains & Cereals"
+  },
+  {
+    "Ingredients": "ngũ cốc",
+    "Calories per 100g": 471.0,
+    "Note": "",
+    "Category": "Grains & Cereals"
+  },
+  {
+    "Ingredients": "Cereal",
+    "Calories per 100g": 357.0,
+    "Note": "corn flakes",
+    "Category": "Grains & Cereals"
+  },
+  {
+    "Ingredients": "Ngũ cốc",
+    "Calories per 100g": 357.0,
+    "Note": "corn flakes",
+    "Category": "Grains & Cereals"
+  },
+  {
+    "Ingredients": "Protein Powder",
+    "Calories per 100g": 400.0,
+    "Note": "whey",
+    "Category": "Other"
+  },
+  {
+    "Ingredients": "Bột đạm",
+    "Calories per 100g": 400.0,
+    "Note": "whey",
+    "Category": "Other"
+  },
+  {
+    "Ingredients": "Fermented Fish Paste",
+    "Calories per 100g": 121.0,
+    "Note": "",
+    "Category": "Fish & Seafood"
+  },
+  {
+    "Ingredients": "Mắm cá lên men",
+    "Calories per 100g": 121.0,
+    "Note": "",
+    "Category": "Fish & Seafood"
+  },
+  {
+    "Ingredients": "Lentils",
+    "Calories per 100g": 116.0,
+    "Note": "cooked",
+    "Category": "Legumes"
+  },
+  {
+    "Ingredients": "đậu lăng",
+    "Calories per 100g": 116.0,
+    "Note": "cooked",
+    "Category": "Legumes"
+  },
+  {
+    "Ingredients": "Chickpeas",
+    "Calories per 100g": 164.0,
+    "Note": "cooked",
+    "Category": "Legumes"
+  },
+  {
+    "Ingredients": "đậu xanh",
+    "Calories per 100g": 164.0,
+    "Note": "cooked",
+    "Category": "Legumes"
+  },
+  {
+    "Ingredients": "Kidney Beans",
+    "Calories per 100g": 127.0,
+    "Note": "cooked",
+    "Category": "Legumes"
+  },
+  {
+    "Ingredients": "Đậu thận",
+    "Calories per 100g": 127.0,
+    "Note": "cooked",
+    "Category": "Legumes"
+  },
+  {
+    "Ingredients": "Black Beans",
+    "Calories per 100g": 132.0,
+    "Note": "cooked",
+    "Category": "Legumes"
+  },
+  {
+    "Ingredients": "Đậu đen",
+    "Calories per 100g": 132.0,
+    "Note": "cooked",
+    "Category": "Legumes"
+  },
+  {
+    "Ingredients": "Hummus",
+    "Calories per 100g": 166.0,
+    "Note": "",
+    "Category": "Legumes"
+  },
+  {
+    "Ingredients": "hummus",
+    "Calories per 100g": 166.0,
+    "Note": "",
+    "Category": "Legumes"
+  },
+  {
+    "Ingredients": "Soy Milk",
+    "Calories per 100g": 33.0,
+    "Note": "unsweetened",
+    "Category": "Dairy & Eggs"
+  },
+  {
+    "Ingredients": "Sữa đậu nành",
+    "Calories per 100g": 33.0,
+    "Note": "unsweetened",
+    "Category": "Dairy & Eggs"
+  },
+  {
+    "Ingredients": "Almond Milk",
+    "Calories per 100g": 15.0,
+    "Note": "unsweetened",
+    "Category": "Dairy & Eggs"
+  },
+  {
+    "Ingredients": "Sữa hạnh nhân",
+    "Calories per 100g": 15.0,
+    "Note": "unsweetened",
+    "Category": "Dairy & Eggs"
+  },
+  {
+    "Ingredients": "Coconut Milk",
+    "Calories per 100g": 230.0,
+    "Note": "canned",
+    "Category": "Dairy & Eggs"
+  },
+  {
+    "Ingredients": "nước cốt dừa",
+    "Calories per 100g": 230.0,
+    "Note": "canned",
+    "Category": "Dairy & Eggs"
+  },
+  {
+    "Ingredients": "Tofu Scramble",
+    "Calories per 100g": 150.0,
+    "Note": "prepared",
+    "Category": "Legumes"
+  },
+  {
+    "Ingredients": "Đậu phụ xào",
+    "Calories per 100g": 150.0,
+    "Note": "prepared",
+    "Category": "Legumes"
+  },
+  {
+    "Ingredients": "Barley",
+    "Calories per 100g": 123.0,
+    "Note": "cooked",
+    "Category": "Grains & Cereals"
+  },
+  {
+    "Ingredients": "lúa mạch",
+    "Calories per 100g": 123.0,
+    "Note": "cooked",
+    "Category": "Grains & Cereals"
+  },
+  {
+    "Ingredients": "Buckwheat",
+    "Calories per 100g": 92.0,
+    "Note": "cooked",
+    "Category": "Grains & Cereals"
+  },
+  {
+    "Ingredients": "kiều mạch",
+    "Calories per 100g": 92.0,
+    "Note": "cooked",
+    "Category": "Grains & Cereals"
+  },
+  {
+    "Ingredients": "Millet",
+    "Calories per 100g": 119.0,
+    "Note": "cooked",
+    "Category": "Grains & Cereals"
+  },
+  {
+    "Ingredients": "kê",
+    "Calories per 100g": 119.0,
+    "Note": "cooked",
+    "Category": "Grains & Cereals"
+  },
+  {
+    "Ingredients": "Polenta",
+    "Calories per 100g": 70.0,
+    "Note": "cooked",
+    "Category": "Grains & Cereals"
+  },
+  {
+    "Ingredients": "polenta",
+    "Calories per 100g": 70.0,
+    "Note": "cooked",
+    "Category": "Grains & Cereals"
+  },
+  {
+    "Ingredients": "Oatmeal",
+    "Calories per 100g": 71.0,
+    "Note": "cooked",
+    "Category": "Grains & Cereals"
+  },
+  {
+    "Ingredients": "bột yến mạch",
+    "Calories per 100g": 71.0,
+    "Note": "cooked",
+    "Category": "Grains & Cereals"
+  },
+  {
+    "Ingredients": "Popcorn",
+    "Calories per 100g": 387.0,
+    "Note": "air-popped",
+    "Category": "Vegetables"
+  },
+  {
+    "Ingredients": "bỏng ngô",
+    "Calories per 100g": 387.0,
+    "Note": "air-popped",
+    "Category": "Vegetables"
+  },
+  {
+    "Ingredients": "Pretzel",
+    "Calories per 100g": 380.0,
+    "Note": "",
+    "Category": "Sweets & Snacks"
+  },
+  {
+    "Ingredients": "bánh quy xoắn",
+    "Calories per 100g": 380.0,
+    "Note": "",
+    "Category": "Sweets & Snacks"
+  },
+  {
+    "Ingredients": "Crackers",
+    "Calories per 100g": 502.0,
+    "Note": "",
+    "Category": "Sweets & Snacks"
+  },
+  {
+    "Ingredients": "bánh quy giòn",
+    "Calories per 100g": 502.0,
+    "Note": "",
+    "Category": "Sweets & Snacks"
+  },
+  {
+    "Ingredients": "Anchovies",
+    "Calories per 100g": 210.0,
+    "Note": "canned in oil",
+    "Category": "Fish & Seafood"
+  },
+  {
+    "Ingredients": "cá cơm",
+    "Calories per 100g": 210.0,
+    "Note": "canned in oil",
+    "Category": "Fish & Seafood"
+  },
+  {
+    "Ingredients": "Clams",
+    "Calories per 100g": 74.0,
+    "Note": "cooked",
+    "Category": "Fish & Seafood"
+  },
+  {
+    "Ingredients": "Trai",
+    "Calories per 100g": 74.0,
+    "Note": "cooked",
+    "Category": "Fish & Seafood"
+  },
+  {
+    "Ingredients": "Oysters",
+    "Calories per 100g": 81.0,
+    "Note": "cooked",
+    "Category": "Fish & Seafood"
+  },
+  {
+    "Ingredients": "Hàu",
+    "Calories per 100g": 81.0,
+    "Note": "cooked",
+    "Category": "Fish & Seafood"
+  },
+  {
+    "Ingredients": "Scallops",
+    "Calories per 100g": 111.0,
+    "Note": "cooked",
+    "Category": "Fish & Seafood"
+  },
+  {
+    "Ingredients": "Sò điệp",
+    "Calories per 100g": 111.0,
+    "Note": "cooked",
+    "Category": "Fish & Seafood"
+  },
+  {
+    "Ingredients": "Lobster",
+    "Calories per 100g": 89.0,
+    "Note": "cooked",
+    "Category": "Fish & Seafood"
+  },
+  {
+    "Ingredients": "Tôm",
+    "Calories per 100g": 89.0,
+    "Note": "cooked",
+    "Category": "Fish & Seafood"
+  },
+  {
+    "Ingredients": "Crab",
+    "Calories per 100g": 83.0,
+    "Note": "cooked",
+    "Category": "Fish & Seafood"
+  },
+  {
+    "Ingredients": "Cua",
+    "Calories per 100g": 83.0,
+    "Note": "cooked",
+    "Category": "Fish & Seafood"
+  },
+  {
+    "Ingredients": "Beef",
+    "Calories per 100g": 250.0,
+    "Note": "",
+    "Category": "Meat & Poultry"
+  },
+  {
+    "Ingredients": "Thịt bò",
+    "Calories per 100g": 250.0,
+    "Note": "",
+    "Category": "Meat & Poultry"
+  },
+  {
+    "Ingredients": "Lean Pork",
+    "Calories per 100g": 242.0,
+    "Note": "",
+    "Category": "Meat & Poultry"
+  },
+  {
+    "Ingredients": "thịt lợn nạc",
+    "Calories per 100g": 242.0,
+    "Note": "",
+    "Category": "Meat & Poultry"
+  },
+  {
+    "Ingredients": "Fresh Milk",
+    "Calories per 100g": 42.0,
+    "Note": "unsweetened",
+    "Category": "Dairy & Eggs"
+  },
+  {
+    "Ingredients": "Sữa tươi",
+    "Calories per 100g": 42.0,
+    "Note": "unsweetened",
+    "Category": "Dairy & Eggs"
+  },
+  {
+    "Ingredients": "Cooking Oil",
+    "Calories per 100g": 884.0,
+    "Note": "",
+    "Category": "Oils & Fats"
+  },
+  {
+    "Ingredients": "Dầu ăn",
+    "Calories per 100g": 884.0,
+    "Note": "",
+    "Category": "Oils & Fats"
+  },
+  {
+    "Ingredients": "Straw Mushroom",
+    "Calories per 100g": 22.0,
+    "Note": "",
+    "Category": "Vegetables"
+  },
+  {
+    "Ingredients": "Nấm Rơm",
+    "Calories per 100g": 22.0,
+    "Note": "",
+    "Category": "Vegetables"
+  },
+  {
+    "Ingredients": "Peanut",
+    "Calories per 100g": 567.0,
+    "Note": "",
+    "Category": "Nuts & Seeds"
+  },
+  {
+    "Ingredients": "Đậu phộng",
+    "Calories per 100g": 567.0,
+    "Note": "",
+    "Category": "Nuts & Seeds"
+  },
+  {
+    "Ingredients": "Cashew Nut",
+    "Calories per 100g": 553.0,
+    "Note": "",
+    "Category": "Nuts & Seeds"
+  },
+  {
+    "Ingredients": "hạt điều",
+    "Calories per 100g": 553.0,
+    "Note": "",
+    "Category": "Nuts & Seeds"
+  },
+  {
+    "Ingredients": "Sesame Seed",
+    "Calories per 100g": 573.0,
+    "Note": "",
+    "Category": "Nuts & Seeds"
+  },
+  {
+    "Ingredients": "hạt mè",
+    "Calories per 100g": 573.0,
+    "Note": "",
+    "Category": "Nuts & Seeds"
+  },
+  {
+    "Ingredients": "Wheat Flour",
+    "Calories per 100g": 364.0,
+    "Note": "",
+    "Category": "Grains & Cereals"
+  },
+  {
+    "Ingredients": "Bột mì",
+    "Calories per 100g": 364.0,
+    "Note": "",
+    "Category": "Grains & Cereals"
+  },
+  {
+    "Ingredients": "Mung Bean",
+    "Calories per 100g": 347.0,
+    "Note": "",
+    "Category": "Legumes"
+  },
+  {
+    "Ingredients": "đậu xanh",
+    "Calories per 100g": 347.0,
+    "Note": "",
+    "Category": "Legumes"
+  },
+  {
+    "Ingredients": "Soybean",
+    "Calories per 100g": 446.0,
+    "Note": "",
+    "Category": "Legumes"
+  },
+  {
+    "Ingredients": "Đậu nành",
+    "Calories per 100g": 446.0,
+    "Note": "",
+    "Category": "Legumes"
+  },
+  {
+    "Ingredients": "Grape",
+    "Calories per 100g": 69.0,
+    "Note": "",
+    "Category": "Fruits"
+  },
+  {
+    "Ingredients": "Quả nho",
+    "Calories per 100g": 69.0,
+    "Note": "",
+    "Category": "Fruits"
+  },
+  {
+    "Ingredients": "Strawberry",
+    "Calories per 100g": 32.0,
+    "Note": "",
+    "Category": "Fruits"
+  },
+  {
+    "Ingredients": "Quả dâu",
+    "Calories per 100g": 32.0,
+    "Note": "",
+    "Category": "Fruits"
+  },
+  {
+    "Ingredients": "Taro",
+    "Calories per 100g": 142.0,
+    "Note": "",
+    "Category": "Vegetables"
+  },
+  {
+    "Ingredients": "khoai môn",
+    "Calories per 100g": 142.0,
+    "Note": "",
+    "Category": "Vegetables"
+  },
+  {
+    "Ingredients": "Pumpkin",
+    "Calories per 100g": 26.0,
+    "Note": "",
+    "Category": "Vegetables"
+  },
+  {
+    "Ingredients": "bí ngô",
+    "Calories per 100g": 26.0,
+    "Note": "",
+    "Category": "Vegetables"
+  },
+  {
+    "Ingredients": "Green Bean",
+    "Calories per 100g": 31.0,
+    "Note": "",
+    "Category": "Legumes"
+  },
+  {
+    "Ingredients": "Đậu xanh",
+    "Calories per 100g": 31.0,
+    "Note": "",
+    "Category": "Legumes"
+  },
+  {
+    "Ingredients": "Mustard Green",
+    "Calories per 100g": 22.0,
+    "Note": "",
+    "Category": "Vegetables"
+  },
+  {
+    "Ingredients": "mù tạt xanh",
+    "Calories per 100g": 22.0,
+    "Note": "",
+    "Category": "Vegetables"
+  },
+  {
+    "Ingredients": "Water Spinach",
+    "Calories per 100g": 33.0,
+    "Note": "",
+    "Category": "Vegetables"
+  },
+  {
+    "Ingredients": "rau muống",
+    "Calories per 100g": 33.0,
+    "Note": "",
+    "Category": "Vegetables"
+  },
+  {
+    "Ingredients": "Herbs",
+    "Calories per 100g": 44.0,
+    "Note": "",
+    "Category": "Vegetables"
+  },
+  {
+    "Ingredients": "thảo mộc",
+    "Calories per 100g": 44.0,
+    "Note": "",
+    "Category": "Vegetables"
+  },
+  {
+    "Ingredients": "Chia Seed",
+    "Calories per 100g": 486.0,
+    "Note": "",
+    "Category": "Nuts & Seeds"
+  },
+  {
+    "Ingredients": "Hạt Chia",
+    "Calories per 100g": 486.0,
+    "Note": "",
+    "Category": "Nuts & Seeds"
+  },
+  {
+    "Ingredients": "Gummy Candy",
+    "Calories per 100g": 325.0,
+    "Note": "",
+    "Category": "Sweets & Snacks"
+  },
+  {
+    "Ingredients": "Kẹo dẻo",
+    "Calories per 100g": 325.0,
+    "Note": "",
+    "Category": "Sweets & Snacks"
+  }
+]

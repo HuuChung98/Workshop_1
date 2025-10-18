@@ -6,11 +6,12 @@ from tenacity import retry, stop_after_attempt, wait_exponential, retry_if_excep
 from openai import AzureOpenAI
 import tiktoken
 from dotenv import load_dotenv
+import re
 import json
 
 load_dotenv()
 
-with open("dataset.json", "r", encoding="utf-8") as f:
+with open("dataset_with_vietnamese.json", "r", encoding="utf-8") as f:
     dataset = json.load(f)
 
 # --------------------------
@@ -179,16 +180,56 @@ function_definition = [{
 }]
 
 # Calculate calories based on ingredient name and weight
-def calculate_calories(ingredient_name: str, weight: float) -> float:
-    """Tính tổng calories dựa trên tên nguyên liệu và trọng lượng (gram)."""
-    # Tìm nguyên liệu trong dataset
-    match = next((item for item in dataset if item["Ingredients"].lower() == ingredient_name.lower()), None)
-    if not match:
-        raise ValueError(f"Không tìm thấy nguyên liệu: {ingredient_name}")
+# def calculate_calories(ingredient_name: str, weight: float) -> float:
+#     """Tính tổng calories dựa trên tên nguyên liệu và trọng lượng (gram)."""
+#     # Tìm nguyên liệu trong dataset
+#     match = next((item for item in dataset if item["Ingredients"].lower() == ingredient_name.lower()), None)
+#     if not match:
+#         raise ValueError(f"Không tìm thấy nguyên liệu: {ingredient_name}")
     
-    cal_per_100g = match["Calories per 100g"]
-    total_cal = (weight / 100) * cal_per_100g
-    return total_cal
+#     cal_per_100g = match["Calories per 100g"]
+#     total_cal = (weight / 100) * cal_per_100g
+#     return total_cal
+
+def calculate_calories(ingredients: list) -> dict:
+    """
+    Tính tổng lượng calories dựa trên danh sách nguyên liệu.
+    Mỗi phần tử trong list có dạng:
+    {"ingredient_name": "Cá hồi", "weight": 1000}
+    """
+    results = []
+    total_calories = 0.0
+
+    for item in ingredients:
+        name = item["ingredient_name"]
+        weight = item["weight"]
+
+        # Tìm nguyên liệu trong dataset
+        match = next((d for d in dataset if d["Ingredients"].lower() == name.lower()), None)
+
+        if not match:
+            results.append({
+                "ingredient": name,
+                "weight": weight,
+                "calories": None,
+                "note": "Không tìm thấy nguyên liệu trong dataset"
+            })
+            continue
+
+        cal_per_100g = match["Calories per 100g"]
+        calories = (weight / 100) * cal_per_100g
+        total_calories += calories
+
+        results.append({
+            "ingredient": name,
+            "weight": weight,
+            "calories": round(calories, 2)
+        })
+
+    return {
+        "details": results,
+        "total_calories": round(total_calories, 2)
+    }
 
 def _is_transient_error(e: Exception) -> bool:
     msg = str(e).lower()
@@ -207,6 +248,27 @@ def _is_transient_error(e: Exception) -> bool:
         ]
     )
 
+def extract_ingredients_from_prompt(prompt: str):
+    """
+    Trích xuất danh sách nguyên liệu và trọng lượng (gram) từ chuỗi người dùng nhập.
+    Ví dụ: "Cá hồi: 1000g, Gạo trắng: 200g"
+    """
+    text = prompt.strip()
+    pattern = r'([\w\sÀ-ỹ]+?)[:：]\s*(\d+(?:[\.,]\d+)?)\s*(?:g|gr|gram|grams)\b'
+    matches = re.findall(pattern, text, flags=re.IGNORECASE)
+
+    ingredients = []
+    for name, weight_str in matches:
+        try:
+            weight = float(weight_str.replace(',', '.'))
+            ingredients.append({
+                "ingredient_name": name.strip().capitalize(),
+                "weight": weight
+            })
+        except ValueError:
+            continue
+
+    return ingredients
 # --------------------------
 # Chat completion with assistant role
 # --------------------------
@@ -220,55 +282,75 @@ def _is_transient_error(e: Exception) -> bool:
 def chat_complete(system: str, user: str, temperature: float, max_tokens: int = MAX_OUTPUT_TOKENS) -> str:
     """
     Calls Azure OpenAI ChatCompletion with retry on transient errors.
-    Includes assistant role for context continuity.
+    Tự động:
+    - Bóc tách nguyên liệu nếu có ("Cá hồi: 100g, Gạo: 50g") và tính calories ngay.
+    - Nếu không có nguyên liệu, để GPT xử lý theo flow thông thường.
     """
     try:
+        # 1️⃣ Thử trích xuất danh sách nguyên liệu từ prompt
+        ingredients = extract_ingredients_from_prompt(user)
+
+        if ingredients:
+            print("🧾 Ingredients auto-detected:", json.dumps(ingredients, indent=2, ensure_ascii=False))
+            result = calculate_calories(ingredients)
+
+            # Format kết quả trả về
+            lines = [f"Tổng calories: {result['total_calories']} kcal"]
+            for item in result["details"]:
+                if item["calories"]:
+                    lines.append(f"- {item['ingredient']} ({item['weight']}g): {item['calories']} kcal")
+                else:
+                    lines.append(f"- {item['ingredient']} ({item['weight']}g): không có dữ liệu")
+
+            return "\n".join(lines)
+
+        # 2️⃣ Nếu không có nguyên liệu → để GPT xử lý như bình thường
         response = client.chat.completions.create(
             model=DEPLOYMENT,
             messages=[
-            {"role": "system", "content": system},
-            {"role": "user", "content": user},
-            # {"role": "assistant", "content": "Understood. Summarizing the meeting as requested..."},
+                {"role": "system", "content": system},
+                {"role": "user", "content": user},
             ],
             tools=function_definition,
             tool_choice="auto",
             temperature=temperature,
             max_tokens=max_tokens,
         )
+
         message = response.choices[0].message
 
-        # 2️⃣ Nếu GPT gọi function
+        # 3️⃣ Nếu GPT gọi function (tool_call)
         if getattr(message, "tool_calls", None):
             for tool_call in message.tool_calls:
                 func_name = tool_call.function.name
                 args = json.loads(tool_call.function.arguments)
 
                 if func_name == "calculate_calories":
-                    # Gọi hàm Python thực tế
-                    result = calculate_calories(**args)
+                    result = calculate_calories(args["ingredients"])
 
-                    # Gửi lại kết quả cho GPT để nó sinh câu trả lời hoàn chỉnh
                     follow_up = client.chat.completions.create(
                         model=DEPLOYMENT,
                         messages=[
                             {"role": "system", "content": system},
                             {"role": "user", "content": user},
-                            message,  # include the function call message
+                            message,
                             {
                                 "role": "tool",
                                 "tool_call_id": tool_call.id,
                                 "name": func_name,
-                                "content": str(result),
+                                "content": json.dumps(result, ensure_ascii=False),
                             },
                         ],
+                        tools=function_definition,
                         temperature=temperature,
                         max_tokens=max_tokens,
                     )
 
                     return follow_up.choices[0].message.content.strip()
 
-        # 3️⃣ Nếu GPT không gọi hàm — chỉ trả lời bình thường
+        # 4️⃣ Nếu GPT không gọi hàm — chỉ trả lời text
         return (message.content or "").strip()
+
     except Exception as e:
         if _is_transient_error(e):
             raise TransientOpenAIError(str(e))
