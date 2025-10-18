@@ -1,40 +1,26 @@
-Author: CHUNGLH3
-DATE: 08/10/2025
+# Cookbook chatbot (Python, Azure OpenAI)
 
-# Meeting Summarizer (Python, Azure OpenAI)
-
-A minimal app that lets users upload meeting transcripts and returns concise summaries.
-You can run it as a **web app (Streamlit)** or a **CLI tool**.
+A chatbot that returns cooking guidelines and estimates calories from ingredient lists. Runs as a Streamlit web app.
 
 ---
 
-## Features (Expected Outcomes)
-- **Functional Application:** Upload a `.txt` transcript and receive a summarized version.
-- **Simple UI:** Streamlit web UI with file upload + output panel; CLI for terminal use.
-- **Handles long inputs:** Automatic chunking & hierarchical summarization (map-reduce).
-- **Azure OpenAI Integration:** Uses `AzureOpenAI` SDK and `gpt-4o-mini`/compatible deployments.
-- **Clear Docs:** This README plus inline code comments.
+## Features
+- Streamlit web UI for user dish input and generated recipes.
+- Auto-extracts ingredients (weights in grams) and computes calories using a local dataset.
+- Handles long text via chunking & hierarchical summarization.
+- Azure OpenAI integration (chat completions + optional function/tool calls).
 
 ---
 
-## Architecture (Concepts Covered)
-- **GPT summarization** via Azure OpenAI Chat Completions.
-- **Large text processing** with safe chunking, token-aware batching, and a map-reduce strategy.
-- **UI design** with Streamlit: one page, one upload, one result.
-- **Azure OpenAI integration** via environment variables.
-- **Documentation** for setup, run, and customization.
-
----
-
-## ⚙️ Prerequisites
+## Prerequisites
 - Python 3.9+
-- An **Azure OpenAI** resource with a deployed chat model (`gpt-4o-mini` compatible).
-- Your Azure OpenAI credentials and endpoint.
+- Azure OpenAI resource with a chat-capable deployment.
+- (Optional) dataset_with_vietnamese.json for calorie lookups.
 
 ---
 
-## 🔐 Environment Variables
-Create `.env` (or set in your shell) with:
+## Environment Variables
+Create a `.env` (or set in shell):
 ```
 AZURE_OPENAI_ENDPOINT="https://<your-resource-name>.openai.azure.com/"
 AZURE_OPENAI_KEY="<your-azure-openai-key>"
@@ -42,38 +28,50 @@ AZURE_OPENAI_DEPLOYMENT="<your-deployment-name>"   # e.g., "gpt-4o-mini"
 AZURE_OPENAI_API_VERSION="2024-07-01-preview"
 ```
 
-> **Note:** The `AZURE_OPENAI_DEPLOYMENT` is the **deployment name** you created in Azure for the chosen model (not the model family).
+Note: AZURE_OPENAI_DEPLOYMENT must be the exact deployment name you created in Azure.
 
 ---
 
-## 📦 Install
-```bash
+## Install (Windows)
+```powershell
 python -m venv .venv
-source .venv/bin/activate  # Windows: .venv\Scripts\activate
+.venv\Scripts\Activate.ps1   # or: env\Scripts\activate
 pip install -r requirements.txt
 ```
 
 ---
 
-## 🚀 Run (Web UI)
+## Run (Web UI)
 ```bash
 streamlit run app_streamlit.py
 ```
-Open the printed local URL in your browser. Upload a `.txt` transcript and click **Summarize**.
+Open the local URL printed by Streamlit and input a dish or paste a transcript.
 
 ---
 
-## 🧰 Run (CLI)
-```bash
-python summarize_cli.py --input sample_transcript.txt --output summary.txt
-```
-- Use `--style` to change tone (`executive`, `bullet`, `action-items`, `detailed`).  
-- Use `--lang` to get summaries in another language (e.g., `vi` or `en`).
+## Troubleshooting
+
+- Missing env vars → script raises EnvironmentError. Ensure `.env` or environment contains required keys.
+
+
+- The repository contains an example change in `summarize.py` that collects all tool_call responses, creates tool messages for each, and issues one follow-up completion — this resolves the BadRequest.
+
+- Rate limits / transient errors: code includes retries for transient OpenAI errors; wait and retry if you hit rate limits.
 
 ---
 
-## 🧪 Quick Test
-A small example is included at `sample_transcript.txt`:
+## Testing & Development
+- Run tests:
 ```bash
-python summarize_cli.py --input sample_transcript.txt --output summary.txt --style bullet
+pytest -q
 ```
+
+---
+
+## Data / Helpers
+- dataset_with_vietnamese.json — lookup table for calories per 100g (keep in project root if used).
+- Helper behavior:
+  - Ingredients are normalized and converted to grams when possible.
+  - If ingredient extraction fails, the app falls back to manual input or returns the normal chat completion.
+
+---
