@@ -200,7 +200,7 @@ function_definition = [{
             "required": ["ingredients"]
         },
     }
-]
+}]
 
 # Calculate calories based on ingredient name and weight
 # def calculate_calories(ingredient_name: str, weight: float) -> float:
