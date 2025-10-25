@@ -1,0 +1,611 @@
+[
+  {
+    "title": "Spaghetti Carbonara",
+    "description": "Authentic Roman-style pasta using eggs, Pecorino/Parmesan, and pancetta. Based on BBC Good Food's classic approach (no cream).",
+    "ingredients": [
+      {
+        "ingredient_name": "spaghetti",
+        "quantity_g": 350
+      },
+      {
+        "ingredient_name": "pancetta",
+        "quantity_g": 100
+      },
+      {
+        "ingredient_name": "pecorino romano",
+        "quantity_g": 50
+      },
+      {
+        "ingredient_name": "parmesan cheese",
+        "quantity_g": 50
+      },
+      {
+        "ingredient_name": "egg",
+        "quantity_piece": 3
+      },
+      {
+        "ingredient_name": "garlic",
+        "quantity_g": 12
+      },
+      {
+        "ingredient_name": "unsalted butter",
+        "quantity_g": 50
+      },
+      {
+        "ingredient_name": "black pepper",
+        "quantity_g": 2
+      },
+      {
+        "ingredient_name": "salt",
+        "quantity_g": 4
+      }
+    ],
+    "cooking_steps": [
+      "Step 1: Grate cheeses and cube pancetta; prep in 5 min.",
+      "Step 2: Boil 3 L water with salt; cook spaghetti 9 min until al dente.",
+      "Step 3: Melt butter and sauté pancetta with crushed garlic 5 min until browned.",
+      "Step 4: Whisk eggs with pecorino and parmesan 2 min.",
+      "Step 5: Reserve 150 ml pasta water; drain pasta 1 min.",
+      "Step 6: Toss pasta with pancetta off heat 1 min.",
+      "Step 7: Add egg-cheese mixture while tossing vigorously 2 min; loosen with pasta water as needed.",
+      "Step 8: Season with black pepper and adjust salt 1 min.",
+      "Step 9: Rest 2 min and serve immediately."
+    ],
+    "cook_time_min": 28
+  },
+  {
+    "title": "Butter Chicken (Murgh Makhani)",
+    "description": "Tandoori-style chicken pieces simmered in a buttery tomato-cream sauce. Based on IndianHealthyRecipes.",
+    "ingredients": [
+      {
+        "ingredient_name": "chicken thigh",
+        "quantity_g": 900
+      },
+      {
+        "ingredient_name": "yogurt",
+        "quantity_ml": 120
+      },
+      {
+        "ingredient_name": "lemon juice",
+        "quantity_ml": 15
+      },
+      {
+        "ingredient_name": "garlic",
+        "quantity_g": 20
+      },
+      {
+        "ingredient_name": "ginger",
+        "quantity_g": 20
+      },
+      {
+        "ingredient_name": "garam masala",
+        "quantity_g": 10
+      },
+      {
+        "ingredient_name": "turmeric powder",
+        "quantity_g": 4
+      },
+      {
+        "ingredient_name": "chili powder",
+        "quantity_g": 6
+      },
+      {
+        "ingredient_name": "unsalted butter",
+        "quantity_g": 60
+      },
+      {
+        "ingredient_name": "tomato puree",
+        "quantity_ml": 400
+      },
+      {
+        "ingredient_name": "heavy cream",
+        "quantity_ml": 120
+      },
+      {
+        "ingredient_name": "sugar",
+        "quantity_g": 6
+      },
+      {
+        "ingredient_name": "salt",
+        "quantity_g": 8
+      }
+    ],
+    "cooking_steps": [
+      "Step 1: Marinate chicken with yogurt, lemon, garlic, ginger, and spices 20 min.",
+      "Step 2: Sear marinated chicken in butter 8 min until lightly charred.",
+      "Step 3: Add tomato puree and simmer 10 min until thick.",
+      "Step 4: Stir in cream and sugar; simmer 5 min until silky.",
+      "Step 5: Adjust salt and garam masala; simmer 3 min.",
+      "Step 6: Rest 2 min and garnish with butter.",
+      "Step 7: Serve hot with rice or naan."
+    ],
+    "cook_time_min": 50
+  },
+  {
+    "title": "Pad Thai",
+    "description": "Stir-fried rice noodles with tamarind, fish sauce, palm sugar, eggs, tofu, and peanuts. Based on Serious Eats.",
+    "ingredients": [
+      {
+        "ingredient_name": "rice noodles (flat)",
+        "quantity_g": 200
+      },
+      {
+        "ingredient_name": "firm tofu",
+        "quantity_g": 150
+      },
+      {
+        "ingredient_name": "egg",
+        "quantity_piece": 2
+      },
+      {
+        "ingredient_name": "bean sprouts",
+        "quantity_g": 150
+      },
+      {
+        "ingredient_name": "garlic chives",
+        "quantity_g": 40
+      },
+      {
+        "ingredient_name": "roasted peanut",
+        "quantity_g": 50
+      },
+      {
+        "ingredient_name": "tamarind paste",
+        "quantity_g": 30
+      },
+      {
+        "ingredient_name": "fish sauce",
+        "quantity_ml": 45
+      },
+      {
+        "ingredient_name": "palm sugar",
+        "quantity_g": 30
+      },
+      {
+        "ingredient_name": "lime juice",
+        "quantity_ml": 30
+      },
+      {
+        "ingredient_name": "vegetable oil",
+        "quantity_ml": 30
+      }
+    ],
+    "cooking_steps": [
+      "Step 1: Soak rice noodles in warm water 20 min.",
+      "Step 2: Mix tamarind, fish sauce, palm sugar, and lime juice 2 min.",
+      "Step 3: Heat wok and add oil; sauté tofu 3 min.",
+      "Step 4: Push aside; scramble eggs 2 min.",
+      "Step 5: Add drained noodles and sauce; stir-fry 4 min.",
+      "Step 6: Toss in bean sprouts and garlic chives; stir-fry 2 min.",
+      "Step 7: Adjust seasoning; cook 1 min.",
+      "Step 8: Serve topped with crushed peanuts and lime wedges; rest 1 min."
+    ],
+    "cook_time_min": 35
+  },
+  {
+    "title": "Beef Bourguignon",
+    "description": "Red wine–braised beef stew with carrots, onions, and herbs. Based on Serious Eats (Les Halles).",
+    "ingredients": [
+      {
+        "ingredient_name": "beef chuck",
+        "quantity_g": 1250
+      },
+      {
+        "ingredient_name": "olive oil",
+        "quantity_ml": 30
+      },
+      {
+        "ingredient_name": "onion",
+        "quantity_g": 500
+      },
+      {
+        "ingredient_name": "carrot",
+        "quantity_g": 400
+      },
+      {
+        "ingredient_name": "garlic",
+        "quantity_g": 8
+      },
+      {
+        "ingredient_name": "all-purpose flour",
+        "quantity_g": 15
+      },
+      {
+        "ingredient_name": "red wine",
+        "quantity_ml": 240
+      },
+      {
+        "ingredient_name": "beef stock",
+        "quantity_ml": 500
+      },
+      {
+        "ingredient_name": "parsley",
+        "quantity_g": 5
+      },
+      {
+        "ingredient_name": "salt",
+        "quantity_g": 10
+      },
+      {
+        "ingredient_name": "black pepper",
+        "quantity_g": 3
+      }
+    ],
+    "cooking_steps": [
+      "Step 1: Pat beef dry and season; prep 5 min.",
+      "Step 2: Brown beef in oil 8 min until crust forms.",
+      "Step 3: Add onions and carrots; sauté 6 min.",
+      "Step 4: Stir in flour 2 min.",
+      "Step 5: Pour in red wine; simmer 5 min to reduce.",
+      "Step 6: Add stock and garlic; bring to a simmer 5 min.",
+      "Step 7: Cover and braise gently 90 min until tender.",
+      "Step 8: Uncover and reduce 10 min to thicken.",
+      "Step 9: Finish with parsley; rest 5 min before serving."
+    ],
+    "cook_time_min": 145
+  },
+  {
+    "title": "Chicken Teriyaki",
+    "description": "Pan-seared chicken glazed with soy, mirin, sake, and sugar. Based on Just One Cookbook.",
+    "ingredients": [
+      {
+        "ingredient_name": "chicken thigh",
+        "quantity_g": 500
+      },
+      {
+        "ingredient_name": "soy sauce",
+        "quantity_ml": 45
+      },
+      {
+        "ingredient_name": "mirin",
+        "quantity_ml": 45
+      },
+      {
+        "ingredient_name": "sake",
+        "quantity_ml": 45
+      },
+      {
+        "ingredient_name": "sugar",
+        "quantity_g": 18
+      },
+      {
+        "ingredient_name": "vegetable oil",
+        "quantity_ml": 10
+      },
+      {
+        "ingredient_name": "scallion",
+        "quantity_g": 10
+      }
+    ],
+    "cooking_steps": [
+      "Step 1: Mix soy, mirin, sake, and sugar 2 min.",
+      "Step 2: Heat pan with oil; sear chicken 6 min skin-side.",
+      "Step 3: Flip and cook 5 min until nearly done.",
+      "Step 4: Add sauce; simmer and reduce 4 min to glaze.",
+      "Step 5: Rest 2 min; slice.",
+      "Step 6: Spoon glaze over and garnish with scallion 1 min."
+    ],
+    "cook_time_min": 22
+  },
+  {
+    "title": "Guacamole",
+    "description": "Classic avocado dip with lime, onion, chili, and cilantro. Based on Simply Recipes.",
+    "ingredients": [
+      {
+        "ingredient_name": "avocado",
+        "quantity_piece": 2
+      },
+      {
+        "ingredient_name": "lime juice",
+        "quantity_ml": 15
+      },
+      {
+        "ingredient_name": "red onion",
+        "quantity_g": 30
+      },
+      {
+        "ingredient_name": "jalapeño",
+        "quantity_piece": 1
+      },
+      {
+        "ingredient_name": "cilantro",
+        "quantity_g": 5
+      },
+      {
+        "ingredient_name": "salt",
+        "quantity_g": 4
+      },
+      {
+        "ingredient_name": "black pepper",
+        "quantity_g": 1
+      },
+      {
+        "ingredient_name": "tomato",
+        "quantity_g": 60
+      }
+    ],
+    "cooking_steps": [
+      "Step 1: Halve and mash avocados 3 min.",
+      "Step 2: Stir in lime juice and salt 1 min.",
+      "Step 3: Fold in onion, jalapeño, and cilantro 2 min.",
+      "Step 4: Add tomato and pepper; mix 1 min.",
+      "Step 5: Rest 5 min for flavors to meld."
+    ],
+    "cook_time_min": 12
+  },
+  {
+    "title": "Chicken Tikka Masala",
+    "description": "Chunks of chicken in a spiced tomato cream sauce. Based on BBC Good Food.",
+    "ingredients": [
+      {
+        "ingredient_name": "chicken breast",
+        "quantity_g": 900
+      },
+      {
+        "ingredient_name": "vegetable oil",
+        "quantity_ml": 30
+      },
+      {
+        "ingredient_name": "butter",
+        "quantity_g": 25
+      },
+      {
+        "ingredient_name": "onion",
+        "quantity_g": 600
+      },
+      {
+        "ingredient_name": "tikka masala paste",
+        "quantity_g": 90
+      },
+      {
+        "ingredient_name": "red bell pepper",
+        "quantity_g": 300
+      },
+      {
+        "ingredient_name": "chopped tomatoes (canned)",
+        "quantity_g": 800
+      },
+      {
+        "ingredient_name": "tomato paste",
+        "quantity_g": 30
+      },
+      {
+        "ingredient_name": "mango chutney",
+        "quantity_g": 40
+      },
+      {
+        "ingredient_name": "double cream",
+        "quantity_ml": 150
+      },
+      {
+        "ingredient_name": "plain yogurt",
+        "quantity_ml": 150
+      },
+      {
+        "ingredient_name": "cilantro",
+        "quantity_g": 6
+      },
+      {
+        "ingredient_name": "salt",
+        "quantity_g": 8
+      }
+    ],
+    "cooking_steps": [
+      "Step 1: Sauté onions in oil and butter 10 min.",
+      "Step 2: Add masala paste; cook 2 min until fragrant.",
+      "Step 3: Stir in tomatoes and tomato paste; simmer 10 min.",
+      "Step 4: Add chicken and peppers; simmer 12 min.",
+      "Step 5: Stir in chutney 2 min.",
+      "Step 6: Add cream and yogurt; simmer 5 min.",
+      "Step 7: Season and rest 3 min; garnish with cilantro."
+    ],
+    "cook_time_min": 48
+  },
+  {
+    "title": "Chicken Biryani",
+    "description": "Layered basmati rice and spiced chicken cooked to a fragrant finish. Based on RecipeTin Eats.",
+    "ingredients": [
+      {
+        "ingredient_name": "basmati rice",
+        "quantity_g": 400
+      },
+      {
+        "ingredient_name": "chicken thigh",
+        "quantity_g": 800
+      },
+      {
+        "ingredient_name": "yogurt",
+        "quantity_ml": 180
+      },
+      {
+        "ingredient_name": "lemon juice",
+        "quantity_ml": 15
+      },
+      {
+        "ingredient_name": "garlic",
+        "quantity_g": 20
+      },
+      {
+        "ingredient_name": "ginger",
+        "quantity_g": 20
+      },
+      {
+        "ingredient_name": "biryani masala",
+        "quantity_g": 18
+      },
+      {
+        "ingredient_name": "ghee",
+        "quantity_g": 40
+      },
+      {
+        "ingredient_name": "onion",
+        "quantity_g": 300
+      },
+      {
+        "ingredient_name": "milk",
+        "quantity_ml": 60
+      },
+      {
+        "ingredient_name": "saffron",
+        "quantity_g": 0.2
+      },
+      {
+        "ingredient_name": "cilantro",
+        "quantity_g": 6
+      },
+      {
+        "ingredient_name": "salt",
+        "quantity_g": 10
+      }
+    ],
+    "cooking_steps": [
+      "Step 1: Rinse and soak rice 20 min.",
+      "Step 2: Marinate chicken with yogurt, lemon, aromatics, and spices 30 min.",
+      "Step 3: Fry onions in ghee 8 min until golden.",
+      "Step 4: Parboil rice 5 min; drain.",
+      "Step 5: Layer chicken and onions; top with rice 3 min.",
+      "Step 6: Drizzle saffron milk; seal pot 1 min.",
+      "Step 7: Cook on low (dum) 25 min until steam builds.",
+      "Step 8: Rest 10 min; fluff and serve."
+    ],
+    "cook_time_min": 122
+  },
+  {
+    "title": "Pho Bo (Vietnamese Beef Noodle Soup)",
+    "description": "Aromatic beef broth with rice noodles, herbs, and thinly sliced beef. Based on Serious Eats.",
+    "ingredients": [
+      {
+        "ingredient_name": "beef bones",
+        "quantity_g": 2000
+      },
+      {
+        "ingredient_name": "onion",
+        "quantity_g": 300
+      },
+      {
+        "ingredient_name": "ginger",
+        "quantity_g": 80
+      },
+      {
+        "ingredient_name": "star anise",
+        "quantity_g": 4
+      },
+      {
+        "ingredient_name": "cinnamon stick",
+        "quantity_g": 5
+      },
+      {
+        "ingredient_name": "clove",
+        "quantity_g": 2
+      },
+      {
+        "ingredient_name": "fish sauce",
+        "quantity_ml": 45
+      },
+      {
+        "ingredient_name": "rock sugar",
+        "quantity_g": 20
+      },
+      {
+        "ingredient_name": "water",
+        "quantity_ml": 3000
+      },
+      {
+        "ingredient_name": "rice noodles (pho)",
+        "quantity_g": 400
+      },
+      {
+        "ingredient_name": "beef sirloin (thinly sliced)",
+        "quantity_g": 300
+      },
+      {
+        "ingredient_name": "scallion",
+        "quantity_g": 20
+      },
+      {
+        "ingredient_name": "cilantro",
+        "quantity_g": 6
+      }
+    ],
+    "cooking_steps": [
+      "Step 1: Char onion and ginger 8 min.",
+      "Step 2: Blanch bones 5 min; rinse.",
+      "Step 3: Simmer bones with aromatics and water 90 min.",
+      "Step 4: Skim and season with fish sauce and rock sugar 5 min.",
+      "Step 5: Soak noodles 20 min; boil 1 min to finish.",
+      "Step 6: Arrange noodles and raw beef in bowls 3 min.",
+      "Step 7: Ladle boiling broth to cook beef 1 min.",
+      "Step 8: Garnish with scallion and cilantro; serve 1 min."
+    ],
+    "cook_time_min": 140
+  },
+  {
+    "title": "Kung Pao Chicken",
+    "description": "Sichuan stir-fry with chilies, Sichuan peppercorns, peanuts, and a sweet-sour-savory sauce. Informed by The Guardian's method.",
+    "ingredients": [
+      {
+        "ingredient_name": "chicken breast",
+        "quantity_g": 500
+      },
+      {
+        "ingredient_name": "peanut",
+        "quantity_g": 80
+      },
+      {
+        "ingredient_name": "dried red chili",
+        "quantity_g": 10
+      },
+      {
+        "ingredient_name": "Sichuan peppercorn",
+        "quantity_g": 4
+      },
+      {
+        "ingredient_name": "garlic",
+        "quantity_g": 12
+      },
+      {
+        "ingredient_name": "ginger",
+        "quantity_g": 12
+      },
+      {
+        "ingredient_name": "scallion",
+        "quantity_g": 40
+      },
+      {
+        "ingredient_name": "soy sauce",
+        "quantity_ml": 30
+      },
+      {
+        "ingredient_name": "rice vinegar",
+        "quantity_ml": 20
+      },
+      {
+        "ingredient_name": "sugar",
+        "quantity_g": 15
+      },
+      {
+        "ingredient_name": "cornstarch",
+        "quantity_g": 10
+      },
+      {
+        "ingredient_name": "sesame oil",
+        "quantity_ml": 5
+      },
+      {
+        "ingredient_name": "vegetable oil",
+        "quantity_ml": 20
+      }
+    ],
+    "cooking_steps": [
+      "Step 1: Dice chicken and marinate with soy and cornstarch 10 min.",
+      "Step 2: Fry peanuts until crisp 3 min; remove.",
+      "Step 3: Heat oil; bloom chilies and Sichuan pepper 1 min.",
+      "Step 4: Stir-fry chicken 4 min until opaque.",
+      "Step 5: Add garlic, ginger, and scallion; stir-fry 2 min.",
+      "Step 6: Add soy, vinegar, sugar; toss 2 min.",
+      "Step 7: Return peanuts; stir 1 min to coat.",
+      "Step 8: Finish with sesame oil; rest 1 min."
+    ],
+    "cook_time_min": 30
+  }
+]
