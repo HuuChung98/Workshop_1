@@ -1,0 +1,5002 @@
+[
+  {
+    "title": "Stir Fried Noodles",
+    "description": "A simple home-style dish called Stir Fried Noodles.",
+    "ingredients": [
+      {
+        "ingredient_name": "carrot",
+        "quantity_g": 80
+      },
+      {
+        "ingredient_name": "onion",
+        "quantity_g": 50
+      },
+      {
+        "ingredient_name": "garlic",
+        "quantity_g": 10
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (11 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 13
+  },
+  {
+    "title": "Fried Eggs",
+    "description": "A simple home-style dish called Fried Eggs.",
+    "ingredients": [
+      {
+        "ingredient_name": "carrot",
+        "quantity_g": 80
+      },
+      {
+        "ingredient_name": "rice",
+        "quantity_g": 200
+      },
+      {
+        "ingredient_name": "potato",
+        "quantity_g": 150
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (13 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 15
+  },
+  {
+    "title": "Beef and Potato Stew",
+    "description": "A simple home-style dish called Beef and Potato Stew.",
+    "ingredients": [
+      {
+        "ingredient_name": "potato",
+        "quantity_g": 150
+      },
+      {
+        "ingredient_name": "egg",
+        "quantity_g": 120
+      },
+      {
+        "ingredient_name": "rice",
+        "quantity_g": 200
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (11 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 13
+  },
+  {
+    "title": "Chicken Soup",
+    "description": "A simple home-style dish called Chicken Soup.",
+    "ingredients": [
+      {
+        "ingredient_name": "chicken",
+        "quantity_g": 200
+      },
+      {
+        "ingredient_name": "potato",
+        "quantity_g": 150
+      },
+      {
+        "ingredient_name": "garlic",
+        "quantity_g": 10
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (10 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 12
+  },
+  {
+    "title": "Pan Fried Tofu",
+    "description": "A simple home-style dish called Pan Fried Tofu.",
+    "ingredients": [
+      {
+        "ingredient_name": "carrot",
+        "quantity_g": 80
+      },
+      {
+        "ingredient_name": "potato",
+        "quantity_g": 150
+      },
+      {
+        "ingredient_name": "rice",
+        "quantity_g": 200
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (8 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 10
+  },
+  {
+    "title": "Tomato Egg Stir Fry",
+    "description": "A simple home-style dish called Tomato Egg Stir Fry.",
+    "ingredients": [
+      {
+        "ingredient_name": "egg",
+        "quantity_g": 120
+      },
+      {
+        "ingredient_name": "potato",
+        "quantity_g": 150
+      },
+      {
+        "ingredient_name": "rice",
+        "quantity_g": 200
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (11 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 13
+  },
+  {
+    "title": "Fried Eggs",
+    "description": "A simple home-style dish called Fried Eggs.",
+    "ingredients": [
+      {
+        "ingredient_name": "rice",
+        "quantity_g": 200
+      },
+      {
+        "ingredient_name": "garlic",
+        "quantity_g": 10
+      },
+      {
+        "ingredient_name": "potato",
+        "quantity_g": 150
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (8 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 10
+  },
+  {
+    "title": "Pasta with Tomato",
+    "description": "A simple home-style dish called Pasta with Tomato.",
+    "ingredients": [
+      {
+        "ingredient_name": "chicken",
+        "quantity_g": 200
+      },
+      {
+        "ingredient_name": "potato",
+        "quantity_g": 150
+      },
+      {
+        "ingredient_name": "egg",
+        "quantity_g": 120
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (11 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 13
+  },
+  {
+    "title": "Tomato Egg Stir Fry",
+    "description": "A simple home-style dish called Tomato Egg Stir Fry.",
+    "ingredients": [
+      {
+        "ingredient_name": "garlic",
+        "quantity_g": 10
+      },
+      {
+        "ingredient_name": "chicken",
+        "quantity_g": 200
+      },
+      {
+        "ingredient_name": "potato",
+        "quantity_g": 150
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (13 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 15
+  },
+  {
+    "title": "Tomato Egg Stir Fry",
+    "description": "A simple home-style dish called Tomato Egg Stir Fry.",
+    "ingredients": [
+      {
+        "ingredient_name": "rice",
+        "quantity_g": 200
+      },
+      {
+        "ingredient_name": "egg",
+        "quantity_g": 120
+      },
+      {
+        "ingredient_name": "carrot",
+        "quantity_g": 80
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (9 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 11
+  },
+  {
+    "title": "Stir Fried Noodles",
+    "description": "A simple home-style dish called Stir Fried Noodles.",
+    "ingredients": [
+      {
+        "ingredient_name": "chicken",
+        "quantity_g": 200
+      },
+      {
+        "ingredient_name": "rice",
+        "quantity_g": 200
+      },
+      {
+        "ingredient_name": "garlic",
+        "quantity_g": 10
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (14 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 16
+  },
+  {
+    "title": "Beef and Potato Stew",
+    "description": "A simple home-style dish called Beef and Potato Stew.",
+    "ingredients": [
+      {
+        "ingredient_name": "onion",
+        "quantity_g": 50
+      },
+      {
+        "ingredient_name": "egg",
+        "quantity_g": 120
+      },
+      {
+        "ingredient_name": "garlic",
+        "quantity_g": 10
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (9 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 11
+  },
+  {
+    "title": "Pasta with Tomato",
+    "description": "A simple home-style dish called Pasta with Tomato.",
+    "ingredients": [
+      {
+        "ingredient_name": "egg",
+        "quantity_g": 120
+      },
+      {
+        "ingredient_name": "carrot",
+        "quantity_g": 80
+      },
+      {
+        "ingredient_name": "onion",
+        "quantity_g": 50
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (15 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 17
+  },
+  {
+    "title": "Pasta with Tomato",
+    "description": "A simple home-style dish called Pasta with Tomato.",
+    "ingredients": [
+      {
+        "ingredient_name": "potato",
+        "quantity_g": 150
+      },
+      {
+        "ingredient_name": "chicken",
+        "quantity_g": 200
+      },
+      {
+        "ingredient_name": "onion",
+        "quantity_g": 50
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (9 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 11
+  },
+  {
+    "title": "Garlic Fried Rice",
+    "description": "A simple home-style dish called Garlic Fried Rice.",
+    "ingredients": [
+      {
+        "ingredient_name": "potato",
+        "quantity_g": 150
+      },
+      {
+        "ingredient_name": "carrot",
+        "quantity_g": 80
+      },
+      {
+        "ingredient_name": "onion",
+        "quantity_g": 50
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (11 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 13
+  },
+  {
+    "title": "Chicken Soup",
+    "description": "A simple home-style dish called Chicken Soup.",
+    "ingredients": [
+      {
+        "ingredient_name": "garlic",
+        "quantity_g": 10
+      },
+      {
+        "ingredient_name": "chicken",
+        "quantity_g": 200
+      },
+      {
+        "ingredient_name": "rice",
+        "quantity_g": 200
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (14 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 16
+  },
+  {
+    "title": "Chicken Soup",
+    "description": "A simple home-style dish called Chicken Soup.",
+    "ingredients": [
+      {
+        "ingredient_name": "egg",
+        "quantity_g": 120
+      },
+      {
+        "ingredient_name": "rice",
+        "quantity_g": 200
+      },
+      {
+        "ingredient_name": "garlic",
+        "quantity_g": 10
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (8 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 10
+  },
+  {
+    "title": "Pan Fried Tofu",
+    "description": "A simple home-style dish called Pan Fried Tofu.",
+    "ingredients": [
+      {
+        "ingredient_name": "chicken",
+        "quantity_g": 200
+      },
+      {
+        "ingredient_name": "carrot",
+        "quantity_g": 80
+      },
+      {
+        "ingredient_name": "rice",
+        "quantity_g": 200
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (14 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 16
+  },
+  {
+    "title": "Garlic Fried Rice",
+    "description": "A simple home-style dish called Garlic Fried Rice.",
+    "ingredients": [
+      {
+        "ingredient_name": "egg",
+        "quantity_g": 120
+      },
+      {
+        "ingredient_name": "onion",
+        "quantity_g": 50
+      },
+      {
+        "ingredient_name": "garlic",
+        "quantity_g": 10
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (12 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 14
+  },
+  {
+    "title": "Veggie Omelette",
+    "description": "A simple home-style dish called Veggie Omelette.",
+    "ingredients": [
+      {
+        "ingredient_name": "garlic",
+        "quantity_g": 10
+      },
+      {
+        "ingredient_name": "carrot",
+        "quantity_g": 80
+      },
+      {
+        "ingredient_name": "rice",
+        "quantity_g": 200
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (10 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 12
+  },
+  {
+    "title": "Tomato Egg Stir Fry",
+    "description": "A simple home-style dish called Tomato Egg Stir Fry.",
+    "ingredients": [
+      {
+        "ingredient_name": "garlic",
+        "quantity_g": 10
+      },
+      {
+        "ingredient_name": "rice",
+        "quantity_g": 200
+      },
+      {
+        "ingredient_name": "egg",
+        "quantity_g": 120
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (10 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 12
+  },
+  {
+    "title": "Chicken Soup",
+    "description": "A simple home-style dish called Chicken Soup.",
+    "ingredients": [
+      {
+        "ingredient_name": "chicken",
+        "quantity_g": 200
+      },
+      {
+        "ingredient_name": "carrot",
+        "quantity_g": 80
+      },
+      {
+        "ingredient_name": "garlic",
+        "quantity_g": 10
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (10 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 12
+  },
+  {
+    "title": "Cabbage Stir Fry",
+    "description": "A simple home-style dish called Cabbage Stir Fry.",
+    "ingredients": [
+      {
+        "ingredient_name": "onion",
+        "quantity_g": 50
+      },
+      {
+        "ingredient_name": "egg",
+        "quantity_g": 120
+      },
+      {
+        "ingredient_name": "carrot",
+        "quantity_g": 80
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (10 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 12
+  },
+  {
+    "title": "Chicken Soup",
+    "description": "A simple home-style dish called Chicken Soup.",
+    "ingredients": [
+      {
+        "ingredient_name": "carrot",
+        "quantity_g": 80
+      },
+      {
+        "ingredient_name": "chicken",
+        "quantity_g": 200
+      },
+      {
+        "ingredient_name": "egg",
+        "quantity_g": 120
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (14 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 16
+  },
+  {
+    "title": "Pan Fried Tofu",
+    "description": "A simple home-style dish called Pan Fried Tofu.",
+    "ingredients": [
+      {
+        "ingredient_name": "chicken",
+        "quantity_g": 200
+      },
+      {
+        "ingredient_name": "carrot",
+        "quantity_g": 80
+      },
+      {
+        "ingredient_name": "rice",
+        "quantity_g": 200
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (14 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 16
+  },
+  {
+    "title": "Cabbage Stir Fry",
+    "description": "A simple home-style dish called Cabbage Stir Fry.",
+    "ingredients": [
+      {
+        "ingredient_name": "onion",
+        "quantity_g": 50
+      },
+      {
+        "ingredient_name": "egg",
+        "quantity_g": 120
+      },
+      {
+        "ingredient_name": "rice",
+        "quantity_g": 200
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (13 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 15
+  },
+  {
+    "title": "Stir Fried Noodles",
+    "description": "A simple home-style dish called Stir Fried Noodles.",
+    "ingredients": [
+      {
+        "ingredient_name": "garlic",
+        "quantity_g": 10
+      },
+      {
+        "ingredient_name": "rice",
+        "quantity_g": 200
+      },
+      {
+        "ingredient_name": "potato",
+        "quantity_g": 150
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (11 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 13
+  },
+  {
+    "title": "Cabbage Stir Fry",
+    "description": "A simple home-style dish called Cabbage Stir Fry.",
+    "ingredients": [
+      {
+        "ingredient_name": "onion",
+        "quantity_g": 50
+      },
+      {
+        "ingredient_name": "potato",
+        "quantity_g": 150
+      },
+      {
+        "ingredient_name": "carrot",
+        "quantity_g": 80
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (15 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 17
+  },
+  {
+    "title": "Pasta with Tomato",
+    "description": "A simple home-style dish called Pasta with Tomato.",
+    "ingredients": [
+      {
+        "ingredient_name": "chicken",
+        "quantity_g": 200
+      },
+      {
+        "ingredient_name": "rice",
+        "quantity_g": 200
+      },
+      {
+        "ingredient_name": "onion",
+        "quantity_g": 50
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (13 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 15
+  },
+  {
+    "title": "Veggie Omelette",
+    "description": "A simple home-style dish called Veggie Omelette.",
+    "ingredients": [
+      {
+        "ingredient_name": "garlic",
+        "quantity_g": 10
+      },
+      {
+        "ingredient_name": "potato",
+        "quantity_g": 150
+      },
+      {
+        "ingredient_name": "onion",
+        "quantity_g": 50
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (15 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 17
+  },
+  {
+    "title": "Garlic Fried Rice",
+    "description": "A simple home-style dish called Garlic Fried Rice.",
+    "ingredients": [
+      {
+        "ingredient_name": "rice",
+        "quantity_g": 200
+      },
+      {
+        "ingredient_name": "garlic",
+        "quantity_g": 10
+      },
+      {
+        "ingredient_name": "chicken",
+        "quantity_g": 200
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (10 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 12
+  },
+  {
+    "title": "Chicken Soup",
+    "description": "A simple home-style dish called Chicken Soup.",
+    "ingredients": [
+      {
+        "ingredient_name": "potato",
+        "quantity_g": 150
+      },
+      {
+        "ingredient_name": "carrot",
+        "quantity_g": 80
+      },
+      {
+        "ingredient_name": "garlic",
+        "quantity_g": 10
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (8 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 10
+  },
+  {
+    "title": "Pan Fried Tofu",
+    "description": "A simple home-style dish called Pan Fried Tofu.",
+    "ingredients": [
+      {
+        "ingredient_name": "chicken",
+        "quantity_g": 200
+      },
+      {
+        "ingredient_name": "egg",
+        "quantity_g": 120
+      },
+      {
+        "ingredient_name": "carrot",
+        "quantity_g": 80
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (14 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 16
+  },
+  {
+    "title": "Pasta with Tomato",
+    "description": "A simple home-style dish called Pasta with Tomato.",
+    "ingredients": [
+      {
+        "ingredient_name": "rice",
+        "quantity_g": 200
+      },
+      {
+        "ingredient_name": "potato",
+        "quantity_g": 150
+      },
+      {
+        "ingredient_name": "onion",
+        "quantity_g": 50
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (14 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 16
+  },
+  {
+    "title": "Veggie Omelette",
+    "description": "A simple home-style dish called Veggie Omelette.",
+    "ingredients": [
+      {
+        "ingredient_name": "carrot",
+        "quantity_g": 80
+      },
+      {
+        "ingredient_name": "garlic",
+        "quantity_g": 10
+      },
+      {
+        "ingredient_name": "rice",
+        "quantity_g": 200
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (12 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 14
+  },
+  {
+    "title": "Pasta with Tomato",
+    "description": "A simple home-style dish called Pasta with Tomato.",
+    "ingredients": [
+      {
+        "ingredient_name": "rice",
+        "quantity_g": 200
+      },
+      {
+        "ingredient_name": "potato",
+        "quantity_g": 150
+      },
+      {
+        "ingredient_name": "chicken",
+        "quantity_g": 200
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (15 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 17
+  },
+  {
+    "title": "Fried Eggs",
+    "description": "A simple home-style dish called Fried Eggs.",
+    "ingredients": [
+      {
+        "ingredient_name": "potato",
+        "quantity_g": 150
+      },
+      {
+        "ingredient_name": "chicken",
+        "quantity_g": 200
+      },
+      {
+        "ingredient_name": "carrot",
+        "quantity_g": 80
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (12 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 14
+  },
+  {
+    "title": "Beef and Potato Stew",
+    "description": "A simple home-style dish called Beef and Potato Stew.",
+    "ingredients": [
+      {
+        "ingredient_name": "onion",
+        "quantity_g": 50
+      },
+      {
+        "ingredient_name": "carrot",
+        "quantity_g": 80
+      },
+      {
+        "ingredient_name": "garlic",
+        "quantity_g": 10
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (11 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 13
+  },
+  {
+    "title": "Chicken Soup",
+    "description": "A simple home-style dish called Chicken Soup.",
+    "ingredients": [
+      {
+        "ingredient_name": "rice",
+        "quantity_g": 200
+      },
+      {
+        "ingredient_name": "chicken",
+        "quantity_g": 200
+      },
+      {
+        "ingredient_name": "garlic",
+        "quantity_g": 10
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (15 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 17
+  },
+  {
+    "title": "Pan Fried Tofu",
+    "description": "A simple home-style dish called Pan Fried Tofu.",
+    "ingredients": [
+      {
+        "ingredient_name": "potato",
+        "quantity_g": 150
+      },
+      {
+        "ingredient_name": "rice",
+        "quantity_g": 200
+      },
+      {
+        "ingredient_name": "chicken",
+        "quantity_g": 200
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (12 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 14
+  },
+  {
+    "title": "Veggie Omelette",
+    "description": "A simple home-style dish called Veggie Omelette.",
+    "ingredients": [
+      {
+        "ingredient_name": "garlic",
+        "quantity_g": 10
+      },
+      {
+        "ingredient_name": "rice",
+        "quantity_g": 200
+      },
+      {
+        "ingredient_name": "onion",
+        "quantity_g": 50
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (8 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 10
+  },
+  {
+    "title": "Beef and Potato Stew",
+    "description": "A simple home-style dish called Beef and Potato Stew.",
+    "ingredients": [
+      {
+        "ingredient_name": "carrot",
+        "quantity_g": 80
+      },
+      {
+        "ingredient_name": "egg",
+        "quantity_g": 120
+      },
+      {
+        "ingredient_name": "chicken",
+        "quantity_g": 200
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (11 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 13
+  },
+  {
+    "title": "Garlic Fried Rice",
+    "description": "A simple home-style dish called Garlic Fried Rice.",
+    "ingredients": [
+      {
+        "ingredient_name": "chicken",
+        "quantity_g": 200
+      },
+      {
+        "ingredient_name": "potato",
+        "quantity_g": 150
+      },
+      {
+        "ingredient_name": "garlic",
+        "quantity_g": 10
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (14 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 16
+  },
+  {
+    "title": "Pasta with Tomato",
+    "description": "A simple home-style dish called Pasta with Tomato.",
+    "ingredients": [
+      {
+        "ingredient_name": "carrot",
+        "quantity_g": 80
+      },
+      {
+        "ingredient_name": "potato",
+        "quantity_g": 150
+      },
+      {
+        "ingredient_name": "rice",
+        "quantity_g": 200
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (13 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 15
+  },
+  {
+    "title": "Beef and Potato Stew",
+    "description": "A simple home-style dish called Beef and Potato Stew.",
+    "ingredients": [
+      {
+        "ingredient_name": "onion",
+        "quantity_g": 50
+      },
+      {
+        "ingredient_name": "carrot",
+        "quantity_g": 80
+      },
+      {
+        "ingredient_name": "egg",
+        "quantity_g": 120
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (8 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 10
+  },
+  {
+    "title": "Veggie Omelette",
+    "description": "A simple home-style dish called Veggie Omelette.",
+    "ingredients": [
+      {
+        "ingredient_name": "chicken",
+        "quantity_g": 200
+      },
+      {
+        "ingredient_name": "potato",
+        "quantity_g": 150
+      },
+      {
+        "ingredient_name": "garlic",
+        "quantity_g": 10
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (11 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 13
+  },
+  {
+    "title": "Pasta with Tomato",
+    "description": "A simple home-style dish called Pasta with Tomato.",
+    "ingredients": [
+      {
+        "ingredient_name": "garlic",
+        "quantity_g": 10
+      },
+      {
+        "ingredient_name": "carrot",
+        "quantity_g": 80
+      },
+      {
+        "ingredient_name": "egg",
+        "quantity_g": 120
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (11 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 13
+  },
+  {
+    "title": "Tomato Egg Stir Fry",
+    "description": "A simple home-style dish called Tomato Egg Stir Fry.",
+    "ingredients": [
+      {
+        "ingredient_name": "garlic",
+        "quantity_g": 10
+      },
+      {
+        "ingredient_name": "potato",
+        "quantity_g": 150
+      },
+      {
+        "ingredient_name": "rice",
+        "quantity_g": 200
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (10 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 12
+  },
+  {
+    "title": "Pan Fried Tofu",
+    "description": "A simple home-style dish called Pan Fried Tofu.",
+    "ingredients": [
+      {
+        "ingredient_name": "chicken",
+        "quantity_g": 200
+      },
+      {
+        "ingredient_name": "garlic",
+        "quantity_g": 10
+      },
+      {
+        "ingredient_name": "carrot",
+        "quantity_g": 80
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (15 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 17
+  },
+  {
+    "title": "Beef and Potato Stew",
+    "description": "A simple home-style dish called Beef and Potato Stew.",
+    "ingredients": [
+      {
+        "ingredient_name": "rice",
+        "quantity_g": 200
+      },
+      {
+        "ingredient_name": "potato",
+        "quantity_g": 150
+      },
+      {
+        "ingredient_name": "onion",
+        "quantity_g": 50
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (11 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 13
+  },
+  {
+    "title": "Veggie Omelette",
+    "description": "A simple home-style dish called Veggie Omelette.",
+    "ingredients": [
+      {
+        "ingredient_name": "onion",
+        "quantity_g": 50
+      },
+      {
+        "ingredient_name": "chicken",
+        "quantity_g": 200
+      },
+      {
+        "ingredient_name": "rice",
+        "quantity_g": 200
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (11 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 13
+  },
+  {
+    "title": "Beef and Potato Stew",
+    "description": "A simple home-style dish called Beef and Potato Stew.",
+    "ingredients": [
+      {
+        "ingredient_name": "garlic",
+        "quantity_g": 10
+      },
+      {
+        "ingredient_name": "rice",
+        "quantity_g": 200
+      },
+      {
+        "ingredient_name": "onion",
+        "quantity_g": 50
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (10 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 12
+  },
+  {
+    "title": "Pan Fried Tofu",
+    "description": "A simple home-style dish called Pan Fried Tofu.",
+    "ingredients": [
+      {
+        "ingredient_name": "chicken",
+        "quantity_g": 200
+      },
+      {
+        "ingredient_name": "garlic",
+        "quantity_g": 10
+      },
+      {
+        "ingredient_name": "potato",
+        "quantity_g": 150
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (14 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 16
+  },
+  {
+    "title": "Cabbage Stir Fry",
+    "description": "A simple home-style dish called Cabbage Stir Fry.",
+    "ingredients": [
+      {
+        "ingredient_name": "potato",
+        "quantity_g": 150
+      },
+      {
+        "ingredient_name": "chicken",
+        "quantity_g": 200
+      },
+      {
+        "ingredient_name": "garlic",
+        "quantity_g": 10
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (14 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 16
+  },
+  {
+    "title": "Pan Fried Tofu",
+    "description": "A simple home-style dish called Pan Fried Tofu.",
+    "ingredients": [
+      {
+        "ingredient_name": "garlic",
+        "quantity_g": 10
+      },
+      {
+        "ingredient_name": "potato",
+        "quantity_g": 150
+      },
+      {
+        "ingredient_name": "rice",
+        "quantity_g": 200
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (15 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 17
+  },
+  {
+    "title": "Garlic Fried Rice",
+    "description": "A simple home-style dish called Garlic Fried Rice.",
+    "ingredients": [
+      {
+        "ingredient_name": "egg",
+        "quantity_g": 120
+      },
+      {
+        "ingredient_name": "rice",
+        "quantity_g": 200
+      },
+      {
+        "ingredient_name": "garlic",
+        "quantity_g": 10
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (8 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 10
+  },
+  {
+    "title": "Fried Eggs",
+    "description": "A simple home-style dish called Fried Eggs.",
+    "ingredients": [
+      {
+        "ingredient_name": "chicken",
+        "quantity_g": 200
+      },
+      {
+        "ingredient_name": "garlic",
+        "quantity_g": 10
+      },
+      {
+        "ingredient_name": "potato",
+        "quantity_g": 150
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (10 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 12
+  },
+  {
+    "title": "Pasta with Tomato",
+    "description": "A simple home-style dish called Pasta with Tomato.",
+    "ingredients": [
+      {
+        "ingredient_name": "carrot",
+        "quantity_g": 80
+      },
+      {
+        "ingredient_name": "rice",
+        "quantity_g": 200
+      },
+      {
+        "ingredient_name": "garlic",
+        "quantity_g": 10
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (10 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 12
+  },
+  {
+    "title": "Veggie Omelette",
+    "description": "A simple home-style dish called Veggie Omelette.",
+    "ingredients": [
+      {
+        "ingredient_name": "carrot",
+        "quantity_g": 80
+      },
+      {
+        "ingredient_name": "chicken",
+        "quantity_g": 200
+      },
+      {
+        "ingredient_name": "egg",
+        "quantity_g": 120
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (8 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 10
+  },
+  {
+    "title": "Cabbage Stir Fry",
+    "description": "A simple home-style dish called Cabbage Stir Fry.",
+    "ingredients": [
+      {
+        "ingredient_name": "egg",
+        "quantity_g": 120
+      },
+      {
+        "ingredient_name": "chicken",
+        "quantity_g": 200
+      },
+      {
+        "ingredient_name": "carrot",
+        "quantity_g": 80
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (14 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 16
+  },
+  {
+    "title": "Pan Fried Tofu",
+    "description": "A simple home-style dish called Pan Fried Tofu.",
+    "ingredients": [
+      {
+        "ingredient_name": "rice",
+        "quantity_g": 200
+      },
+      {
+        "ingredient_name": "egg",
+        "quantity_g": 120
+      },
+      {
+        "ingredient_name": "chicken",
+        "quantity_g": 200
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (13 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 15
+  },
+  {
+    "title": "Cabbage Stir Fry",
+    "description": "A simple home-style dish called Cabbage Stir Fry.",
+    "ingredients": [
+      {
+        "ingredient_name": "potato",
+        "quantity_g": 150
+      },
+      {
+        "ingredient_name": "chicken",
+        "quantity_g": 200
+      },
+      {
+        "ingredient_name": "egg",
+        "quantity_g": 120
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (10 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 12
+  },
+  {
+    "title": "Stir Fried Noodles",
+    "description": "A simple home-style dish called Stir Fried Noodles.",
+    "ingredients": [
+      {
+        "ingredient_name": "onion",
+        "quantity_g": 50
+      },
+      {
+        "ingredient_name": "chicken",
+        "quantity_g": 200
+      },
+      {
+        "ingredient_name": "garlic",
+        "quantity_g": 10
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (8 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 10
+  },
+  {
+    "title": "Pasta with Tomato",
+    "description": "A simple home-style dish called Pasta with Tomato.",
+    "ingredients": [
+      {
+        "ingredient_name": "carrot",
+        "quantity_g": 80
+      },
+      {
+        "ingredient_name": "onion",
+        "quantity_g": 50
+      },
+      {
+        "ingredient_name": "rice",
+        "quantity_g": 200
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (12 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 14
+  },
+  {
+    "title": "Cabbage Stir Fry",
+    "description": "A simple home-style dish called Cabbage Stir Fry.",
+    "ingredients": [
+      {
+        "ingredient_name": "rice",
+        "quantity_g": 200
+      },
+      {
+        "ingredient_name": "potato",
+        "quantity_g": 150
+      },
+      {
+        "ingredient_name": "chicken",
+        "quantity_g": 200
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (15 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 17
+  },
+  {
+    "title": "Beef and Potato Stew",
+    "description": "A simple home-style dish called Beef and Potato Stew.",
+    "ingredients": [
+      {
+        "ingredient_name": "rice",
+        "quantity_g": 200
+      },
+      {
+        "ingredient_name": "garlic",
+        "quantity_g": 10
+      },
+      {
+        "ingredient_name": "egg",
+        "quantity_g": 120
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (15 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 17
+  },
+  {
+    "title": "Garlic Fried Rice",
+    "description": "A simple home-style dish called Garlic Fried Rice.",
+    "ingredients": [
+      {
+        "ingredient_name": "garlic",
+        "quantity_g": 10
+      },
+      {
+        "ingredient_name": "chicken",
+        "quantity_g": 200
+      },
+      {
+        "ingredient_name": "rice",
+        "quantity_g": 200
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (15 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 17
+  },
+  {
+    "title": "Tomato Egg Stir Fry",
+    "description": "A simple home-style dish called Tomato Egg Stir Fry.",
+    "ingredients": [
+      {
+        "ingredient_name": "onion",
+        "quantity_g": 50
+      },
+      {
+        "ingredient_name": "carrot",
+        "quantity_g": 80
+      },
+      {
+        "ingredient_name": "potato",
+        "quantity_g": 150
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (10 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 12
+  },
+  {
+    "title": "Garlic Fried Rice",
+    "description": "A simple home-style dish called Garlic Fried Rice.",
+    "ingredients": [
+      {
+        "ingredient_name": "egg",
+        "quantity_g": 120
+      },
+      {
+        "ingredient_name": "chicken",
+        "quantity_g": 200
+      },
+      {
+        "ingredient_name": "carrot",
+        "quantity_g": 80
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (11 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 13
+  },
+  {
+    "title": "Tomato Egg Stir Fry",
+    "description": "A simple home-style dish called Tomato Egg Stir Fry.",
+    "ingredients": [
+      {
+        "ingredient_name": "rice",
+        "quantity_g": 200
+      },
+      {
+        "ingredient_name": "potato",
+        "quantity_g": 150
+      },
+      {
+        "ingredient_name": "onion",
+        "quantity_g": 50
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (8 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 10
+  },
+  {
+    "title": "Fried Eggs",
+    "description": "A simple home-style dish called Fried Eggs.",
+    "ingredients": [
+      {
+        "ingredient_name": "potato",
+        "quantity_g": 150
+      },
+      {
+        "ingredient_name": "garlic",
+        "quantity_g": 10
+      },
+      {
+        "ingredient_name": "egg",
+        "quantity_g": 120
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (12 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 14
+  },
+  {
+    "title": "Chicken Soup",
+    "description": "A simple home-style dish called Chicken Soup.",
+    "ingredients": [
+      {
+        "ingredient_name": "egg",
+        "quantity_g": 120
+      },
+      {
+        "ingredient_name": "garlic",
+        "quantity_g": 10
+      },
+      {
+        "ingredient_name": "rice",
+        "quantity_g": 200
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (11 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 13
+  },
+  {
+    "title": "Tomato Egg Stir Fry",
+    "description": "A simple home-style dish called Tomato Egg Stir Fry.",
+    "ingredients": [
+      {
+        "ingredient_name": "rice",
+        "quantity_g": 200
+      },
+      {
+        "ingredient_name": "egg",
+        "quantity_g": 120
+      },
+      {
+        "ingredient_name": "carrot",
+        "quantity_g": 80
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (14 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 16
+  },
+  {
+    "title": "Veggie Omelette",
+    "description": "A simple home-style dish called Veggie Omelette.",
+    "ingredients": [
+      {
+        "ingredient_name": "onion",
+        "quantity_g": 50
+      },
+      {
+        "ingredient_name": "egg",
+        "quantity_g": 120
+      },
+      {
+        "ingredient_name": "chicken",
+        "quantity_g": 200
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (12 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 14
+  },
+  {
+    "title": "Pan Fried Tofu",
+    "description": "A simple home-style dish called Pan Fried Tofu.",
+    "ingredients": [
+      {
+        "ingredient_name": "carrot",
+        "quantity_g": 80
+      },
+      {
+        "ingredient_name": "garlic",
+        "quantity_g": 10
+      },
+      {
+        "ingredient_name": "onion",
+        "quantity_g": 50
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (12 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 14
+  },
+  {
+    "title": "Chicken Soup",
+    "description": "A simple home-style dish called Chicken Soup.",
+    "ingredients": [
+      {
+        "ingredient_name": "chicken",
+        "quantity_g": 200
+      },
+      {
+        "ingredient_name": "carrot",
+        "quantity_g": 80
+      },
+      {
+        "ingredient_name": "egg",
+        "quantity_g": 120
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (13 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 15
+  },
+  {
+    "title": "Cabbage Stir Fry",
+    "description": "A simple home-style dish called Cabbage Stir Fry.",
+    "ingredients": [
+      {
+        "ingredient_name": "egg",
+        "quantity_g": 120
+      },
+      {
+        "ingredient_name": "garlic",
+        "quantity_g": 10
+      },
+      {
+        "ingredient_name": "chicken",
+        "quantity_g": 200
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (15 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 17
+  },
+  {
+    "title": "Garlic Fried Rice",
+    "description": "A simple home-style dish called Garlic Fried Rice.",
+    "ingredients": [
+      {
+        "ingredient_name": "egg",
+        "quantity_g": 120
+      },
+      {
+        "ingredient_name": "rice",
+        "quantity_g": 200
+      },
+      {
+        "ingredient_name": "potato",
+        "quantity_g": 150
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (8 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 10
+  },
+  {
+    "title": "Fried Eggs",
+    "description": "A simple home-style dish called Fried Eggs.",
+    "ingredients": [
+      {
+        "ingredient_name": "carrot",
+        "quantity_g": 80
+      },
+      {
+        "ingredient_name": "onion",
+        "quantity_g": 50
+      },
+      {
+        "ingredient_name": "garlic",
+        "quantity_g": 10
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (15 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 17
+  },
+  {
+    "title": "Tomato Egg Stir Fry",
+    "description": "A simple home-style dish called Tomato Egg Stir Fry.",
+    "ingredients": [
+      {
+        "ingredient_name": "garlic",
+        "quantity_g": 10
+      },
+      {
+        "ingredient_name": "egg",
+        "quantity_g": 120
+      },
+      {
+        "ingredient_name": "chicken",
+        "quantity_g": 200
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (11 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 13
+  },
+  {
+    "title": "Stir Fried Noodles",
+    "description": "A simple home-style dish called Stir Fried Noodles.",
+    "ingredients": [
+      {
+        "ingredient_name": "potato",
+        "quantity_g": 150
+      },
+      {
+        "ingredient_name": "egg",
+        "quantity_g": 120
+      },
+      {
+        "ingredient_name": "chicken",
+        "quantity_g": 200
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (8 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 10
+  },
+  {
+    "title": "Veggie Omelette",
+    "description": "A simple home-style dish called Veggie Omelette.",
+    "ingredients": [
+      {
+        "ingredient_name": "egg",
+        "quantity_g": 120
+      },
+      {
+        "ingredient_name": "onion",
+        "quantity_g": 50
+      },
+      {
+        "ingredient_name": "garlic",
+        "quantity_g": 10
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (8 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 10
+  },
+  {
+    "title": "Beef and Potato Stew",
+    "description": "A simple home-style dish called Beef and Potato Stew.",
+    "ingredients": [
+      {
+        "ingredient_name": "rice",
+        "quantity_g": 200
+      },
+      {
+        "ingredient_name": "chicken",
+        "quantity_g": 200
+      },
+      {
+        "ingredient_name": "carrot",
+        "quantity_g": 80
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (13 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 15
+  },
+  {
+    "title": "Stir Fried Noodles",
+    "description": "A simple home-style dish called Stir Fried Noodles.",
+    "ingredients": [
+      {
+        "ingredient_name": "onion",
+        "quantity_g": 50
+      },
+      {
+        "ingredient_name": "chicken",
+        "quantity_g": 200
+      },
+      {
+        "ingredient_name": "rice",
+        "quantity_g": 200
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (8 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 10
+  },
+  {
+    "title": "Veggie Omelette",
+    "description": "A simple home-style dish called Veggie Omelette.",
+    "ingredients": [
+      {
+        "ingredient_name": "potato",
+        "quantity_g": 150
+      },
+      {
+        "ingredient_name": "onion",
+        "quantity_g": 50
+      },
+      {
+        "ingredient_name": "garlic",
+        "quantity_g": 10
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (12 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 14
+  },
+  {
+    "title": "Chicken Soup",
+    "description": "A simple home-style dish called Chicken Soup.",
+    "ingredients": [
+      {
+        "ingredient_name": "potato",
+        "quantity_g": 150
+      },
+      {
+        "ingredient_name": "garlic",
+        "quantity_g": 10
+      },
+      {
+        "ingredient_name": "chicken",
+        "quantity_g": 200
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (15 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 17
+  },
+  {
+    "title": "Pasta with Tomato",
+    "description": "A simple home-style dish called Pasta with Tomato.",
+    "ingredients": [
+      {
+        "ingredient_name": "garlic",
+        "quantity_g": 10
+      },
+      {
+        "ingredient_name": "carrot",
+        "quantity_g": 80
+      },
+      {
+        "ingredient_name": "onion",
+        "quantity_g": 50
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (13 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 15
+  },
+  {
+    "title": "Veggie Omelette",
+    "description": "A simple home-style dish called Veggie Omelette.",
+    "ingredients": [
+      {
+        "ingredient_name": "chicken",
+        "quantity_g": 200
+      },
+      {
+        "ingredient_name": "carrot",
+        "quantity_g": 80
+      },
+      {
+        "ingredient_name": "egg",
+        "quantity_g": 120
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (11 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 13
+  },
+  {
+    "title": "Fried Eggs",
+    "description": "A simple home-style dish called Fried Eggs.",
+    "ingredients": [
+      {
+        "ingredient_name": "garlic",
+        "quantity_g": 10
+      },
+      {
+        "ingredient_name": "egg",
+        "quantity_g": 120
+      },
+      {
+        "ingredient_name": "chicken",
+        "quantity_g": 200
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (14 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 16
+  },
+  {
+    "title": "Chicken Soup",
+    "description": "A simple home-style dish called Chicken Soup.",
+    "ingredients": [
+      {
+        "ingredient_name": "rice",
+        "quantity_g": 200
+      },
+      {
+        "ingredient_name": "potato",
+        "quantity_g": 150
+      },
+      {
+        "ingredient_name": "carrot",
+        "quantity_g": 80
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (15 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 17
+  },
+  {
+    "title": "Fried Eggs",
+    "description": "A simple home-style dish called Fried Eggs.",
+    "ingredients": [
+      {
+        "ingredient_name": "chicken",
+        "quantity_g": 200
+      },
+      {
+        "ingredient_name": "potato",
+        "quantity_g": 150
+      },
+      {
+        "ingredient_name": "onion",
+        "quantity_g": 50
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (8 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 10
+  },
+  {
+    "title": "Pasta with Tomato",
+    "description": "A simple home-style dish called Pasta with Tomato.",
+    "ingredients": [
+      {
+        "ingredient_name": "egg",
+        "quantity_g": 120
+      },
+      {
+        "ingredient_name": "rice",
+        "quantity_g": 200
+      },
+      {
+        "ingredient_name": "chicken",
+        "quantity_g": 200
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (9 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 11
+  },
+  {
+    "title": "Stir Fried Noodles",
+    "description": "A simple home-style dish called Stir Fried Noodles.",
+    "ingredients": [
+      {
+        "ingredient_name": "chicken",
+        "quantity_g": 200
+      },
+      {
+        "ingredient_name": "garlic",
+        "quantity_g": 10
+      },
+      {
+        "ingredient_name": "carrot",
+        "quantity_g": 80
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (14 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 16
+  },
+  {
+    "title": "Fried Eggs",
+    "description": "A simple home-style dish called Fried Eggs.",
+    "ingredients": [
+      {
+        "ingredient_name": "egg",
+        "quantity_g": 120
+      },
+      {
+        "ingredient_name": "onion",
+        "quantity_g": 50
+      },
+      {
+        "ingredient_name": "chicken",
+        "quantity_g": 200
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (12 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 14
+  },
+  {
+    "title": "Chicken Soup",
+    "description": "A simple home-style dish called Chicken Soup.",
+    "ingredients": [
+      {
+        "ingredient_name": "carrot",
+        "quantity_g": 80
+      },
+      {
+        "ingredient_name": "garlic",
+        "quantity_g": 10
+      },
+      {
+        "ingredient_name": "rice",
+        "quantity_g": 200
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (11 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 13
+  },
+  {
+    "title": "Veggie Omelette",
+    "description": "A simple home-style dish called Veggie Omelette.",
+    "ingredients": [
+      {
+        "ingredient_name": "onion",
+        "quantity_g": 50
+      },
+      {
+        "ingredient_name": "egg",
+        "quantity_g": 120
+      },
+      {
+        "ingredient_name": "rice",
+        "quantity_g": 200
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (11 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 13
+  },
+  {
+    "title": "Fried Eggs",
+    "description": "A simple home-style dish called Fried Eggs.",
+    "ingredients": [
+      {
+        "ingredient_name": "egg",
+        "quantity_g": 120
+      },
+      {
+        "ingredient_name": "garlic",
+        "quantity_g": 10
+      },
+      {
+        "ingredient_name": "rice",
+        "quantity_g": 200
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (14 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 16
+  },
+  {
+    "title": "Pasta with Tomato",
+    "description": "A simple home-style dish called Pasta with Tomato.",
+    "ingredients": [
+      {
+        "ingredient_name": "onion",
+        "quantity_g": 50
+      },
+      {
+        "ingredient_name": "carrot",
+        "quantity_g": 80
+      },
+      {
+        "ingredient_name": "rice",
+        "quantity_g": 200
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (12 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 14
+  },
+  {
+    "title": "Tomato Egg Stir Fry",
+    "description": "A simple home-style dish called Tomato Egg Stir Fry.",
+    "ingredients": [
+      {
+        "ingredient_name": "carrot",
+        "quantity_g": 80
+      },
+      {
+        "ingredient_name": "onion",
+        "quantity_g": 50
+      },
+      {
+        "ingredient_name": "chicken",
+        "quantity_g": 200
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (9 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 11
+  },
+  {
+    "title": "Veggie Omelette",
+    "description": "A simple home-style dish called Veggie Omelette.",
+    "ingredients": [
+      {
+        "ingredient_name": "potato",
+        "quantity_g": 150
+      },
+      {
+        "ingredient_name": "rice",
+        "quantity_g": 200
+      },
+      {
+        "ingredient_name": "egg",
+        "quantity_g": 120
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (10 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 12
+  },
+  {
+    "title": "Tomato Egg Stir Fry",
+    "description": "A simple home-style dish called Tomato Egg Stir Fry.",
+    "ingredients": [
+      {
+        "ingredient_name": "garlic",
+        "quantity_g": 10
+      },
+      {
+        "ingredient_name": "chicken",
+        "quantity_g": 200
+      },
+      {
+        "ingredient_name": "carrot",
+        "quantity_g": 80
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (14 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 16
+  },
+  {
+    "title": "Tomato Egg Stir Fry",
+    "description": "A simple home-style dish called Tomato Egg Stir Fry.",
+    "ingredients": [
+      {
+        "ingredient_name": "potato",
+        "quantity_g": 150
+      },
+      {
+        "ingredient_name": "chicken",
+        "quantity_g": 200
+      },
+      {
+        "ingredient_name": "rice",
+        "quantity_g": 200
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (8 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 10
+  },
+  {
+    "title": "Stir Fried Noodles",
+    "description": "A simple home-style dish called Stir Fried Noodles.",
+    "ingredients": [
+      {
+        "ingredient_name": "chicken",
+        "quantity_g": 200
+      },
+      {
+        "ingredient_name": "carrot",
+        "quantity_g": 80
+      },
+      {
+        "ingredient_name": "onion",
+        "quantity_g": 50
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (12 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 14
+  },
+  {
+    "title": "Garlic Fried Rice",
+    "description": "A simple home-style dish called Garlic Fried Rice.",
+    "ingredients": [
+      {
+        "ingredient_name": "onion",
+        "quantity_g": 50
+      },
+      {
+        "ingredient_name": "rice",
+        "quantity_g": 200
+      },
+      {
+        "ingredient_name": "garlic",
+        "quantity_g": 10
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (13 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 15
+  },
+  {
+    "title": "Veggie Omelette",
+    "description": "A simple home-style dish called Veggie Omelette.",
+    "ingredients": [
+      {
+        "ingredient_name": "onion",
+        "quantity_g": 50
+      },
+      {
+        "ingredient_name": "chicken",
+        "quantity_g": 200
+      },
+      {
+        "ingredient_name": "carrot",
+        "quantity_g": 80
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (15 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 17
+  },
+  {
+    "title": "Pan Fried Tofu",
+    "description": "A simple home-style dish called Pan Fried Tofu.",
+    "ingredients": [
+      {
+        "ingredient_name": "chicken",
+        "quantity_g": 200
+      },
+      {
+        "ingredient_name": "rice",
+        "quantity_g": 200
+      },
+      {
+        "ingredient_name": "potato",
+        "quantity_g": 150
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (15 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 17
+  },
+  {
+    "title": "Pan Fried Tofu",
+    "description": "A simple home-style dish called Pan Fried Tofu.",
+    "ingredients": [
+      {
+        "ingredient_name": "chicken",
+        "quantity_g": 200
+      },
+      {
+        "ingredient_name": "egg",
+        "quantity_g": 120
+      },
+      {
+        "ingredient_name": "garlic",
+        "quantity_g": 10
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (14 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 16
+  },
+  {
+    "title": "Pan Fried Tofu",
+    "description": "A simple home-style dish called Pan Fried Tofu.",
+    "ingredients": [
+      {
+        "ingredient_name": "rice",
+        "quantity_g": 200
+      },
+      {
+        "ingredient_name": "egg",
+        "quantity_g": 120
+      },
+      {
+        "ingredient_name": "potato",
+        "quantity_g": 150
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (13 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 15
+  },
+  {
+    "title": "Veggie Omelette",
+    "description": "A simple home-style dish called Veggie Omelette.",
+    "ingredients": [
+      {
+        "ingredient_name": "rice",
+        "quantity_g": 200
+      },
+      {
+        "ingredient_name": "potato",
+        "quantity_g": 150
+      },
+      {
+        "ingredient_name": "onion",
+        "quantity_g": 50
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (12 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 14
+  },
+  {
+    "title": "Pan Fried Tofu",
+    "description": "A simple home-style dish called Pan Fried Tofu.",
+    "ingredients": [
+      {
+        "ingredient_name": "rice",
+        "quantity_g": 200
+      },
+      {
+        "ingredient_name": "carrot",
+        "quantity_g": 80
+      },
+      {
+        "ingredient_name": "onion",
+        "quantity_g": 50
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (9 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 11
+  },
+  {
+    "title": "Veggie Omelette",
+    "description": "A simple home-style dish called Veggie Omelette.",
+    "ingredients": [
+      {
+        "ingredient_name": "egg",
+        "quantity_g": 120
+      },
+      {
+        "ingredient_name": "onion",
+        "quantity_g": 50
+      },
+      {
+        "ingredient_name": "potato",
+        "quantity_g": 150
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (15 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 17
+  },
+  {
+    "title": "Cabbage Stir Fry",
+    "description": "A simple home-style dish called Cabbage Stir Fry.",
+    "ingredients": [
+      {
+        "ingredient_name": "rice",
+        "quantity_g": 200
+      },
+      {
+        "ingredient_name": "egg",
+        "quantity_g": 120
+      },
+      {
+        "ingredient_name": "onion",
+        "quantity_g": 50
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (13 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 15
+  },
+  {
+    "title": "Fried Eggs",
+    "description": "A simple home-style dish called Fried Eggs.",
+    "ingredients": [
+      {
+        "ingredient_name": "onion",
+        "quantity_g": 50
+      },
+      {
+        "ingredient_name": "rice",
+        "quantity_g": 200
+      },
+      {
+        "ingredient_name": "garlic",
+        "quantity_g": 10
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (15 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 17
+  },
+  {
+    "title": "Beef and Potato Stew",
+    "description": "A simple home-style dish called Beef and Potato Stew.",
+    "ingredients": [
+      {
+        "ingredient_name": "chicken",
+        "quantity_g": 200
+      },
+      {
+        "ingredient_name": "rice",
+        "quantity_g": 200
+      },
+      {
+        "ingredient_name": "garlic",
+        "quantity_g": 10
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (12 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 14
+  },
+  {
+    "title": "Garlic Fried Rice",
+    "description": "A simple home-style dish called Garlic Fried Rice.",
+    "ingredients": [
+      {
+        "ingredient_name": "egg",
+        "quantity_g": 120
+      },
+      {
+        "ingredient_name": "chicken",
+        "quantity_g": 200
+      },
+      {
+        "ingredient_name": "rice",
+        "quantity_g": 200
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (11 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 13
+  },
+  {
+    "title": "Veggie Omelette",
+    "description": "A simple home-style dish called Veggie Omelette.",
+    "ingredients": [
+      {
+        "ingredient_name": "egg",
+        "quantity_g": 120
+      },
+      {
+        "ingredient_name": "potato",
+        "quantity_g": 150
+      },
+      {
+        "ingredient_name": "carrot",
+        "quantity_g": 80
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (15 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 17
+  },
+  {
+    "title": "Chicken Soup",
+    "description": "A simple home-style dish called Chicken Soup.",
+    "ingredients": [
+      {
+        "ingredient_name": "garlic",
+        "quantity_g": 10
+      },
+      {
+        "ingredient_name": "rice",
+        "quantity_g": 200
+      },
+      {
+        "ingredient_name": "carrot",
+        "quantity_g": 80
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (12 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 14
+  },
+  {
+    "title": "Cabbage Stir Fry",
+    "description": "A simple home-style dish called Cabbage Stir Fry.",
+    "ingredients": [
+      {
+        "ingredient_name": "chicken",
+        "quantity_g": 200
+      },
+      {
+        "ingredient_name": "carrot",
+        "quantity_g": 80
+      },
+      {
+        "ingredient_name": "rice",
+        "quantity_g": 200
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (10 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 12
+  },
+  {
+    "title": "Chicken Soup",
+    "description": "A simple home-style dish called Chicken Soup.",
+    "ingredients": [
+      {
+        "ingredient_name": "garlic",
+        "quantity_g": 10
+      },
+      {
+        "ingredient_name": "rice",
+        "quantity_g": 200
+      },
+      {
+        "ingredient_name": "carrot",
+        "quantity_g": 80
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (13 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 15
+  },
+  {
+    "title": "Beef and Potato Stew",
+    "description": "A simple home-style dish called Beef and Potato Stew.",
+    "ingredients": [
+      {
+        "ingredient_name": "potato",
+        "quantity_g": 150
+      },
+      {
+        "ingredient_name": "onion",
+        "quantity_g": 50
+      },
+      {
+        "ingredient_name": "rice",
+        "quantity_g": 200
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (11 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 13
+  },
+  {
+    "title": "Beef and Potato Stew",
+    "description": "A simple home-style dish called Beef and Potato Stew.",
+    "ingredients": [
+      {
+        "ingredient_name": "garlic",
+        "quantity_g": 10
+      },
+      {
+        "ingredient_name": "egg",
+        "quantity_g": 120
+      },
+      {
+        "ingredient_name": "chicken",
+        "quantity_g": 200
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (12 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 14
+  },
+  {
+    "title": "Fried Eggs",
+    "description": "A simple home-style dish called Fried Eggs.",
+    "ingredients": [
+      {
+        "ingredient_name": "rice",
+        "quantity_g": 200
+      },
+      {
+        "ingredient_name": "chicken",
+        "quantity_g": 200
+      },
+      {
+        "ingredient_name": "potato",
+        "quantity_g": 150
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (13 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 15
+  },
+  {
+    "title": "Beef and Potato Stew",
+    "description": "A simple home-style dish called Beef and Potato Stew.",
+    "ingredients": [
+      {
+        "ingredient_name": "rice",
+        "quantity_g": 200
+      },
+      {
+        "ingredient_name": "egg",
+        "quantity_g": 120
+      },
+      {
+        "ingredient_name": "carrot",
+        "quantity_g": 80
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (12 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 14
+  },
+  {
+    "title": "Chicken Soup",
+    "description": "A simple home-style dish called Chicken Soup.",
+    "ingredients": [
+      {
+        "ingredient_name": "onion",
+        "quantity_g": 50
+      },
+      {
+        "ingredient_name": "rice",
+        "quantity_g": 200
+      },
+      {
+        "ingredient_name": "egg",
+        "quantity_g": 120
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (14 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 16
+  },
+  {
+    "title": "Chicken Soup",
+    "description": "A simple home-style dish called Chicken Soup.",
+    "ingredients": [
+      {
+        "ingredient_name": "carrot",
+        "quantity_g": 80
+      },
+      {
+        "ingredient_name": "onion",
+        "quantity_g": 50
+      },
+      {
+        "ingredient_name": "potato",
+        "quantity_g": 150
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (12 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 14
+  },
+  {
+    "title": "Chicken Soup",
+    "description": "A simple home-style dish called Chicken Soup.",
+    "ingredients": [
+      {
+        "ingredient_name": "potato",
+        "quantity_g": 150
+      },
+      {
+        "ingredient_name": "egg",
+        "quantity_g": 120
+      },
+      {
+        "ingredient_name": "carrot",
+        "quantity_g": 80
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (14 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 16
+  },
+  {
+    "title": "Garlic Fried Rice",
+    "description": "A simple home-style dish called Garlic Fried Rice.",
+    "ingredients": [
+      {
+        "ingredient_name": "garlic",
+        "quantity_g": 10
+      },
+      {
+        "ingredient_name": "egg",
+        "quantity_g": 120
+      },
+      {
+        "ingredient_name": "onion",
+        "quantity_g": 50
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (11 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 13
+  },
+  {
+    "title": "Cabbage Stir Fry",
+    "description": "A simple home-style dish called Cabbage Stir Fry.",
+    "ingredients": [
+      {
+        "ingredient_name": "carrot",
+        "quantity_g": 80
+      },
+      {
+        "ingredient_name": "garlic",
+        "quantity_g": 10
+      },
+      {
+        "ingredient_name": "egg",
+        "quantity_g": 120
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (12 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 14
+  },
+  {
+    "title": "Pasta with Tomato",
+    "description": "A simple home-style dish called Pasta with Tomato.",
+    "ingredients": [
+      {
+        "ingredient_name": "carrot",
+        "quantity_g": 80
+      },
+      {
+        "ingredient_name": "onion",
+        "quantity_g": 50
+      },
+      {
+        "ingredient_name": "rice",
+        "quantity_g": 200
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (12 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 14
+  },
+  {
+    "title": "Tomato Egg Stir Fry",
+    "description": "A simple home-style dish called Tomato Egg Stir Fry.",
+    "ingredients": [
+      {
+        "ingredient_name": "onion",
+        "quantity_g": 50
+      },
+      {
+        "ingredient_name": "garlic",
+        "quantity_g": 10
+      },
+      {
+        "ingredient_name": "egg",
+        "quantity_g": 120
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (15 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 17
+  },
+  {
+    "title": "Pasta with Tomato",
+    "description": "A simple home-style dish called Pasta with Tomato.",
+    "ingredients": [
+      {
+        "ingredient_name": "rice",
+        "quantity_g": 200
+      },
+      {
+        "ingredient_name": "carrot",
+        "quantity_g": 80
+      },
+      {
+        "ingredient_name": "egg",
+        "quantity_g": 120
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (9 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 11
+  },
+  {
+    "title": "Stir Fried Noodles",
+    "description": "A simple home-style dish called Stir Fried Noodles.",
+    "ingredients": [
+      {
+        "ingredient_name": "carrot",
+        "quantity_g": 80
+      },
+      {
+        "ingredient_name": "potato",
+        "quantity_g": 150
+      },
+      {
+        "ingredient_name": "egg",
+        "quantity_g": 120
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (8 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 10
+  },
+  {
+    "title": "Pasta with Tomato",
+    "description": "A simple home-style dish called Pasta with Tomato.",
+    "ingredients": [
+      {
+        "ingredient_name": "chicken",
+        "quantity_g": 200
+      },
+      {
+        "ingredient_name": "onion",
+        "quantity_g": 50
+      },
+      {
+        "ingredient_name": "garlic",
+        "quantity_g": 10
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (10 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 12
+  },
+  {
+    "title": "Pan Fried Tofu",
+    "description": "A simple home-style dish called Pan Fried Tofu.",
+    "ingredients": [
+      {
+        "ingredient_name": "rice",
+        "quantity_g": 200
+      },
+      {
+        "ingredient_name": "chicken",
+        "quantity_g": 200
+      },
+      {
+        "ingredient_name": "egg",
+        "quantity_g": 120
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (14 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 16
+  },
+  {
+    "title": "Pasta with Tomato",
+    "description": "A simple home-style dish called Pasta with Tomato.",
+    "ingredients": [
+      {
+        "ingredient_name": "carrot",
+        "quantity_g": 80
+      },
+      {
+        "ingredient_name": "chicken",
+        "quantity_g": 200
+      },
+      {
+        "ingredient_name": "rice",
+        "quantity_g": 200
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (11 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 13
+  },
+  {
+    "title": "Cabbage Stir Fry",
+    "description": "A simple home-style dish called Cabbage Stir Fry.",
+    "ingredients": [
+      {
+        "ingredient_name": "potato",
+        "quantity_g": 150
+      },
+      {
+        "ingredient_name": "egg",
+        "quantity_g": 120
+      },
+      {
+        "ingredient_name": "chicken",
+        "quantity_g": 200
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (13 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 15
+  },
+  {
+    "title": "Pasta with Tomato",
+    "description": "A simple home-style dish called Pasta with Tomato.",
+    "ingredients": [
+      {
+        "ingredient_name": "carrot",
+        "quantity_g": 80
+      },
+      {
+        "ingredient_name": "potato",
+        "quantity_g": 150
+      },
+      {
+        "ingredient_name": "chicken",
+        "quantity_g": 200
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (12 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 14
+  },
+  {
+    "title": "Chicken Soup",
+    "description": "A simple home-style dish called Chicken Soup.",
+    "ingredients": [
+      {
+        "ingredient_name": "carrot",
+        "quantity_g": 80
+      },
+      {
+        "ingredient_name": "chicken",
+        "quantity_g": 200
+      },
+      {
+        "ingredient_name": "garlic",
+        "quantity_g": 10
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (8 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 10
+  },
+  {
+    "title": "Garlic Fried Rice",
+    "description": "A simple home-style dish called Garlic Fried Rice.",
+    "ingredients": [
+      {
+        "ingredient_name": "rice",
+        "quantity_g": 200
+      },
+      {
+        "ingredient_name": "potato",
+        "quantity_g": 150
+      },
+      {
+        "ingredient_name": "onion",
+        "quantity_g": 50
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (8 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 10
+  },
+  {
+    "title": "Tomato Egg Stir Fry",
+    "description": "A simple home-style dish called Tomato Egg Stir Fry.",
+    "ingredients": [
+      {
+        "ingredient_name": "onion",
+        "quantity_g": 50
+      },
+      {
+        "ingredient_name": "potato",
+        "quantity_g": 150
+      },
+      {
+        "ingredient_name": "rice",
+        "quantity_g": 200
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (15 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 17
+  },
+  {
+    "title": "Pan Fried Tofu",
+    "description": "A simple home-style dish called Pan Fried Tofu.",
+    "ingredients": [
+      {
+        "ingredient_name": "carrot",
+        "quantity_g": 80
+      },
+      {
+        "ingredient_name": "rice",
+        "quantity_g": 200
+      },
+      {
+        "ingredient_name": "garlic",
+        "quantity_g": 10
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (13 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 15
+  },
+  {
+    "title": "Garlic Fried Rice",
+    "description": "A simple home-style dish called Garlic Fried Rice.",
+    "ingredients": [
+      {
+        "ingredient_name": "chicken",
+        "quantity_g": 200
+      },
+      {
+        "ingredient_name": "garlic",
+        "quantity_g": 10
+      },
+      {
+        "ingredient_name": "potato",
+        "quantity_g": 150
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (12 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 14
+  },
+  {
+    "title": "Fried Eggs",
+    "description": "A simple home-style dish called Fried Eggs.",
+    "ingredients": [
+      {
+        "ingredient_name": "egg",
+        "quantity_g": 120
+      },
+      {
+        "ingredient_name": "chicken",
+        "quantity_g": 200
+      },
+      {
+        "ingredient_name": "carrot",
+        "quantity_g": 80
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (12 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 14
+  },
+  {
+    "title": "Cabbage Stir Fry",
+    "description": "A simple home-style dish called Cabbage Stir Fry.",
+    "ingredients": [
+      {
+        "ingredient_name": "rice",
+        "quantity_g": 200
+      },
+      {
+        "ingredient_name": "onion",
+        "quantity_g": 50
+      },
+      {
+        "ingredient_name": "potato",
+        "quantity_g": 150
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (11 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 13
+  },
+  {
+    "title": "Garlic Fried Rice",
+    "description": "A simple home-style dish called Garlic Fried Rice.",
+    "ingredients": [
+      {
+        "ingredient_name": "onion",
+        "quantity_g": 50
+      },
+      {
+        "ingredient_name": "egg",
+        "quantity_g": 120
+      },
+      {
+        "ingredient_name": "chicken",
+        "quantity_g": 200
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (8 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 10
+  },
+  {
+    "title": "Garlic Fried Rice",
+    "description": "A simple home-style dish called Garlic Fried Rice.",
+    "ingredients": [
+      {
+        "ingredient_name": "garlic",
+        "quantity_g": 10
+      },
+      {
+        "ingredient_name": "rice",
+        "quantity_g": 200
+      },
+      {
+        "ingredient_name": "potato",
+        "quantity_g": 150
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (12 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 14
+  },
+  {
+    "title": "Veggie Omelette",
+    "description": "A simple home-style dish called Veggie Omelette.",
+    "ingredients": [
+      {
+        "ingredient_name": "egg",
+        "quantity_g": 120
+      },
+      {
+        "ingredient_name": "rice",
+        "quantity_g": 200
+      },
+      {
+        "ingredient_name": "chicken",
+        "quantity_g": 200
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (14 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 16
+  },
+  {
+    "title": "Veggie Omelette",
+    "description": "A simple home-style dish called Veggie Omelette.",
+    "ingredients": [
+      {
+        "ingredient_name": "onion",
+        "quantity_g": 50
+      },
+      {
+        "ingredient_name": "rice",
+        "quantity_g": 200
+      },
+      {
+        "ingredient_name": "chicken",
+        "quantity_g": 200
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (11 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 13
+  },
+  {
+    "title": "Pasta with Tomato",
+    "description": "A simple home-style dish called Pasta with Tomato.",
+    "ingredients": [
+      {
+        "ingredient_name": "potato",
+        "quantity_g": 150
+      },
+      {
+        "ingredient_name": "rice",
+        "quantity_g": 200
+      },
+      {
+        "ingredient_name": "chicken",
+        "quantity_g": 200
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (11 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 13
+  },
+  {
+    "title": "Beef and Potato Stew",
+    "description": "A simple home-style dish called Beef and Potato Stew.",
+    "ingredients": [
+      {
+        "ingredient_name": "garlic",
+        "quantity_g": 10
+      },
+      {
+        "ingredient_name": "onion",
+        "quantity_g": 50
+      },
+      {
+        "ingredient_name": "carrot",
+        "quantity_g": 80
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (12 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 14
+  },
+  {
+    "title": "Pan Fried Tofu",
+    "description": "A simple home-style dish called Pan Fried Tofu.",
+    "ingredients": [
+      {
+        "ingredient_name": "rice",
+        "quantity_g": 200
+      },
+      {
+        "ingredient_name": "onion",
+        "quantity_g": 50
+      },
+      {
+        "ingredient_name": "garlic",
+        "quantity_g": 10
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (8 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 10
+  },
+  {
+    "title": "Veggie Omelette",
+    "description": "A simple home-style dish called Veggie Omelette.",
+    "ingredients": [
+      {
+        "ingredient_name": "garlic",
+        "quantity_g": 10
+      },
+      {
+        "ingredient_name": "potato",
+        "quantity_g": 150
+      },
+      {
+        "ingredient_name": "carrot",
+        "quantity_g": 80
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (10 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 12
+  },
+  {
+    "title": "Chicken Soup",
+    "description": "A simple home-style dish called Chicken Soup.",
+    "ingredients": [
+      {
+        "ingredient_name": "carrot",
+        "quantity_g": 80
+      },
+      {
+        "ingredient_name": "chicken",
+        "quantity_g": 200
+      },
+      {
+        "ingredient_name": "rice",
+        "quantity_g": 200
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (14 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 16
+  },
+  {
+    "title": "Veggie Omelette",
+    "description": "A simple home-style dish called Veggie Omelette.",
+    "ingredients": [
+      {
+        "ingredient_name": "carrot",
+        "quantity_g": 80
+      },
+      {
+        "ingredient_name": "potato",
+        "quantity_g": 150
+      },
+      {
+        "ingredient_name": "egg",
+        "quantity_g": 120
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (8 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 10
+  },
+  {
+    "title": "Fried Eggs",
+    "description": "A simple home-style dish called Fried Eggs.",
+    "ingredients": [
+      {
+        "ingredient_name": "carrot",
+        "quantity_g": 80
+      },
+      {
+        "ingredient_name": "onion",
+        "quantity_g": 50
+      },
+      {
+        "ingredient_name": "potato",
+        "quantity_g": 150
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (13 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 15
+  },
+  {
+    "title": "Beef and Potato Stew",
+    "description": "A simple home-style dish called Beef and Potato Stew.",
+    "ingredients": [
+      {
+        "ingredient_name": "potato",
+        "quantity_g": 150
+      },
+      {
+        "ingredient_name": "carrot",
+        "quantity_g": 80
+      },
+      {
+        "ingredient_name": "onion",
+        "quantity_g": 50
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (15 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 17
+  },
+  {
+    "title": "Pasta with Tomato",
+    "description": "A simple home-style dish called Pasta with Tomato.",
+    "ingredients": [
+      {
+        "ingredient_name": "potato",
+        "quantity_g": 150
+      },
+      {
+        "ingredient_name": "egg",
+        "quantity_g": 120
+      },
+      {
+        "ingredient_name": "carrot",
+        "quantity_g": 80
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (10 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 12
+  },
+  {
+    "title": "Fried Eggs",
+    "description": "A simple home-style dish called Fried Eggs.",
+    "ingredients": [
+      {
+        "ingredient_name": "potato",
+        "quantity_g": 150
+      },
+      {
+        "ingredient_name": "egg",
+        "quantity_g": 120
+      },
+      {
+        "ingredient_name": "chicken",
+        "quantity_g": 200
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (11 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 13
+  },
+  {
+    "title": "Cabbage Stir Fry",
+    "description": "A simple home-style dish called Cabbage Stir Fry.",
+    "ingredients": [
+      {
+        "ingredient_name": "onion",
+        "quantity_g": 50
+      },
+      {
+        "ingredient_name": "carrot",
+        "quantity_g": 80
+      },
+      {
+        "ingredient_name": "garlic",
+        "quantity_g": 10
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (11 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 13
+  },
+  {
+    "title": "Chicken Soup",
+    "description": "A simple home-style dish called Chicken Soup.",
+    "ingredients": [
+      {
+        "ingredient_name": "egg",
+        "quantity_g": 120
+      },
+      {
+        "ingredient_name": "carrot",
+        "quantity_g": 80
+      },
+      {
+        "ingredient_name": "onion",
+        "quantity_g": 50
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (12 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 14
+  },
+  {
+    "title": "Fried Eggs",
+    "description": "A simple home-style dish called Fried Eggs.",
+    "ingredients": [
+      {
+        "ingredient_name": "garlic",
+        "quantity_g": 10
+      },
+      {
+        "ingredient_name": "rice",
+        "quantity_g": 200
+      },
+      {
+        "ingredient_name": "chicken",
+        "quantity_g": 200
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (14 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 16
+  },
+  {
+    "title": "Tomato Egg Stir Fry",
+    "description": "A simple home-style dish called Tomato Egg Stir Fry.",
+    "ingredients": [
+      {
+        "ingredient_name": "chicken",
+        "quantity_g": 200
+      },
+      {
+        "ingredient_name": "onion",
+        "quantity_g": 50
+      },
+      {
+        "ingredient_name": "carrot",
+        "quantity_g": 80
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (15 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 17
+  },
+  {
+    "title": "Beef and Potato Stew",
+    "description": "A simple home-style dish called Beef and Potato Stew.",
+    "ingredients": [
+      {
+        "ingredient_name": "egg",
+        "quantity_g": 120
+      },
+      {
+        "ingredient_name": "potato",
+        "quantity_g": 150
+      },
+      {
+        "ingredient_name": "carrot",
+        "quantity_g": 80
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (13 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 15
+  },
+  {
+    "title": "Pasta with Tomato",
+    "description": "A simple home-style dish called Pasta with Tomato.",
+    "ingredients": [
+      {
+        "ingredient_name": "carrot",
+        "quantity_g": 80
+      },
+      {
+        "ingredient_name": "garlic",
+        "quantity_g": 10
+      },
+      {
+        "ingredient_name": "chicken",
+        "quantity_g": 200
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (15 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 17
+  },
+  {
+    "title": "Veggie Omelette",
+    "description": "A simple home-style dish called Veggie Omelette.",
+    "ingredients": [
+      {
+        "ingredient_name": "chicken",
+        "quantity_g": 200
+      },
+      {
+        "ingredient_name": "garlic",
+        "quantity_g": 10
+      },
+      {
+        "ingredient_name": "carrot",
+        "quantity_g": 80
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (14 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 16
+  },
+  {
+    "title": "Veggie Omelette",
+    "description": "A simple home-style dish called Veggie Omelette.",
+    "ingredients": [
+      {
+        "ingredient_name": "carrot",
+        "quantity_g": 80
+      },
+      {
+        "ingredient_name": "potato",
+        "quantity_g": 150
+      },
+      {
+        "ingredient_name": "egg",
+        "quantity_g": 120
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (9 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 11
+  },
+  {
+    "title": "Tomato Egg Stir Fry",
+    "description": "A simple home-style dish called Tomato Egg Stir Fry.",
+    "ingredients": [
+      {
+        "ingredient_name": "chicken",
+        "quantity_g": 200
+      },
+      {
+        "ingredient_name": "potato",
+        "quantity_g": 150
+      },
+      {
+        "ingredient_name": "carrot",
+        "quantity_g": 80
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (13 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 15
+  },
+  {
+    "title": "Pan Fried Tofu",
+    "description": "A simple home-style dish called Pan Fried Tofu.",
+    "ingredients": [
+      {
+        "ingredient_name": "potato",
+        "quantity_g": 150
+      },
+      {
+        "ingredient_name": "rice",
+        "quantity_g": 200
+      },
+      {
+        "ingredient_name": "chicken",
+        "quantity_g": 200
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (15 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 17
+  },
+  {
+    "title": "Fried Eggs",
+    "description": "A simple home-style dish called Fried Eggs.",
+    "ingredients": [
+      {
+        "ingredient_name": "carrot",
+        "quantity_g": 80
+      },
+      {
+        "ingredient_name": "rice",
+        "quantity_g": 200
+      },
+      {
+        "ingredient_name": "chicken",
+        "quantity_g": 200
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (11 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 13
+  },
+  {
+    "title": "Pasta with Tomato",
+    "description": "A simple home-style dish called Pasta with Tomato.",
+    "ingredients": [
+      {
+        "ingredient_name": "onion",
+        "quantity_g": 50
+      },
+      {
+        "ingredient_name": "chicken",
+        "quantity_g": 200
+      },
+      {
+        "ingredient_name": "rice",
+        "quantity_g": 200
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (8 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 10
+  },
+  {
+    "title": "Pan Fried Tofu",
+    "description": "A simple home-style dish called Pan Fried Tofu.",
+    "ingredients": [
+      {
+        "ingredient_name": "potato",
+        "quantity_g": 150
+      },
+      {
+        "ingredient_name": "rice",
+        "quantity_g": 200
+      },
+      {
+        "ingredient_name": "garlic",
+        "quantity_g": 10
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (15 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 17
+  },
+  {
+    "title": "Pasta with Tomato",
+    "description": "A simple home-style dish called Pasta with Tomato.",
+    "ingredients": [
+      {
+        "ingredient_name": "rice",
+        "quantity_g": 200
+      },
+      {
+        "ingredient_name": "potato",
+        "quantity_g": 150
+      },
+      {
+        "ingredient_name": "onion",
+        "quantity_g": 50
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (13 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 15
+  },
+  {
+    "title": "Tomato Egg Stir Fry",
+    "description": "A simple home-style dish called Tomato Egg Stir Fry.",
+    "ingredients": [
+      {
+        "ingredient_name": "rice",
+        "quantity_g": 200
+      },
+      {
+        "ingredient_name": "carrot",
+        "quantity_g": 80
+      },
+      {
+        "ingredient_name": "onion",
+        "quantity_g": 50
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (10 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 12
+  },
+  {
+    "title": "Garlic Fried Rice",
+    "description": "A simple home-style dish called Garlic Fried Rice.",
+    "ingredients": [
+      {
+        "ingredient_name": "potato",
+        "quantity_g": 150
+      },
+      {
+        "ingredient_name": "carrot",
+        "quantity_g": 80
+      },
+      {
+        "ingredient_name": "rice",
+        "quantity_g": 200
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (12 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 14
+  },
+  {
+    "title": "Fried Eggs",
+    "description": "A simple home-style dish called Fried Eggs.",
+    "ingredients": [
+      {
+        "ingredient_name": "potato",
+        "quantity_g": 150
+      },
+      {
+        "ingredient_name": "rice",
+        "quantity_g": 200
+      },
+      {
+        "ingredient_name": "chicken",
+        "quantity_g": 200
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (12 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 14
+  },
+  {
+    "title": "Chicken Soup",
+    "description": "A simple home-style dish called Chicken Soup.",
+    "ingredients": [
+      {
+        "ingredient_name": "egg",
+        "quantity_g": 120
+      },
+      {
+        "ingredient_name": "chicken",
+        "quantity_g": 200
+      },
+      {
+        "ingredient_name": "onion",
+        "quantity_g": 50
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (12 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 14
+  },
+  {
+    "title": "Pan Fried Tofu",
+    "description": "A simple home-style dish called Pan Fried Tofu.",
+    "ingredients": [
+      {
+        "ingredient_name": "carrot",
+        "quantity_g": 80
+      },
+      {
+        "ingredient_name": "potato",
+        "quantity_g": 150
+      },
+      {
+        "ingredient_name": "rice",
+        "quantity_g": 200
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (13 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 15
+  },
+  {
+    "title": "Garlic Fried Rice",
+    "description": "A simple home-style dish called Garlic Fried Rice.",
+    "ingredients": [
+      {
+        "ingredient_name": "egg",
+        "quantity_g": 120
+      },
+      {
+        "ingredient_name": "onion",
+        "quantity_g": 50
+      },
+      {
+        "ingredient_name": "carrot",
+        "quantity_g": 80
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (14 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 16
+  },
+  {
+    "title": "Garlic Fried Rice",
+    "description": "A simple home-style dish called Garlic Fried Rice.",
+    "ingredients": [
+      {
+        "ingredient_name": "egg",
+        "quantity_g": 120
+      },
+      {
+        "ingredient_name": "carrot",
+        "quantity_g": 80
+      },
+      {
+        "ingredient_name": "garlic",
+        "quantity_g": 10
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (11 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 13
+  },
+  {
+    "title": "Veggie Omelette",
+    "description": "A simple home-style dish called Veggie Omelette.",
+    "ingredients": [
+      {
+        "ingredient_name": "onion",
+        "quantity_g": 50
+      },
+      {
+        "ingredient_name": "potato",
+        "quantity_g": 150
+      },
+      {
+        "ingredient_name": "garlic",
+        "quantity_g": 10
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (13 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 15
+  },
+  {
+    "title": "Stir Fried Noodles",
+    "description": "A simple home-style dish called Stir Fried Noodles.",
+    "ingredients": [
+      {
+        "ingredient_name": "egg",
+        "quantity_g": 120
+      },
+      {
+        "ingredient_name": "rice",
+        "quantity_g": 200
+      },
+      {
+        "ingredient_name": "carrot",
+        "quantity_g": 80
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (12 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 14
+  },
+  {
+    "title": "Beef and Potato Stew",
+    "description": "A simple home-style dish called Beef and Potato Stew.",
+    "ingredients": [
+      {
+        "ingredient_name": "egg",
+        "quantity_g": 120
+      },
+      {
+        "ingredient_name": "carrot",
+        "quantity_g": 80
+      },
+      {
+        "ingredient_name": "potato",
+        "quantity_g": 150
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (12 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 14
+  },
+  {
+    "title": "Cabbage Stir Fry",
+    "description": "A simple home-style dish called Cabbage Stir Fry.",
+    "ingredients": [
+      {
+        "ingredient_name": "potato",
+        "quantity_g": 150
+      },
+      {
+        "ingredient_name": "chicken",
+        "quantity_g": 200
+      },
+      {
+        "ingredient_name": "garlic",
+        "quantity_g": 10
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (12 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 14
+  },
+  {
+    "title": "Veggie Omelette",
+    "description": "A simple home-style dish called Veggie Omelette.",
+    "ingredients": [
+      {
+        "ingredient_name": "onion",
+        "quantity_g": 50
+      },
+      {
+        "ingredient_name": "potato",
+        "quantity_g": 150
+      },
+      {
+        "ingredient_name": "carrot",
+        "quantity_g": 80
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (8 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 10
+  },
+  {
+    "title": "Fried Eggs",
+    "description": "A simple home-style dish called Fried Eggs.",
+    "ingredients": [
+      {
+        "ingredient_name": "carrot",
+        "quantity_g": 80
+      },
+      {
+        "ingredient_name": "rice",
+        "quantity_g": 200
+      },
+      {
+        "ingredient_name": "potato",
+        "quantity_g": 150
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (13 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 15
+  },
+  {
+    "title": "Chicken Soup",
+    "description": "A simple home-style dish called Chicken Soup.",
+    "ingredients": [
+      {
+        "ingredient_name": "chicken",
+        "quantity_g": 200
+      },
+      {
+        "ingredient_name": "rice",
+        "quantity_g": 200
+      },
+      {
+        "ingredient_name": "potato",
+        "quantity_g": 150
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (13 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 15
+  },
+  {
+    "title": "Pasta with Tomato",
+    "description": "A simple home-style dish called Pasta with Tomato.",
+    "ingredients": [
+      {
+        "ingredient_name": "chicken",
+        "quantity_g": 200
+      },
+      {
+        "ingredient_name": "rice",
+        "quantity_g": 200
+      },
+      {
+        "ingredient_name": "egg",
+        "quantity_g": 120
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (10 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 12
+  },
+  {
+    "title": "Beef and Potato Stew",
+    "description": "A simple home-style dish called Beef and Potato Stew.",
+    "ingredients": [
+      {
+        "ingredient_name": "egg",
+        "quantity_g": 120
+      },
+      {
+        "ingredient_name": "carrot",
+        "quantity_g": 80
+      },
+      {
+        "ingredient_name": "onion",
+        "quantity_g": 50
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (9 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 11
+  },
+  {
+    "title": "Beef and Potato Stew",
+    "description": "A simple home-style dish called Beef and Potato Stew.",
+    "ingredients": [
+      {
+        "ingredient_name": "carrot",
+        "quantity_g": 80
+      },
+      {
+        "ingredient_name": "rice",
+        "quantity_g": 200
+      },
+      {
+        "ingredient_name": "garlic",
+        "quantity_g": 10
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (14 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 16
+  },
+  {
+    "title": "Tomato Egg Stir Fry",
+    "description": "A simple home-style dish called Tomato Egg Stir Fry.",
+    "ingredients": [
+      {
+        "ingredient_name": "rice",
+        "quantity_g": 200
+      },
+      {
+        "ingredient_name": "carrot",
+        "quantity_g": 80
+      },
+      {
+        "ingredient_name": "egg",
+        "quantity_g": 120
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (13 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 15
+  },
+  {
+    "title": "Veggie Omelette",
+    "description": "A simple home-style dish called Veggie Omelette.",
+    "ingredients": [
+      {
+        "ingredient_name": "rice",
+        "quantity_g": 200
+      },
+      {
+        "ingredient_name": "potato",
+        "quantity_g": 150
+      },
+      {
+        "ingredient_name": "egg",
+        "quantity_g": 120
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (8 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 10
+  },
+  {
+    "title": "Stir Fried Noodles",
+    "description": "A simple home-style dish called Stir Fried Noodles.",
+    "ingredients": [
+      {
+        "ingredient_name": "garlic",
+        "quantity_g": 10
+      },
+      {
+        "ingredient_name": "carrot",
+        "quantity_g": 80
+      },
+      {
+        "ingredient_name": "rice",
+        "quantity_g": 200
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (13 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 15
+  },
+  {
+    "title": "Pan Fried Tofu",
+    "description": "A simple home-style dish called Pan Fried Tofu.",
+    "ingredients": [
+      {
+        "ingredient_name": "rice",
+        "quantity_g": 200
+      },
+      {
+        "ingredient_name": "potato",
+        "quantity_g": 150
+      },
+      {
+        "ingredient_name": "carrot",
+        "quantity_g": 80
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (11 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 13
+  },
+  {
+    "title": "Chicken Soup",
+    "description": "A simple home-style dish called Chicken Soup.",
+    "ingredients": [
+      {
+        "ingredient_name": "chicken",
+        "quantity_g": 200
+      },
+      {
+        "ingredient_name": "rice",
+        "quantity_g": 200
+      },
+      {
+        "ingredient_name": "egg",
+        "quantity_g": 120
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (13 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 15
+  },
+  {
+    "title": "Pan Fried Tofu",
+    "description": "A simple home-style dish called Pan Fried Tofu.",
+    "ingredients": [
+      {
+        "ingredient_name": "potato",
+        "quantity_g": 150
+      },
+      {
+        "ingredient_name": "onion",
+        "quantity_g": 50
+      },
+      {
+        "ingredient_name": "carrot",
+        "quantity_g": 80
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (11 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 13
+  },
+  {
+    "title": "Chicken Soup",
+    "description": "A simple home-style dish called Chicken Soup.",
+    "ingredients": [
+      {
+        "ingredient_name": "egg",
+        "quantity_g": 120
+      },
+      {
+        "ingredient_name": "chicken",
+        "quantity_g": 200
+      },
+      {
+        "ingredient_name": "potato",
+        "quantity_g": 150
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (9 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 11
+  },
+  {
+    "title": "Stir Fried Noodles",
+    "description": "A simple home-style dish called Stir Fried Noodles.",
+    "ingredients": [
+      {
+        "ingredient_name": "egg",
+        "quantity_g": 120
+      },
+      {
+        "ingredient_name": "garlic",
+        "quantity_g": 10
+      },
+      {
+        "ingredient_name": "chicken",
+        "quantity_g": 200
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (13 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 15
+  },
+  {
+    "title": "Pasta with Tomato",
+    "description": "A simple home-style dish called Pasta with Tomato.",
+    "ingredients": [
+      {
+        "ingredient_name": "chicken",
+        "quantity_g": 200
+      },
+      {
+        "ingredient_name": "onion",
+        "quantity_g": 50
+      },
+      {
+        "ingredient_name": "carrot",
+        "quantity_g": 80
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (9 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 11
+  },
+  {
+    "title": "Garlic Fried Rice",
+    "description": "A simple home-style dish called Garlic Fried Rice.",
+    "ingredients": [
+      {
+        "ingredient_name": "garlic",
+        "quantity_g": 10
+      },
+      {
+        "ingredient_name": "carrot",
+        "quantity_g": 80
+      },
+      {
+        "ingredient_name": "egg",
+        "quantity_g": 120
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (10 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 12
+  },
+  {
+    "title": "Pan Fried Tofu",
+    "description": "A simple home-style dish called Pan Fried Tofu.",
+    "ingredients": [
+      {
+        "ingredient_name": "garlic",
+        "quantity_g": 10
+      },
+      {
+        "ingredient_name": "potato",
+        "quantity_g": 150
+      },
+      {
+        "ingredient_name": "egg",
+        "quantity_g": 120
+      }
+    ],
+    "cooking_steps": [
+      "Chop all ingredients.",
+      "Heat oil in pan. (2 min)",
+      "Add ingredients and cook until done. (8 min)",
+      "Season and serve."
+    ],
+    "cook_time_min": 10
+  }
+]
