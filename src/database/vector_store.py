@@ -10,6 +10,7 @@ class RecipeVectorStore:
             model_name=settings.AZURE_OPENAI_KEY_EMBEDDING_MODEL,
             api_base=settings.AZURE_OPENAI_ENDPOINT,
         )
+        self._drop_collection()
         self.collection = self._get_or_create_collection()
 
     def _get_or_create_collection(self):
@@ -17,6 +18,9 @@ class RecipeVectorStore:
             name="recipes",
             embedding_function=self.embedding_fn
         )
+    
+    def _drop_collection(self):
+        self.client.delete_collection(name="recipes")
 
     def add_recipe(self, recipe_id: str, recipe_text: str, metadata: dict):
         self.collection.add(

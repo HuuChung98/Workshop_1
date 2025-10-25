@@ -509,12 +509,13 @@ def chat_complete(system: str, user: str, temperature: float, max_tokens: int = 
 
         # 1. Search for similar recipes
         similar_recipes = recipe_service.search_recipes(target_text, 3)
-        
+        print(f"🔍 Found {len(similar_recipes)} similar recipes in vector DB")
+        # print("Similar recipes:", json.dumps(similar_recipes, indent=2, ensure_ascii=False))   
         if similar_recipes:
             # Format recipes for GPT context
             recipes_context = "\n\n".join(
-                recipe_service._format_recipe_text(recipe)
-                for recipe in similar_recipes
+                recipe
+                for recipe in similar_recipes["documents"][0]
             )
             
             # Create selection prompt for GPT
