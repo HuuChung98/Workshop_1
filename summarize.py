@@ -496,7 +496,7 @@ def chat_complete(system: str, user: str, temperature: float, max_tokens: int = 
     """
     Enhanced chat completion with recipe search and calorie calculation:
     1. Search vector DB for similar recipes
-    2. Let GPT choose the best match or create new recipe
+    2. Let GPT choose the best match
     3. Calculate calories using ingredient DB
     """
     try:
@@ -508,9 +508,9 @@ def chat_complete(system: str, user: str, temperature: float, max_tokens: int = 
             return chat_complete_default(system, user, temperature, max_tokens)
 
         # 1. Search for similar recipes
-        similar_recipes = recipe_service.search_recipes(target_text, 3)
+        similar_recipes = recipe_service.search_recipes(target_text, 2)
         print(f"🔍 Found {len(similar_recipes)} similar recipes in vector DB")
-        # print("Similar recipes:", json.dumps(similar_recipes, indent=2, ensure_ascii=False))   
+        print("Similar recipes:", similar_recipes)   
         if similar_recipes:
             # Format recipes for GPT context
             recipes_context = "\n\n".join(
@@ -526,11 +526,10 @@ def chat_complete(system: str, user: str, temperature: float, max_tokens: int = 
 Based on the user's query: "{target_text}"
 
 Please:
-1. Choose the most relevant recipe or combine elements from multiple recipes
-2. If none are exactly what the user wants, create a new recipe
-3. Always include complete ingredients with quantities
-4. Ensure clear step-by-step instructions
-5. If calorie information is missing, I will calculate it from ingredients
+1. Choose the most relevant recipe
+2. Always include complete ingredients with quantities
+3. Ensure clear step-by-step instructions
+4. If calorie information is missing, I will calculate it from ingredients
 
 Your response should be well-structured with ingredients and steps."""
 
