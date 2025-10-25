@@ -1,6 +1,6 @@
 import os
 from dataclasses import dataclass
-from typing import List, Dict, Optional, Tuple
+from typing import List, Dict, Optional, Tuple, Any
 
 from tenacity import (
     retry,
@@ -171,33 +171,38 @@ class TransientOpenAIError(Exception):
 function_definition = [{
     "type": "function",
     "function": {
-        "name": "calculate_calories",
-        "description": (
-            "This function calculates the total calories based on a list of ingredients and their weights in grams."
-        ),
+        "name": "calculate_recipe_calories",
+        "description": "Calculate total calories and nutritional information for a recipe based on its ingredients",
         "parameters": {
             "type": "object",
             "properties": {
-                "ingredients": {
-                    "type": "array",
-                    "description": "List of ingredients with weights in grams for calorie calculation.",
-                    "items": {
-                        "type": "object",
-                        "properties": {
-                            "ingredient_name": {
-                                "type": "string",
-                                "description": "Ingredient name to look up in the calorie dataset."
-                            },
-                            "weight": {
-                                "type": "number",
-                                "description": "Weight of the ingredient in grams."
+                "recipe": {
+                    "type": "object",
+                    "description": "Recipe information including ingredients and quantities",
+                    "properties": {
+                        "title": {"type": "string"},
+                        "ingredients": {
+                            "type": "array",
+                            "items": {
+                                "type": "object",
+                                "properties": {
+                                    "ingredient_name": {"type": "string"},
+                                    "quantity_g": {"type": "number", "description": "Amount in grams"},
+                                    "quantity_ml": {"type": "number", "description": "Amount in milliliters"},
+                                    "quantity_pieces": {"type": "integer", "description": "Number of pieces"},
+                                    "quantity": {"type": "string", "description": "Generic quantity"},
+                                    "quantity_unit": {"type": "string", "description": "Unit for generic quantity"},
+                                    "notes": {"type": "string"}
+                                },
+                                "required": ["ingredient_name"]
                             }
                         },
-                        "required": ["ingredient_name", "weight"]
-                    }
+                        "servings": {"type": "integer", "description": "Number of servings"}
+                    },
+                    "required": ["title", "ingredients"]
                 }
             },
-            "required": ["ingredients"]
+            "required": ["recipe"]
         }
     }
 }]
@@ -214,38 +219,79 @@ function_definition = [{
 #     total_cal = (weight / 100) * cal_per_100g
 #     return total_cal
 
-def calculate_calories(ingredients: List[Dict[str, object]]) -> dict:
-    """Tính tổng calories dựa trên danh sách nguyên liệu."""
-    results: List[Dict[str, object]] = []
+def calculate_recipe_calories(recipe: Dict[str, Any]) -> dict:
+    """Calculate total calories and nutrition details for a recipe"""
+    results: List[Dict[str, Any]] = []
     total_calories = 0.0
-
-    for item in ingredients:
+    
+    for item in recipe["ingredients"]:
         name = str(item["ingredient_name"]).strip()
-        try:
-            weight = float(item["weight"])
-        except (TypeError, ValueError):
-            weight = 0.0
-
+        quantity = None
+        unit = None
+        
+        # Determine quantity and unit from available fields
+        if "quantity_g" in item and item["quantity_g"]:
+            quantity = float(item["quantity_g"])
+            unit = "g"
+        elif "quantity_ml" in item and item["quantity_ml"]:
+            quantity = float(item["quantity_ml"])
+            unit = "ml"
+        elif "quantity_pieces" in item and item["quantity_pieces"]:
+            quantity = float(item["quantity_pieces"])
+            unit = "piece"
+        elif "quantity" in item and item["quantity"]:
+            try:
+                quantity = float(''.join(filter(str.isdigit, str(item["quantity"]))))
+                unit = item.get("quantity_unit", "g")
+            except ValueError:
+                quantity = 0.0
+                
+        # Find ingredient in dataset
         match = next((d for d in dataset if d["Ingredients"].lower() == name.lower()), None)
-
-        if not match:
+        
+        if not match or not quantity:
             results.append({
                 "ingredient": name,
-                "weight": round(weight, 2),
+                "quantity": quantity,
+                "unit": unit,
                 "calories": None,
-                "note": "Không tìm thấy nguyên liệu trong dataset"
+                "note": "Ingredient not found or invalid quantity"
             })
             continue
-
+            
+        # Convert to grams if needed
+        grams = quantity
+        if unit == "ml":
+            grams = quantity  # Approximate 1ml = 1g
+        elif unit == "piece":
+            grams = quantity * 100  # Rough estimate per piece
+            
+        # Calculate calories
         cal_per_100g = match["Calories per 100g"]
-        calories = (weight / 100) * cal_per_100g
+        calories = (grams / 100) * cal_per_100g
         total_calories += calories
-
-        results.append(
-            {"ingredient": name, "weight": weight, "calories": round(calories, 2)}
-        )
-
-    return {"details": results, "total_calories": round(total_calories, 2)}
+        
+        results.append({
+            "ingredient": name,
+            "quantity": quantity,
+            "unit": unit,
+            "calories": round(calories, 2),
+            "calories_per_100g": cal_per_100g
+        })
+    
+    # Calculate per serving if available
+    servings = recipe.get("servings")
+    if servings and servings > 0:
+        calories_per_serving = total_calories / servings
+    else:
+        calories_per_serving = total_calories
+        
+    return {
+        "details": results,
+        "total_calories": round(total_calories, 2),
+        "calories_per_serving": round(calories_per_serving, 2),
+        "servings": servings
+    }
 
 
 
@@ -281,12 +327,33 @@ def _save_last_ingredients(ingredients: List[Dict[str, object]], dish_name: Opti
 
 
 def _format_calorie_result(result: dict) -> str:
-    lines = [f"Tổng calories: {result['total_calories']} kcal"]
+    """Format calorie calculation results into human-readable text"""
+    lines = []
+    
+    # Add total calories and per serving if available
+    if result.get("servings"):
+        lines.append(f"Total calories: {result['total_calories']} kcal")
+        lines.append(f"Calories per serving: {result['calories_per_serving']} kcal")
+        lines.append(f"Servings: {result['servings']}")
+    else:
+        lines.append(f"Total calories: {result['total_calories']} kcal")
+    
+    lines.append("\nBreakdown by ingredient:")
     for item in result["details"]:
         if item.get("calories") is not None:
-            lines.append(f"- {item['ingredient']} ({item['weight']}g): {item['calories']} kcal")
+            lines.append(
+                f"- {item['ingredient']} "
+                f"({item['quantity']}{item['unit']}): "
+                f"{item['calories']} kcal "
+                f"({item.get('calories_per_100g', 0)} kcal/100g)"
+            )
         else:
-            lines.append(f"- {item['ingredient']} ({item['weight']}g): không có dữ liệu")
+            lines.append(
+                f"- {item['ingredient']} "
+                f"({item['quantity']}{item['unit']}): "
+                "no calorie data available"
+            )
+    
     return "\n".join(lines)
 
 
@@ -415,6 +482,10 @@ def extract_ingredients_from_prompt(prompt: str) -> List[Dict[str, object]]:
 # --------------------------
 
 
+from src.services.recipe_service import RecipeService
+
+recipe_service = RecipeService()
+
 @retry(
     reraise=True,
     stop=stop_after_attempt(MAX_RETRIES),
@@ -423,36 +494,78 @@ def extract_ingredients_from_prompt(prompt: str) -> List[Dict[str, object]]:
 )
 def chat_complete(system: str, user: str, temperature: float, max_tokens: int = MAX_OUTPUT_TOKENS, raw_user_text: Optional[str] = None) -> str:
     """
-    Calls Azure OpenAI ChatCompletion with retry on transient errors.
-    Tự động:
-    - Bóc tách nguyên liệu nếu có ("Cá hồi: 100g, Gạo: 50g") và tính calories ngay.
-    - Nếu không có nguyên liệu, để GPT xử lý theo flow thông thường.
+    Enhanced chat completion with recipe search and calorie calculation:
+    1. Search vector DB for similar recipes
+    2. Let GPT choose the best match or create new recipe
+    3. Calculate calories using ingredient DB
     """
     try:
-        # 1️⃣ Thử trích xuất danh sách nguyên liệu từ prompt (bỏ qua nếu là prompt hệ thống)
+        # Use raw user text if available, otherwise use formatted user prompt
         target_text = raw_user_text if raw_user_text is not None else user
+        
+        # Skip system prompts and examples
+        if _should_skip_auto_extract(target_text):
+            return chat_complete_default(system, user, temperature, max_tokens)
 
-        ingredients: List[Dict[str, object]] = []
-        if not _should_skip_auto_extract(target_text):
-            ingredients = extract_ingredients_from_prompt(target_text)
+        # 1. Search for similar recipes
+        similar_recipes = recipe_service.search_recipes(target_text, 3)
+        
+        if similar_recipes:
+            # Format recipes for GPT context
+            recipes_context = "\n\n".join(
+                recipe_service._format_recipe_text(recipe)
+                for recipe in similar_recipes
+            )
+            
+            # Create selection prompt for GPT
+            selection_prompt = f"""I found these similar recipes:
 
-        if ingredients:
-            print("🧾 Ingredients auto-detected:", json.dumps(ingredients, indent=2, ensure_ascii=False))
-            _save_last_ingredients(ingredients)
+{recipes_context}
 
-            if _wants_calorie_total(target_text):
-                result = calculate_calories(ingredients)
-                return _format_calorie_result(result)
+Based on the user's query: "{target_text}"
+
+Please:
+1. Choose the most relevant recipe or combine elements from multiple recipes
+2. If none are exactly what the user wants, create a new recipe
+3. Always include complete ingredients with quantities
+4. Ensure clear step-by-step instructions
+5. If calorie information is missing, I will calculate it from ingredients
+
+Your response should be well-structured with ingredients and steps."""
+
+        # Let GPT choose/combine recipes
+        request_kwargs = {
+            "model": DEPLOYMENT,
+            "messages": [
+                {"role": "system", "content": system},
+                {"role": "user", "content": selection_prompt}
+            ],
+            "temperature": temperature,
+            "max_tokens": max_tokens
+        }
+        
+        response = client.chat.completions.create(**request_kwargs)
+        recipe_response = response.choices[0].message.content.strip()
 
         resolved_ingredients: Optional[List[Dict[str, object]]] = None
-        if not ingredients:
-            resolved_ingredients = _get_ingredients_for_calorie_request(target_text)
-
-        if resolved_ingredients:
-            result = calculate_calories(resolved_ingredients)
-            return _format_calorie_result(result)
-
-        allow_tools = _wants_calorie_total(target_text) and resolved_ingredients is None
+        # Extract ingredients from the recipe response
+        ingredients = extract_ingredients_from_prompt(recipe_response)
+        
+        if ingredients:
+            print("🧾 Extracted ingredients from recipe:", json.dumps(ingredients, indent=2, ensure_ascii=False))
+            _save_last_ingredients(ingredients)
+            
+            # Calculate calories if needed
+            if _wants_calorie_total(target_text) or "calories" not in recipe_response.lower():
+                result = calculate_calories(ingredients)
+                calorie_info = _format_calorie_result(result)
+                recipe_response += f"\n\nNutritional Information:\n{calorie_info}"
+            
+            return recipe_response
+        
+        # If no similar recipes found or extraction failed, fall back to default behavior
+        print("⚠️ No similar recipes found, falling back to default completion")
+        allow_tools = _wants_calorie_total(target_text)
 
         # 2️⃣ Nếu không có nguyên liệu → để GPT xử lý như bình thường
         request_kwargs = {

@@ -6,3 +6,11 @@
 .env.production.local
 
 .venv
+
+# Database files
+*.db
+data/
+# ChromaDB persistent storage
+chroma_db/
+# Ignore Python cache files
+__pycache__/
