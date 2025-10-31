@@ -219,6 +219,141 @@ function_definition = [{
 #     total_cal = (weight / 100) * cal_per_100g
 #     return total_cal
 
+def _normalize_ingredient_key(name: str) -> str:
+    """Normalize ingredient names for dataset lookups."""
+    return re.sub(r"\s+", " ", name.strip().lower())
+
+
+def _parse_weight(value: Any) -> Optional[float]:
+    """Attempt to coerce various weight formats into grams."""
+    if value is None:
+        return None
+    if isinstance(value, (int, float)):
+        return float(value)
+    if isinstance(value, str):
+        cleaned = value.strip()
+        if not cleaned:
+            return None
+        cleaned = cleaned.replace(",", ".")
+        match = re.search(r"-?\d+(?:\.\d+)?", cleaned)
+        if not match:
+            return None
+        try:
+            return float(match.group())
+        except ValueError:
+            return None
+    return None
+
+
+def calculate_calories(ingredients: List[Dict[str, Any]]) -> Dict[str, Any]:
+    """Calculate total calories for a list of ingredient entries."""
+    if not ingredients:
+        return {
+            "total_calories": 0.0,
+            "details": [],
+            "missing_ingredients": [],
+        }
+
+    calorie_lookup: Dict[str, float] = {}
+    for item in dataset:
+        name = str(item.get("Ingredients", "")).strip()
+        if not name:
+            continue
+        try:
+            cal_value = float(item.get("Calories per 100g", 0))
+        except (TypeError, ValueError):
+            continue
+        calorie_lookup[_normalize_ingredient_key(name)] = cal_value
+
+    aggregated: Dict[str, Dict[str, Any]] = {}
+
+    for idx, entry in enumerate(ingredients):
+        raw_name = str(entry.get("ingredient_name", "")).strip()
+        if not raw_name:
+            continue
+
+        weight_value = (
+            entry.get("weight")
+            or entry.get("quantity_g")
+            or entry.get("quantity")
+            or entry.get("amount")
+        )
+        weight = _parse_weight(weight_value)
+        if weight is None:
+            continue
+
+        key = _normalize_ingredient_key(raw_name)
+        record = aggregated.get(key)
+
+        if not record:
+            aggregated[key] = {
+                "ingredient": raw_name,
+                "weight": weight,
+                "last_weight": weight,
+                "last_index": idx,
+            }
+            continue
+
+        last_weight = record.get("last_weight", 0.0)
+        if abs(weight - last_weight) < 1e-6:
+            record.update({
+                "ingredient": raw_name,
+                "weight": weight,
+                "last_weight": weight,
+                "last_index": idx,
+            })
+        elif last_weight and (weight / last_weight > 5 or last_weight / max(weight, 1e-6) > 5):
+            record.update({
+                "ingredient": raw_name,
+                "weight": weight,
+                "last_weight": weight,
+                "last_index": idx,
+            })
+        else:
+            record["weight"] += weight
+            record.update({
+                "ingredient": raw_name,
+                "last_weight": weight,
+                "last_index": idx,
+            })
+
+    details: List[Dict[str, Any]] = []
+    missing: List[str] = []
+    total_calories = 0.0
+
+    for record in aggregated.values():
+        ingredient_name = record["ingredient"]
+        weight = record["weight"]
+        lookup_key = _normalize_ingredient_key(ingredient_name)
+        cal_per_100g = calorie_lookup.get(lookup_key)
+
+        if cal_per_100g is None:
+            details.append({
+                "ingredient": ingredient_name,
+                "weight": round(weight, 2),
+                "unit": "g",
+                "calories": None,
+                "note": "No calorie data available",
+            })
+            missing.append(ingredient_name)
+            continue
+
+        ingredient_calories = (weight / 100.0) * cal_per_100g
+        total_calories += ingredient_calories
+        details.append({
+            "ingredient": ingredient_name,
+            "weight": round(weight, 2),
+            "unit": "g",
+            "calories": round(ingredient_calories, 2),
+            "calories_per_100g": cal_per_100g,
+        })
+
+    return {
+        "total_calories": round(total_calories, 2),
+        "details": details,
+        "missing_ingredients": missing,
+    }
+
 def calculate_recipe_calories(recipe: Dict[str, Any]) -> dict:
     """Calculate total calories and nutrition details for a recipe"""
     results: List[Dict[str, Any]] = []
@@ -485,6 +620,21 @@ def extract_ingredients_from_prompt(prompt: str) -> List[Dict[str, object]]:
 from src.services.recipe_service import RecipeService
 
 recipe_service = RecipeService()
+
+
+def chat_complete_default(system: str, user: str, temperature: float, max_tokens: int) -> str:
+    """Fallback chat completion without recipe enrichment."""
+    response = client.chat.completions.create(
+        model=DEPLOYMENT,
+        messages=[
+            {"role": "system", "content": system},
+            {"role": "user", "content": user},
+        ],
+        temperature=temperature,
+        max_tokens=max_tokens,
+    )
+    message = response.choices[0].message
+    return (message.content or "").strip()
 
 @retry(
     reraise=True,
